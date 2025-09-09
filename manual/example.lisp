@@ -1,6 +1,7 @@
 (in-package "ACL2")
 
 (include-book "arithmetic-5/top" :dir :system)
+; (include-book "tools/easy-simplify" :dir :system)
 
 ;; Sum
 

@@ -1,10 +1,21 @@
+;; ACL2(ml) - Machine Learning for ACL2
+;; 
+;; To use ACL2(ml), add the following line to your .emacs file:
+;; (load-file "/workspaces/acl2ml/main.el")
+;;
+;; Or if you have ACL2(ml) installed elsewhere, update the path accordingly:
+;; (load-file "/path/to/your/acl2ml/main.el")
+;;
+;; This will automatically load ACL2(ml) when you open .lisp files.
+;; To manually start ACL2(ml), use: M-x start-acl2ml
+
 (defconst *home-dir* "/workspaces/acl2ml/")
 (defconst *acl2-dir* "/home/acl2/saved_acl2")
 
 
 
 (defconst *weka-dir* (concat *home-dir* "weka.jar"))
-(defconst *acl2-buffer-name* "*acl2*")
+(defconst *acl2-buffer-name* "*inferior-acl2*")
 
 (defun acl2-extraction-mode ()
   (progn
@@ -43,7 +54,7 @@
 
 (defun acl2-as-lisp-mode ()
   (progn (lisp-mode)
-	 (set (make-local-variable 'inferior-lisp-buffer) "*acl2*")))
+	 (set (make-local-variable 'inferior-lisp-buffer) "*inferior-acl2*")))
 
 
 (defun acl2ml-init-acl2 ()
@@ -51,8 +62,9 @@
   (split-window-horizontally)
   (other-window 1)
   (require 'comint)
-  (switch-to-buffer (make-comint "acl2" *acl2-dir*))
-  (require 'inf-lisp)
-  (inferior-lisp-mode)
+  (load-file "/home/acl2/books/interface/emacs/acl2-mode.el")
+  (load-file "/home/acl2/books/interface/emacs/inf-acl2.el")
+  (setq inferior-acl2-program *acl2-dir*)
+  (inferior-acl2 inferior-acl2-program)
   (other-window 1)
   )

@@ -1,10 +1,17 @@
 (defun eval-this-event ()
-  "Send the current ACL2 expression to the ACL2 process"
+  "Send the current ACL2 expression to the ACL2 process using proper ACL2 evaluation"
   (save-excursion
     (let ((start (progn (backward-sexp 1) (point)))
           (end (progn (forward-sexp 1) (point))))
-      (let ((expression (buffer-substring start end)))
-        (comint-send-string *acl2-buffer-name* (concat expression "\n"))))))
+      (if (and (boundp 'inferior-acl2-buffer) 
+               (get-buffer inferior-acl2-buffer)
+               (fboundp 'send-region-to-acl2-process))
+          (send-region-to-acl2-process start end nil)
+        (if (and (boundp '*acl2-buffer-name*) 
+                 (get-buffer *acl2-buffer-name*))
+            (let ((expression (buffer-substring start end)))
+              (comint-send-string *acl2-buffer-name* (concat expression "\n")))
+          (message "ACL2 buffer not available"))))))
 
 
 (defun read-lines (file)
