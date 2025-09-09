@@ -1,7 +1,10 @@
 (defun eval-this-event ()
-  
+  "Send the current ACL2 expression to the ACL2 process"
   (save-excursion
-    (lisp-eval-last-sexp)))
+    (let ((start (progn (backward-sexp 1) (point)))
+          (end (progn (forward-sexp 1) (point))))
+      (let ((expression (buffer-substring start end)))
+        (comint-send-string *acl2-buffer-name* (concat expression "\n"))))))
 
 
 (defun read-lines (file)

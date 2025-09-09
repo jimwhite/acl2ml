@@ -1,4 +1,4 @@
-(defconst *home-dir* "/home/jovyan/acl2ml/")
+(defconst *home-dir* "/workspaces/acl2ml/")
 (defconst *acl2-dir* "/home/acl2/saved_acl2")
 
 
