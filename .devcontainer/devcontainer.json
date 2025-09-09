@@ -1,0 +1,23 @@
+{
+    "name": "acl2ml",
+    // "build": {
+    //     "dockerfile": "../Dockerfile",
+    //     "context": ".."
+    // },
+    "image": "acl2ml:latest",
+    "forwardPorts": [
+        8877
+    ],
+    "portsAttributes": {
+        "8877": {
+            "label": "Jupyter",
+            "requireLocalPort": true
+        }
+    },
+    "containerEnv": {
+        "JUPYTER_PORT": "8877",
+        "RESTARTABLE": "yes",
+        "OLLAMA_API_BASE": "http://host.docker.internal:1234/v1"
+        // "OLLAMA_API_BASE": "http://localhost:1234/v1"
+    }
+}

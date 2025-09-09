@@ -1,5 +1,5 @@
-(defconst *home-dir* "/home/jonathan/Desktop/acl2ml/")
-(defconst *acl2-dir* "/home/jonathan/Desktop/Research/v6/acl2-sources/saved_acl2")
+(defconst *home-dir* "/home/jovyan/acl2ml/")
+(defconst *acl2-dir* "/home/acl2/saved_acl2")
 
 
 
