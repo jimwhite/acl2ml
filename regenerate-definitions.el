@@ -119,7 +119,7 @@
       (insert-buffer-substring (current-buffer))
       (goto-char (point-min))
       (message "New acl2files list with %d certified books generated in buffer *ACL2files-update*" 
-               (length relative-paths))))
+               (length relative-paths)))))
 
 ;; Convenience function to test with a smaller subset first
 (defun regenerate-acl2ml-definitions-sample ()
@@ -128,7 +128,7 @@
   (let* ((acl2-books-dir (or (getenv "ACL2_SYSTEM_BOOKS") "/home/acl2/books"))
          (all-certified-books (get-certified-acl2-books acl2-books-dir))
          ;; Take first 50 books as a sample
-         (sample-books (seq-take all-certified-books 50)))
+         (sample-books (seq-take all-certified-books 1)))
     
     (message "Testing with %d sample books from %s" (length sample-books) acl2-books-dir)
     
