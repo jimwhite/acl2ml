@@ -1,0 +1,1 @@
+((/nonstd/misc/gentle.lisp::mu-defn-fn (nil nil nil nil (if) nil nil) ((nil) nil (atom) (cons) nil nil nil) ((l) nil (` recursive-call) nil nil nil nil) (nil nil (cdr) nil nil (defun) nil) ((l) nil (, , declare ,@) nil nil nil nil) (nil nil (cadr caddr cdddr) (xargs) nil nil nil) ((:guard t) nil (car car car) nil nil nil nil)))

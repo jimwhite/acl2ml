@@ -1,0 +1,1 @@
+((/centaur/vl/loader/lexer.lisp::vl-plaintoken-alistp (nil nil nil nil (if) nil nil) (nil nil (atom) (eq) nil nil (and)) ((x x nil) nil (consp stringp not vl-plaintoken-type-p recursive-call) nil nil nil nil) (nil nil (car caar cdar cdr) (equal) nil nil nil) ((x x  x x) nil (caar) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/arithmetic-4/lib/basic-ops/mini-theories.lisp::predicatep (nil nil nil (and) nil nil nil) (nil nil (consp) (member) nil nil nil) ((term) nil (car quote) nil nil nil nil) ((term) nil nil nil nil (equal) nil) ((< integerp rationalp complex-rationalp) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

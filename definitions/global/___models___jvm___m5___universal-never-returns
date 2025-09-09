@@ -1,0 +1,1 @@
+((/models/jvm/m5/universal-never-returns.lisp::inside-universalp (nil nil nil nil nil (and) nil) (nil nil (integerp) (<= < equal) nil nil nil) ((th th th *universal-program*) (0) (len program) nil nil nil nil) (nil nil (thread-table) (top-frame) nil nil nil) ((s th s) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

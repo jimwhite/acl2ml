@@ -1,0 +1,1 @@
+((/xdoc-impl/fmt-to-str.lisp::fmt-and-encode-to-acc (nil nil nil (b*) nil nil nil) (nil nil (((mv str state) (fmt-to-str x base-pkg state))) (mv) nil nil nil) ((acc state) nil (acc) nil nil nil nil) (nil nil nil nil nil (simple-html-encode-str) nil) ((str acc) (0) (length) nil nil nil nil) ((str) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/rtl/rel4/lib/float.lisp::fp+ (nil nil nil (+) nil nil nil) ((x) nil nil (expt) nil nil nil) (nil (2) nil (-) nil nil nil) ((n) nil (1+) nil nil nil nil) (nil nil (expo) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

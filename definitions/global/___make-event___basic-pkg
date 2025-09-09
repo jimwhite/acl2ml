@@ -1,0 +1,1 @@
+((/make-event/basic-pkg.lisp::bar (nil nil nil (cons) nil nil nil) (nil nil (test1 test2) nil nil nil nil) ((x x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

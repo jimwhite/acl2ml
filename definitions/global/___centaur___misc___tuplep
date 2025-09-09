@@ -1,0 +1,1 @@
+((/centaur/misc/tuplep.lisp::tuplep (nil nil nil (and) nil nil nil) (nil nil (true-listp) (eql) nil nil nil) ((x n) nil nil nil nil (mbe) nil) ((:logic :exec) nil (len length) nil nil nil nil) ((x x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

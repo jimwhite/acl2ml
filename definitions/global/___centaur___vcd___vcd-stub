@@ -1,0 +1,1 @@
+((/centaur/vcd/vcd-stub.lisp::vcd-dump-fn (nil nil nil (prog2$) nil nil nil) ((state) nil nil nil (er) nil nil) ((hard? Run (install-vcd-dump) before trying (vcd-dump ...)) nil (quote) nil nil nil nil) ((recursive-call) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

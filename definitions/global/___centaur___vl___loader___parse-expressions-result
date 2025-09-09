@@ -1,0 +1,1 @@
+((/centaur/vl/loader/parse-expressions-result.lisp::vl-expression-claim-fn (nil nil nil (let) nil nil nil) (((full-args (append extra-args (quote (tokens warnings))))) nil (`) nil nil nil nil) (nil nil (quote) nil nil nil nil) (nil nil ((, name)) nil nil nil nil) (nil nil nil (implies) nil nil nil) (nil nil (,) (and) nil nil nil) (nil nil (force force) nil nil nil nil)))

@@ -1,0 +1,1 @@
+(nil (/nonstd/workshops/2011/reid-gamboa-differentiator/support/composition-elem.lisp::elem-const (nil nil (fix) nil nil nil nil) (nil nil (cdr) nil nil nil nil) (nil nil nil (assoc-equal) nil nil nil) ((name arg) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

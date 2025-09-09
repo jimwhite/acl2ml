@@ -1,0 +1,1 @@
+((/coi/alists/equiv.lisp::assox (nil nil nil nil (if) nil nil) ((nil) nil (consp) (let) nil nil nil) ((alist (entry (car alist))) nil nil nil (if) nil nil) (nil nil (consp) nil (if if) nil nil) ((entry entry entry) nil (null) (equal recursive-call recursive-call) nil nil nil) ((key key key key) nil (car cdr cdr) nil nil nil nil) ((entry alist alist) nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/centaur/vl/mlib/sub-counts.lisp::invert-alist (nil nil nil (b*) nil nil nil) (nil nil ((keys (alist-keys x))) (pairlis$) nil nil nil) ((vals keys) nil (vals) nil nil nil nil) (nil nil (alist-vals) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

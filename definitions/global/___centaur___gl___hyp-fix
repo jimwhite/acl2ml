@@ -1,0 +1,1 @@
+((/centaur/gl/hyp-fix.lisp::hyp-fix (nil nil nil (bfr-fix-vars) nil nil nil) (nil nil (x) (let) nil nil nil) ((hyp (and (bfr-and x hyp))) nil nil nil (if) nil nil) ((and nil) nil nil nil (if) nil nil) ((t x) nil nil (hqual) nil nil nil) ((and hyp) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

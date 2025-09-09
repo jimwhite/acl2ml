@@ -1,0 +1,1 @@
+((/centaur/bitops/congruences.lisp::logsquash (nil nil nil (ash) nil nil nil) (nil nil (lnfix) (ash) nil nil nil) ((i n) nil (-) nil nil nil nil) (nil nil (lnfix) nil nil nil nil) ((n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

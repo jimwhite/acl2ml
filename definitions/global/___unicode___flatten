@@ -1,0 +1,1 @@
+((/unicode/flatten.lisp::binary-append-without-guard (nil nil nil nil nil (mbe) nil) ((:logic :exec) nil nil (append) (if) nil nil) ((x y y) nil (consp) (cons) nil nil nil) ((x) nil (car) (recursive-call) nil nil nil) ((x y) nil (cdr) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

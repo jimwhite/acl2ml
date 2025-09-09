@@ -1,0 +1,1 @@
+((/countereg-gen/with-timeout.lisp::timeout-hard-error (nil nil nil (er-progn) nil nil nil) (nil nil nil (assign) (mv) nil nil) ((acl2::timeout-error-occurred t t state) nil nil nil (hard-error) nil nil) ((ctx str alist) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

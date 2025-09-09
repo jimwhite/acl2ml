@@ -1,0 +1,1 @@
+((/arithmetic/factorial.lisp::factorial (nil nil nil nil (if) nil nil) (nil (1) (zp) (*) nil nil nil) ((n n) nil (recursive-call) nil nil nil nil) (nil nil (1-) nil nil nil nil) ((n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

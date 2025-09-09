@@ -1,0 +1,1 @@
+((/rtl/rel4/arithmetic/predicate.lisp::predicatep (nil nil nil (and) nil nil nil) (nil nil (consp) (member) nil nil nil) ((term) nil (car quote) nil nil nil nil) ((term) nil nil nil nil nil (<)) ((integerp power2p complex-rationalp rationalp bvecp) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

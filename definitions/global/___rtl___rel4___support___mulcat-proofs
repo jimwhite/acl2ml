@@ -1,0 +1,1 @@
+((/rtl/rel4/support/mulcat-proofs.lisp::mulcat-induct (nil nil nil nil (IF) nil nil) (nil (0) nil (recursive-call) nil (AND) nil) (nil nil (INTEGERP INTEGERP 1- 1-) (> >) nil nil nil) ((N N N2 N2 n n2) (0 0) nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

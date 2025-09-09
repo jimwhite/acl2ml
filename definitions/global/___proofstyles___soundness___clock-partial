@@ -1,0 +1,1 @@
+((/proofstyles/soundness/clock-partial.lisp::run-fn (nil nil nil nil (if) nil nil) ((s) nil (zp) (recursive-call) nil nil nil) ((n) nil (step-fn 1-) nil nil nil nil) ((s n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

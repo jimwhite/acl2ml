@@ -1,0 +1,1 @@
+((/textbook/chap10/ac-example.lisp::make-name (nil nil nil (intern-in-package-of-symbol) nil nil nil) ((prefix) nil nil nil nil (concatenate) nil) ((-) nil (quote symbol-name symbol-name) nil nil nil nil) ((string prefix name) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

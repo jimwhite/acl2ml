@@ -1,0 +1,1 @@
+((/countereg-gen/mv-proof.lisp::my-mv-nth (nil nil nil nil (if) nil nil) (nil nil (zp car) (recursive-call) nil nil nil) ((n v) nil (cdr) (-) nil nil nil) ((n v) (1) nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

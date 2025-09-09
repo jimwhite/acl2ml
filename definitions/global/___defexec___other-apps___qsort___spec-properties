@@ -1,0 +1,1 @@
+((/defexec/other-apps/qsort/spec-properties.lisp::ordp (nil nil nil nil nil (cond) nil) (nil nil ((endp x) (endp (rest x)) (<<= (car x) (cadr x)) t) nil nil nil nil) ((t t nil) nil (recursive-call) nil nil nil nil) (nil nil (rest) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/rtl/rel5/support/rom-helpers.lisp::check-array (nil nil nil nil (if) nil nil) ((t) nil (zp) (and) nil nil nil) ((dim1) nil nil (bvecp) nil (recursive-call) nil) ((dim2 name a dim2) nil (1-) nil (aref1) nil nil) ((name a dim1) nil (1-) nil nil nil nil) ((dim1) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

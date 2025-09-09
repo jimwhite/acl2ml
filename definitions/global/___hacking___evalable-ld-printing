@@ -1,0 +1,1 @@
+((/hacking/evalable-ld-printing.lisp::evalable-ld-printingp (nil nil nil (and) nil nil nil) (nil nil nil (f-boundp-global f-get-global) nil nil nil) ((state state) nil (quote quote) nil nil nil nil) ((recursive-call recursive-call) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

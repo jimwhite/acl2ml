@@ -1,0 +1,1 @@
+((/models/jvm/m1/low-seven.lisp::low-seven! (nil nil nil nil (if) nil nil) (nil nil (zp) nil (mv if) nil nil) ((n x a) (0) nil (equal) (mv recursive-call) nil nil) ((x a) (7 1) nil (mod floor + -) nil nil nil) ((x x a n) (10 10 1 1) nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

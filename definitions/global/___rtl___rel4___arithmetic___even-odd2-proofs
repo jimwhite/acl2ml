@@ -1,0 +1,1 @@
+((/rtl/rel4/arithmetic/even-odd2-proofs.lisp::induct-scheme (nil nil nil nil (if) nil nil) ((t) nil (zp) (cons) nil nil nil) ((n) nil (quote recursive-call) nil nil nil nil) ((a) nil nil (+) nil nil nil) ((n) (-1) nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

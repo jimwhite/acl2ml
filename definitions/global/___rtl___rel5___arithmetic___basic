@@ -1,0 +1,1 @@
+((/rtl/rel5/arithmetic/basic.lisp::expt-exec (nil nil nil nil nil (mbe) nil) ((:logic :exec) nil (hide) (expt) nil nil nil) ((r i) nil nil (expt) nil nil nil) ((r i) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

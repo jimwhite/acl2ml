@@ -1,0 +1,1 @@
+((/taspi/code/gen-trees/sets-lists-trees.lisp::tree-list-domain-alistp (nil nil nil nil (if) nil nil) ((t) nil (atom) nil nil (and) nil) ((db) nil (consp consp tree-listp recursive-call) nil nil nil nil) (nil nil (caar cdaar caar cdr) nil nil nil nil) ((db db db db) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

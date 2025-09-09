@@ -1,0 +1,1 @@
+((/serialize/unsound-read.lisp::unsound-read-fn (nil nil nil (prog2$) nil nil nil) (nil nil nil nil (er unsound-read-fn-logical-def) nil nil) ((hard? Raw-lisp definition not installed?? filename hons-mode verbosep) nil (quote) nil nil nil nil) ((recursive-call) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

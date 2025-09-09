@@ -1,0 +1,1 @@
+((/data-structures/memories/memory.lisp::address-p (nil nil nil (and) nil nil nil) (nil nil (natp) (<) nil nil nil) ((addr addr) nil (size) nil nil nil nil) ((mem) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

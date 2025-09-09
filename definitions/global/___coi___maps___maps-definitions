@@ -1,0 +1,1 @@
+((/coi/maps/maps-definitions.lisp::typed-mapp (nil nil nil (or) nil nil nil) (nil nil (empty) (and) nil nil nil) ((map) nil (recursive-call) (predicate) nil nil nil) (nil nil (head tail) (get) nil nil nil) ((map map map) nil (head) nil nil nil nil) ((map) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

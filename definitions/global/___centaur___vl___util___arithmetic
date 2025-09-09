@@ -1,0 +1,1 @@
+((/centaur/vl/util/arithmetic.lisp::dec-dec-induct (nil nil nil nil (if) nil nil) ((nil) nil (zp) nil (if) nil nil) ((k nil) nil (zp) (recursive-call) nil nil nil) ((n) nil nil (- -) nil nil nil) ((k n) (1 1) nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

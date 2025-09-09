@@ -1,0 +1,1 @@
+((/coi/records/defrecord-fast.lisp::symbol-list-to-string (nil nil nil nil (if) nil nil) (() nil (consp) nil (concatenate) nil nil) ((list) nil (quote symbol-name recursive-call) nil nil nil nil) ((string) nil (car cdr) nil nil nil nil) ((list list) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

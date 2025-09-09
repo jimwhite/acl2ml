@@ -1,0 +1,1 @@
+((/coi/util/table.lisp::get-fn (nil nil (cdr) nil nil nil nil) (nil nil nil (assoc) nil nil nil) ((:data) nil nil (table-alist) nil nil nil) ((key world) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

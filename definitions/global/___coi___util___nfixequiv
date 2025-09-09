@@ -1,0 +1,1 @@
+((/coi/util/nfixequiv.lisp::nfixequiv (nil nil nil (equal) nil nil nil) (nil nil (nfix nfix) nil nil nil nil) ((x y) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

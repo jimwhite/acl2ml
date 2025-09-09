@@ -1,0 +1,1 @@
+((/coi/util/syntaxp.lisp::smaller-term (nil nil (not) nil nil nil nil) (nil nil nil (term-order) nil nil nil) ((y x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

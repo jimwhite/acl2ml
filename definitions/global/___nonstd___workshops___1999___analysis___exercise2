@@ -1,0 +1,1 @@
+((/nonstd/workshops/1999/analysis/exercise2.lisp::find-zero-n-2 (nil nil nil nil (if) nil nil) (nil nil (realfix) nil nil nil (recursive-call)) ((z n eps a) nil (realp integerp integerp realp 1+) (< < < +) nil nil nil) ((a i n i n eps eps z a eps i) (0) (rcfn) nil nil nil nil) (nil nil nil (+) nil nil nil) ((a eps) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

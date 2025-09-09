@@ -1,0 +1,1 @@
+((/rtl/rel8/support/support/lior0.lisp::formal-+ (nil nil nil nil (if) nil nil) (nil nil nil (and +) (list) nil nil) ((x y x y) nil (acl2-numberp acl2-numberp quote) nil nil nil nil) ((x y +) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

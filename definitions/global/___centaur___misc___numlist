@@ -1,0 +1,1 @@
+((/centaur/misc/numlist.lisp::numlist (nil nil nil nil (if) nil nil) ((nil) nil nil (cons) nil (mbe) nil) ((:logic :exec start) nil (zp) (=) (recursive-call) nil nil) ((n n by) (0) (1-) (+) nil nil nil) ((start by n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

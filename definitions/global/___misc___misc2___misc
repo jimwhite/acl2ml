@@ -1,0 +1,1 @@
+((/misc/misc2/misc.lisp::nonnegative-integer-quotient-as-floor-test (nil nil nil nil nil (mbe) nil) ((:logic :exec) nil nil (nonnegative-integer-quotient floor) nil nil nil) ((i j i j) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/centaur/vl/checkers/multidrive-detect.lisp::vl-modulelist-multidrive-detect (nil nil nil nil (b*) nil nil) (((ans (vl-modulelist-multidrive-detect-aux x)) ans) nil (clear-memoize-table) nil nil nil nil) (nil nil (quote) nil nil nil nil) ((vl-module-wirealist) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

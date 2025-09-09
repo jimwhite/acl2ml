@@ -1,0 +1,1 @@
+((/coi/lists/subsetp.lisp::subsetx (nil nil nil nil (if) nil nil) ((t) nil (not) (and) nil nil nil) (nil nil (consp) (memberp recursive-call) nil nil nil) ((x y y) nil (car cdr) nil nil nil nil) ((x x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

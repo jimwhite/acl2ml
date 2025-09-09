@@ -1,0 +1,1 @@
+((/taspi/code/gen-trees/btrees-bdds.lisp::good-taxon-bdd-alist (nil nil nil nil (if) nil nil) ((t) nil (consp) nil nil (and) nil) ((x) nil (consp valid-bdd recursive-call) (or) nil nil nil) (nil nil (car integerp cdar cdr) (and) nil nil nil) ((x x x) nil (caar symbolp not) nil nil nil nil) ((x) nil (caar) (equal) nil nil nil) ((x nil) nil (caar) nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/nonstd/nsa/raise.lisp::raise (nil nil nil nil (if) nil nil) (nil (1) nil (=) (if) nil nil) ((x) (0 0) (acl2-exp) (equal) nil nil nil) (nil (0) (fix) (*) nil nil nil) ((a x) nil (acl2-ln) nil nil nil nil) ((a) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

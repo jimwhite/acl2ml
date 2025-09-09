@@ -1,0 +1,1 @@
+((/clause-processors/sublis-var-meaning.lisp::cterm-ev-alist (nil nil nil nil (if) nil nil) ((nil) nil (atom) (cons) nil nil nil) ((x) nil nil (cons recursive-call) nil nil nil) ((a) nil (caar cdr) (cterm-ev) nil nil nil) ((x a x) nil (cdar) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

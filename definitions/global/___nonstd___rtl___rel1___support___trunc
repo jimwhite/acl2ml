@@ -1,0 +1,1 @@
+((/nonstd/rtl/rel1/support/trunc.lisp::trunc (nil nil nil nil (*) nil nil) (nil nil (sgn fl) (expt) nil nil nil) ((x) (2) nil (* -) nil nil nil) ((n) nil (sig 1+) (expt) nil nil nil) ((x) (2) (1- expo) nil nil nil nil) ((n x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

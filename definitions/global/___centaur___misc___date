@@ -1,0 +1,1 @@
+((/centaur/misc/date.lisp::date (nil nil nil nil nil (mv-let) nil) (nil nil (read-acl2-oracle declare) (erp) (if) nil nil) ((val state state) nil (ignore stringp) (mv mv) nil nil nil) ((erp val val state Error reading date. state) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

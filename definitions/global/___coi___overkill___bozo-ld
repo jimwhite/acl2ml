@@ -1,0 +1,1 @@
+((/coi/overkill/bozo-ld.lisp::bozo-include-book-dir (nil nil (cdr) nil nil nil nil) (nil nil nil (assoc-eq) nil nil nil) ((dir) nil (cdr) nil nil nil nil) (nil nil nil (assoc-eq) nil nil nil) ((:include-book-dir-alist acl2-defaults-table) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/coi/osets/multiappend.lisp::multiappend-2-induction (nil nil nil nil (if) nil nil) (nil nil nil (and set::multicons cons) nil nil nil) ((path) nil (consp consp car set::sfix) nil (set::multiappend-2-induction) nil nil) ((list path list x x) nil (cdr cdr) nil nil nil nil) ((list path) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

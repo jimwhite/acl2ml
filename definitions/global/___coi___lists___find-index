@@ -1,0 +1,1 @@
+((/coi/lists/find-index.lisp::find-index (nil nil nil nil (if) nil nil) (nil (0) (endp) nil (if) nil nil) ((lst) (0) nil (equal +) nil nil nil) ((key) (1) (car) (recursive-call) nil nil nil) ((lst key) nil (cdr) nil nil nil nil) ((lst) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

@@ -1,0 +1,1 @@
+((/unicode/rev.lisp::revappend-without-guard (nil nil nil nil nil (mbe) nil) ((:logic :exec) nil nil (revappend) (if) nil nil) ((x y y) nil (consp) (recursive-call) nil nil nil) ((x) nil (cdr) (cons) nil nil nil) ((x y) nil (car) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

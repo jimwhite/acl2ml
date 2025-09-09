@@ -1,0 +1,1 @@
+((/models/jvm/m1/implementation.lisp::ninstr1 (nil nil nil nil (if) nil nil) (nil (-1) (natp) nil (if) nil nil) ((w) (-1) (zp) nil (if) nil nil) ((tm) (-1) nil (equal let) nil nil nil) ((tm nnil (cell (ncar tm w))) nil nil nil (if) nil nil) ((cell) nil nil (and) nil nil (recursive-call)) ((st sym w nnil) nil nil (equal equal ncdr) nil nil nil)))

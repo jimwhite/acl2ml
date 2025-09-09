@@ -1,0 +1,1 @@
+((/nonstd/misc/integer-type-set-test.lisp::not-integerp (nil nil (not) nil nil nil nil) (nil nil (integerp) nil nil nil nil) ((x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

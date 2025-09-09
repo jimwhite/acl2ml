@@ -1,0 +1,1 @@
+((/rtl/rel8/support/support/badguys.lisp::sumbits-badguy (nil nil nil nil (if) nil nil) (nil (0) (zp) nil (if) nil nil) ((k) nil (not 1-) nil (recursive-call) nil nil) ((k x y) nil (1-) (equal) nil nil nil) ((k) nil nil (bitn bitn) nil nil nil) ((x y) nil (1- 1-) nil nil nil nil) ((k k) nil nil nil nil nil nil)))

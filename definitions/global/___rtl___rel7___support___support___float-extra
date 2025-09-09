@@ -1,0 +1,1 @@
+((/rtl/rel7/support/support/float-extra.lisp::fp- (nil nil nil nil (if) nil nil) (nil nil nil (= - -) nil nil nil) ((x x x) nil nil (expt expt expt) nil nil nil) (nil (2 2 2) (expo) (- -) nil nil nil) ((x n n) nil (expo 1+) nil nil nil nil) ((x) nil (expo) nil nil nil nil) ((x) nil nil nil nil nil nil)))

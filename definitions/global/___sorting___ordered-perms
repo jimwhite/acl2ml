@@ -1,0 +1,1 @@
+((/sorting/ordered-perms.lisp::orderedp (nil nil nil nil (if) nil nil) ((t) nil (endp) nil (if) nil nil) ((x t) nil (endp) (and) nil nil nil) (nil nil (cdr recursive-call) (lexorder) nil nil nil) ((x) nil (car car cdr) nil nil nil nil) ((x x) nil (cdr) nil nil nil nil) ((x) nil nil nil nil nil nil)))

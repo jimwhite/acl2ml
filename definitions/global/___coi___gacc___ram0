@@ -1,0 +1,1 @@
+(nil (/coi/gacc/ram0.lisp::max-offset (nil nil nil nil (if) nil nil) (nil (0) (1+) (<=) nil nil nil) ((word-size) nil (nfix recursive-call) nil nil nil nil) ((size) nil nil (-) nil nil nil) ((word-size) nil (nfix) nil nil nil nil) ((size) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

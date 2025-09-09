@@ -1,0 +1,1 @@
+((/centaur/aig/eval-restrict.lisp::prove-faig-congruences-fn (nil nil nil nil (if) nil nil) ((nil) nil (zp) (cons) nil nil nil) ((n) nil (`) nil (recursive-call) nil nil) ((f args) nil (1-) nil (prove-faig-congruence) nil nil) ((n) nil (, , ,) nil nil nil nil) ((f args n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

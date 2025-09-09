@@ -1,0 +1,1 @@
+((/coi/util/ith.lisp::ith (nil nil nil nil (if) nil nil) ((nil) nil (consp) nil (if) nil nil) ((list) nil (zp car) (recursive-call) nil nil nil) ((list) nil (nfix 1- cdr) nil nil nil nil) ((n n list) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

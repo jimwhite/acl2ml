@@ -1,0 +1,1 @@
+((/coi/util/debug.lisp::coi-debug::assert-fn (nil nil nil nil (if) nil nil) ((true) nil (not) nil (coi-debug::fail-fn) nil nil) ((test false message parms) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

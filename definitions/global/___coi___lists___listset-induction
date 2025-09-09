@@ -1,0 +1,1 @@
+((/coi/lists/listset-induction.lisp::setequiv (nil nil nil (and) nil nil nil) (nil nil nil (subsetx subsetx) nil nil nil) ((x y y x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

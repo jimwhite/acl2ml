@@ -1,0 +1,1 @@
+((/nonstd/arithmetic-5/lib/floor-mod/logand.lisp::l-c-m-fn (nil nil nil (let) nil nil nil) (((n (power-of-2-minus-1 c))) nil nil nil (if) nil nil) ((n nil) nil (list) nil nil nil nil) (nil nil nil (cons) nil nil nil) (nil nil (quote kwote) nil nil nil nil) ((n n) nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

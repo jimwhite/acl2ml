@@ -1,0 +1,1 @@
+((/hacking/dynamic-make-event.lisp::dynamic-make-event-fn (nil nil nil nil nil nil (make-event-fn)) ((nil nil event-form state) nil (`) nil nil nil nil) (nil nil (quote) nil nil nil nil) (nil nil (,) nil nil nil nil) ((body) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))

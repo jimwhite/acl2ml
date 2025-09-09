@@ -1,0 +1,1 @@
+((/coi/lists/disjoint.lisp::disjoint (nil nil nil nil (if) nil nil) ((t) nil (consp) nil (if) nil nil) ((x nil) nil nil (memberp recursive-call) nil nil nil) ((y y) nil (car cdr) nil nil nil nil) ((x x) nil nil nil nil nil nil) (nil nil nil nil nil nil nil) (nil nil nil nil nil nil nil)))
