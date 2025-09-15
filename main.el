@@ -29,7 +29,7 @@
     (load-file (concat *home-dir* "code/used-lemmas.el"))
     (load-file (concat *home-dir* "code/guards.el"))
     ;; Apply ACL2 8.6 compatibility patch
-    (load-file (concat *home-dir* "acl2-8.6-patch.el"))
+    ;; (load-file (concat *home-dir* "acl2-8.6-patch.el"))
     ))
 
 

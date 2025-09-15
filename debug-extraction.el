@@ -23,7 +23,7 @@
         ;; Give it time to initialize
         (sit-for 3)
         (message "ACL2 ready for use"))
-    (error (message "Error starting ACL2: %s" err))))
+    (error (message "Error starting ACL2: %s" err)))
 
 (defun debug-extraction-step-by-step ()
   "Debug the extraction process step by step"
@@ -33,7 +33,7 @@
   (start-acl2-for-testing)
   
   ;; Create a simple test file with complete definitions
-  (let ((test-content "(in-package \"ACL2\")
+  (let ((test-content "(in-package \"ACL2\")))))
 
 (defun test-function (x)
   (if (zerop x)
@@ -42,8 +42,7 @@
 
 (defthm test-theorem
   (implies (natp x)
-           (natp (test-function x))))
-"))
+           (natp (test-function x)))
     
     ;; Write test content to a temporary file
     (with-temp-file "/tmp/debug-acl2ml.lisp"
