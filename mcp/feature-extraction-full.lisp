@@ -1,6 +1,15 @@
 ;;;; feature-extraction-full.lisp
 ;;;; Complete feature extraction system converted from original ACL2(ml)
-;;;; Based on extraction.el and table-to-feature-vector.el
+;;;;
+;;;; ORIGINAL MAPPING:
+;;;; - code/extraction.el:extract-list() → extract-list-structure-full()
+;;;; - code/extraction.el:quicksort-triple() → quicksort-triple()
+;;;; - code/extraction.el:arity_1() → adjust-arity-encoding()
+;;;; - code/table-to-feature-vector.el:populate-table() → build-feature-table()
+;;;; - code/table-to-feature-vector.el:convert() → convert-symbol-list()
+;;;; - code/table-to-feature-vector.el:flatten-table() → flatten-feature-table()
+;;;; - Original arity tables (*arity-0* to *arity-5*) preserved exactly
+;;;; - Original granularity system for feature depth levels maintained
 
 (defpackage #:acl2ml-features
   (:use #:cl)
@@ -78,7 +87,9 @@
 
 ;;; Core extraction functions (from extraction.el)
 (defun extract-list-structure-full (expression level &optional (result nil))
-  "Extract complete list structure with arity information"
+  "Extract complete list structure with arity information
+   ORIGINAL: code/extraction.el:extract-list() lines 3-9
+   CONVERTED: Exact algorithm port - recursively extract (symbol arity depth) triples"
   (when expression
     (let ((head-info (list (car expression) (length (cdr expression)) level)))
       (setf result (append result (list head-info)))
