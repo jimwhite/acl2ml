@@ -51,7 +51,7 @@
 
 (defun extract-info (thm)
   (let ((name (cadr thm)))
-    (if (not (equal name '|))
+    (if (not (equal name :unnamed))
 	(append (list name) (arity_1 (quicksort-triple (extract-list (car (cddr thm)) 1 nil) 2)))
       (let ((name-thm (form-name-and-thm (cddr thm))))
 	(append (list (car name-thm)) (arity_1 (quicksort-triple (extract-list (caadr name-thm) 1 nil) 2)))
@@ -60,7 +60,7 @@
 (defun form-name-and-thm (thm)
   (do ((temp thm (cdr temp))
        (temp2 "|"))
-      ((equal (car temp) '|) (list (make-symbol (concatenate 'string temp2 "|" )) (cdr temp)))
+      ((equal (car temp) :unnamed) (list (make-symbol (concatenate 'string temp2 "|")) (cdr temp)))
       (setf temp2 (concatenate 'string temp2 (format nil "~A" (car temp))))))
 
 (defun extract-level (formulas level)
@@ -75,7 +75,7 @@
        (temp2 nil))
       ((endp temp) temp2)
     (if (equal (nth 1 (car temp)) arity)
-	(setf temp2 (append temp2 (list (car temp))))))
+	      (setf temp2 (append temp2 (list (car temp))))))
   )
 
 (defun build-table (list)
