@@ -219,17 +219,27 @@
 
                        ;; Extract based on definition type to match original format
                        (cond
-                         ;; DEFUN: (name defun arity body)
+                         ;; DEFUN: (name defun arity body) - handle DECLARE statements
                          ((string-equal def-type "defun")
                           (let* ((params (third form))
-                                 (body (fourth form))
-                                 (arity (length params)))
+                                 (arity (length params))
+                                 ;; Find the actual body, skipping DECLARE forms
+                                 (body-forms (cdddr form)) ; Everything after (defun name params ...)
+                                 (body (if (and (consp body-forms)
+                                               (consp (first body-forms))
+                                               (eq (car (first body-forms)) 'declare))
+                                          ;; Skip declare, get actual body
+                                          (if (> (length body-forms) 1)
+                                              (second body-forms)  ; Body after declare
+                                              (first body-forms))  ; Just declare
+                                          ;; No declare, use first form
+                                          (first body-forms))))
                             (push (list def-name def-type arity body) definitions)))
 
-                         ;; DEFTHM: (name defthm body) - no arity for theorems
+                         ;; DEFTHM: (name defthm formula) - theorems have formula, not body
                          ((string-equal def-type "defthm")
-                          (let ((body (fourth form))) ; Skip past (defthm name formula body)
-                            (push (list def-name def-type body) definitions)))
+                          (let ((formula (third form))) ; The theorem formula
+                            (push (list def-name def-type formula) definitions)))
 
                          ;; Other definition types
                          (t
