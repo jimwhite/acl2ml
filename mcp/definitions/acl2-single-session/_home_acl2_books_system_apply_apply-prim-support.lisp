@@ -1,0 +1,5 @@
+("/home/acl2/books/system/apply/apply-prim-support.lisp::FROM-TO-BY-MEASURE"
+ (NIL NIL NIL NIL (IF) NIL NIL) (NIL (0) NIL (+) (AND) NIL NIL)
+ (NIL (1) (INTEGERP INTEGERP) (<= -) NIL NIL NIL)
+ ((I J I J J I) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+ (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL))
