@@ -1,0 +1,41 @@
+((/home/acl2/books/clause-processors/magic-ev.lisp::LEN-OF-MAGIC-EV-LST
+  (NIL NIL NIL (B*) NIL NIL NIL)
+  ((((MV ERR VAL) (MAGIC-EV-LST X ALIST STATE HARD-ERRP AOKP))) NIL NIL
+   (IMPLIES) NIL NIL NIL)
+  (NIL NIL (NOT) (EQUAL) NIL NIL NIL) ((ERR) NIL (LEN LEN) NIL NIL NIL NIL)
+  ((VAL X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/clause-processors/magic-ev.lisp::TRUE-LISTP-MAGIC-EV-LST
+                                  (NIL NIL NIL (B*) NIL NIL NIL)
+                                  ((((MV ERR VAL)
+                                     (MAGIC-EV-LST X ALIST STATE HARD-ERRP
+                                      AOKP)))
+                                   NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (NOT TRUE-LISTP) NIL NIL NIL NIL)
+                                  ((ERR VAL) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/clause-processors/magic-ev.lisp::SYMBOL-ALISTP-PAIRLIS
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (SYMBOL-LISTP
+                                                                    SYMBOL-ALISTP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((KEYS) NIL
+                                                                   NIL
+                                                                   (PAIRLIS$)
+                                                                   NIL NIL NIL)
+                                                                  ((KEYS VALS)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)))

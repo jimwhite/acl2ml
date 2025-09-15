@@ -1,0 +1,304 @@
+((/home/acl2/books/ordinals/e0-ordinal.lisp::COPYN
+  (NIL NIL (A) NIL NIL NIL NIL) ((N) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::CTOA
+                                  ((X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::CTOA-<-EQUIV
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (AND EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (O-P O-P)
+                                                                   (E0-ORD-<
+                                                                    O<)
+                                                                   NIL NIL NIL)
+                                                                  ((X Y X Y)
+                                                                   NIL
+                                                                   (CTOA CTOA)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((X Y) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::oc.x  <=>  oa(ctoa.x)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (O-P
+                                                                            E0-ORDINALP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (CTOA)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::ATOC
+                                                                                  ((A)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::oa.x  <=>  oc(atoc.x)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (E0-ORDINALP
+                                                                                            O-P)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X)
+                                                                                           NIL
+                                                                                           (ATOC)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::ATOC-<-EQUIV
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (IMPLIES)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (AND
+                                                                                                    EQUAL)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (E0-ORDINALP
+                                                                                                    E0-ORDINALP)
+                                                                                                   (O<
+                                                                                                    E0-ORD-<)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    Y
+                                                                                                    X
+                                                                                                    Y)
+                                                                                                   NIL
+                                                                                                   (ATOC
+                                                                                                    ATOC)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    Y)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/ordinals/e0-ordinal.lisp::E0-ORDINAL-WELL-FOUNDED-CNF
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (AND)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (IMPLIES
+                                                                                                            IMPLIES)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (E0-ORDINALP
+                                                                                                            O-P)
+                                                                                                           (O<)
+                                                                                                           (AND)
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((X)
+                                                                                                           NIL
+                                                                                                           (ATOC
+                                                                                                            E0-ORDINALP
+                                                                                                            E0-ORDINALP
+                                                                                                            ATOC
+                                                                                                            ATOC)
+                                                                                                           (E0-ORD-<)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((X
+                                                                                                            X
+                                                                                                            Y
+                                                                                                            X
+                                                                                                            Y
+                                                                                                            X
+                                                                                                            Y)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)))

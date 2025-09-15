@@ -1,0 +1,244 @@
+((/home/acl2/books/misc/bash.lisp::SIMPLIFY-WITH-PROVER
+  (NIL NIL NIL (LET) NIL NIL NIL)
+  (NIL NIL (ER-PROGN) ((WRLD (W STATE))) NIL NIL NIL)
+  (NIL NIL (ENS NAME-TREE) (COND) NIL NIL NIL)
+  (NIL NIL (ENS QUOTE (NOT (ALISTP HINTS)) T) NIL NIL NIL NIL)
+  ((STATE BASH) NIL NIL (ER-LET*) NIL (ER) NIL)
+  ((SOFT CTX The :hints provided should be an alist, but the following is not ~
+            (see :DOC hints):  ~x0.
+    HINTS)
+   NIL
+   ((THINTS
+     (TRANSLATE-HINTS NAME-TREE
+      (APPEND *BASH-SKIP-FORCING-ROUND-HINTS*
+              (ADD-STRING-VAL-PAIR-TO-STRING-VAL-ALIST Goal DO-NOT
+               (LIST 'QUOTE
+                     '(GENERALIZE ELIMINATE-DESTRUCTORS FERTILIZE
+                       ELIMINATE-IRRELEVANCE))
+               (ADD-STRING-VAL-PAIR-TO-STRING-VAL-ALIST! Goal DO-NOT-INDUCT
+                NAME-TREE HINTS))
+              (DEFAULT-HINTS WRLD))
+      CTX WRLD STATE)))
+   NIL (MV-LET) NIL NIL)
+  (NIL NIL (TTERM) (ERP STATE-GLOBAL-LET* COND) NIL NIL NIL)) (/home/acl2/books/misc/bash.lisp::BASH-FN
+                                                               (NIL NIL NIL NIL
+                                                                (MV-LET) NIL
+                                                                NIL)
+                                                               (NIL NIL NIL
+                                                                (ERP COND COND)
+                                                                NIL NIL NIL)
+                                                               ((CLAUSES STATE)
+                                                                NIL
+                                                                (VERBOSE T ERP
+                                                                 T)
+                                                                NIL NIL NIL
+                                                                NIL)
+                                                               (NIL NIL (VALUE)
+                                                                (STATE-GLOBAL-LET*
+                                                                 PPROGN)
+                                                                NIL
+                                                                (SIMPLIFY-WITH-PROVER)
+                                                                NIL)
+                                                               ((FORM HINTS CTX
+                                                                 STATE
+                                                                 (INHIBIT-OUTPUT-LST
+                                                                  *VALID-OUTPUT-NAMES*))
+                                                                NIL (VALUE) NIL
+                                                                (PRETTYIFY-CLAUSE-LST)
+                                                                (SIMPLIFY-WITH-PROVER
+                                                                 WARNING$)
+                                                                NIL)
+                                                               ((FORM HINTS CTX
+                                                                 STATE CTX bash
+                                                                 Unable to simplify the input term~@0
+                                                                 CLAUSES)
+                                                                NIL
+                                                                (LIST
+                                                                 LET*-ABSTRACTIONP
+                                                                 W)
+                                                                (COND) NIL NIL
+                                                                NIL)
+                                                               ((FORM STATE
+                                                                 STATE)
+                                                                NIL
+                                                                ((EQ ERP
+                                                                     'NO-CHANGE)
+                                                                 T)
+                                                                NIL NIL NIL
+                                                                NIL)) (/home/acl2/books/misc/bash.lisp::GOALS-TO-CNF
+                                                                       (NIL NIL
+                                                                        NIL
+                                                                        (COND)
+                                                                        NIL NIL
+                                                                        NIL)
+                                                                       (NIL NIL
+                                                                        ((ENDP
+                                                                          GOALS)
+                                                                         T)
+                                                                        NIL NIL
+                                                                        NIL
+                                                                        NIL)
+                                                                       ((NIL)
+                                                                        NIL NIL
+                                                                        (CONS)
+                                                                        NIL NIL
+                                                                        NIL)
+                                                                       (NIL NIL
+                                                                        (RECURSIVE-CALL)
+                                                                        (APPEND)
+                                                                        NIL NIL
+                                                                        NIL)
+                                                                       (NIL NIL
+                                                                        (LIST
+                                                                         CDR)
+                                                                        NIL
+                                                                        (ACCESS)
+                                                                        NIL
+                                                                        NIL)
+                                                                       ((GOAL
+                                                                         HYPS
+                                                                         GOALS)
+                                                                        NIL
+                                                                        (CAR
+                                                                         DUMB-NEGATE-LIT)
+                                                                        NIL NIL
+                                                                        NIL
+                                                                        NIL)
+                                                                       ((GOALS)
+                                                                        NIL NIL
+                                                                        NIL
+                                                                        (ACCESS)
+                                                                        NIL
+                                                                        NIL)) (/home/acl2/books/misc/bash.lisp::UNTRANSLATE-LST-LST
+                                                                               (NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                (COND)
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)
+                                                                               (NIL
+                                                                                NIL
+                                                                                ((ENDP
+                                                                                  LIST)
+                                                                                 T)
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)
+                                                                               ((NIL)
+                                                                                NIL
+                                                                                NIL
+                                                                                (CONS)
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)
+                                                                               (NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                (UNTRANSLATE-LST
+                                                                                 RECURSIVE-CALL)
+                                                                                NIL
+                                                                                NIL)
+                                                                               ((IFF-FLG
+                                                                                 WRLD
+                                                                                 IFF-FLG
+                                                                                 WRLD)
+                                                                                NIL
+                                                                                (CAR
+                                                                                 CDR)
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)
+                                                                               ((LIST
+                                                                                 LIST)
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)
+                                                                               (NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL
+                                                                                NIL)) (/home/acl2/books/misc/bash.lisp::BASH-TERM-TO-DNF
+                                                                                       (NIL
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        (LET)
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        NIL)
+                                                                                       (((CTX
+                                                                                          'BASH-TERM-TO-DNF))
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        (MV-LET)
+                                                                                        NIL
+                                                                                        NIL)
+                                                                                       (NIL
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        (ERP
+                                                                                         COND)
+                                                                                        (COND)
+                                                                                        NIL
+                                                                                        NIL)
+                                                                                       ((CLAUSES
+                                                                                         STATE)
+                                                                                        NIL
+                                                                                        (VERBOSE
+                                                                                         T
+                                                                                         ERP
+                                                                                         UNTRANSLATE-FLG
+                                                                                         T)
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        NIL)
+                                                                                       (NIL
+                                                                                        NIL
+                                                                                        (VALUE
+                                                                                         VALUE)
+                                                                                        (STATE-GLOBAL-LET*
+                                                                                         COND)
+                                                                                        NIL
+                                                                                        (SIMPLIFY-WITH-PROVER)
+                                                                                        NIL)
+                                                                                       ((FORM
+                                                                                         HINTS
+                                                                                         CTX
+                                                                                         STATE
+                                                                                         CLAUSES)
+                                                                                        NIL
+                                                                                        ((EQ
+                                                                                          VERBOSE
+                                                                                          ALL)
+                                                                                         T)
+                                                                                        ((GAG-MODE
+                                                                                          NIL
+                                                                                          SET-GAG-MODE-FN))
+                                                                                        (UNTRANSLATE-LST-LST)
+                                                                                        (SIMPLIFY-WITH-PROVER)
+                                                                                        NIL)
+                                                                                       ((FORM
+                                                                                         HINTS
+                                                                                         CTX
+                                                                                         STATE
+                                                                                         CLAUSES
+                                                                                         T)
+                                                                                        NIL
+                                                                                        (INHIBIT-OUTPUT-LST
+                                                                                         PRINT-CLAUSE-IDS
+                                                                                         VALUE
+                                                                                         W)
+                                                                                        (PPROGN)
+                                                                                        NIL
+                                                                                        NIL
+                                                                                        NIL)))

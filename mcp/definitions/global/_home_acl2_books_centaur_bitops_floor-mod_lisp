@@ -1,0 +1,279 @@
+((/home/acl2/books/centaur/bitops/floor-mod.lisp::FLOOR-WHEN-Y-IS-0
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL (0) NIL (FLOOR) NIL NIL NIL)
+  ((X) (0) NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::MOD-WHEN-Y-IS-0
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL (FIX) (MOD) NIL NIL NIL)
+                                  ((X X) (0) NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::FLOOR/MOD-NATS-IND
+                                                                  (NIL NIL (X)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((Y) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::FLOOR-MOD-IND
+                                                                          (NIL
+                                                                           NIL
+                                                                           (X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((Y)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::TRUNCATE-WHEN-Y-IS-0
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   (0)
+                                                                                   NIL
+                                                                                   (TRUNCATE)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X)
+                                                                                   (0)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::REM-WHEN-Y-IS-0
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (EQUAL)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (FIX)
+                                                                                           (REM)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X
+                                                                                            X)
+                                                                                           (0)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::TRUNCATE/REM-NATS-IND
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (X)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((Y)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/centaur/bitops/floor-mod.lisp::TRUNCATE-REM-IND
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (X)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((Y)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)))

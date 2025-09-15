@@ -1,0 +1,79 @@
+((/home/acl2/books/oslib/read-acl2-oracle.lisp::BOOLEANP-OF-READ-ACL2-ORACLE
+  (NIL NIL (BOOLEANP) NIL NIL NIL NIL) (NIL NIL NIL (MV-NTH) NIL NIL NIL)
+  (NIL (0) (READ-ACL2-ORACLE) NIL NIL NIL NIL)
+  ((STATE) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/oslib/read-acl2-oracle.lisp::STATE-P1-OF-READ-ACL2-ORACLE
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (FORCE
+                                                                  STATE-P1)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (STATE-P1)
+                                                                 (MV-NTH) NIL
+                                                                 NIL NIL)
+                                                                ((STATE) (2)
+                                                                 (READ-ACL2-ORACLE)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((STATE) NIL
+                                                                 NIL NIL NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/oslib/read-acl2-oracle.lisp::W-STATE-OF-READ-ACL2-ORACLE
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (W W)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((STATE)
+                                                                         NIL
+                                                                         NIL
+                                                                         (MV-NTH)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         (2)
+                                                                         (READ-ACL2-ORACLE)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((STATE)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)))

@@ -1,0 +1,77 @@
+((/home/acl2/books/misc/gentle.lisp::TRUE-LISTP-OF-MAKE-LIST-AC
+  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+  (NIL NIL (TRUE-LISTP TRUE-LISTP) NIL NIL NIL NIL)
+  ((AC) NIL NIL NIL (MAKE-LIST-AC) NIL NIL)
+  ((N VAL AC) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/gentle.lisp::TRUE-LISTP-OF-GENTLE-TAKE
+                                                                (NIL NIL
+                                                                 (TRUE-LISTP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 (GENTLE-TAKE)
+                                                                 NIL NIL NIL)
+                                                                ((N L) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/misc/gentle.lisp::MU-DEFN-FN
+                                                                        ((L)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)))

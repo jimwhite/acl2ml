@@ -1,0 +1,38 @@
+((/home/acl2/books/kestrel/file-io-light/typed-io-listp.lisp::TYPED-IO-LISTP-OF-REVAPPEND
+  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+  (NIL NIL NIL (TYPED-IO-LISTP AND) NIL NIL NIL)
+  ((TYP) NIL NIL (REVAPPEND TYPED-IO-LISTP TYPED-IO-LISTP) NIL NIL NIL)
+  ((L1 L2 TYP L2 TYP) NIL (TRUE-LIST-FIX) NIL NIL NIL NIL)
+  ((L1) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/file-io-light/typed-io-listp.lisp::TYPED-IO-LISTP-OF-CHARACTER-BECOMES-CHARACTER-LISTP
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL (CHARACTER-LISTP) (TYPED-IO-LISTP)
+                                   NIL NIL NIL)
+                                  ((L CHARACTER L) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/file-io-light/typed-io-listp.lisp::TYPED-IO-LISTP-OF-CDR
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (TYPED-IO-LISTP
+                                                                    TYPED-IO-LISTP)
+                                                                   NIL NIL NIL)
+                                                                  ((L TYP TYP)
+                                                                   NIL (CDR)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((L) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)))

@@ -1,0 +1,31 @@
+((/home/acl2/books/arithmetic-5/lib/basic-ops/mini-theories.lisp::PREDICATE-P
+  (NIL NIL NIL (AND) NIL NIL NIL) (NIL NIL (CONSP) (MEMBER) NIL NIL NIL)
+  ((TERM) NIL (CAR QUOTE) NIL NIL NIL NIL) ((TERM) NIL NIL NIL NIL (EQUAL) NIL)
+  ((< INTEGERP RATIONALP COMPLEX-RATIONALP) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/mini-theories.lisp::EQUAL-OF-PREDICATES-REWRITE
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) (AND)
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (SYNTAXP
+                                                                  BOOLEANP
+                                                                  BOOLEANP)
+                                                                 (EQUAL IFF)
+                                                                 NIL NIL NIL)
+                                                                ((A B A B A B)
+                                                                 NIL NIL (AND)
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL
+                                                                 (PREDICATE-P
+                                                                  PREDICATE-P)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((A B) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)))

@@ -1,0 +1,131 @@
+((/home/acl2/books/rtl/rel9/arithmetic/inverted-factor.lisp::FIND-INVERTED-FACTOR
+  ((TERM) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/inverted-factor.lisp::IS-A-FACTOR
+                                  (NIL NIL (FACTOR) NIL NIL NIL NIL)
+                                  ((TERM) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/inverted-factor.lisp::FACTOR-SYNTAXP
+                                                                  (NIL NIL
+                                                                   (TERM) NIL
+                                                                   NIL NIL NIL)
+                                                                  ((CAN-BE-A-CONSTANT)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/inverted-factor.lisp::PRODUCT-SYNTAXP
+                                                                          (NIL
+                                                                           NIL
+                                                                           (TERM)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((FIRST-FACTOR-CAN-BE-A-CONSTANT)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/rtl/rel9/arithmetic/inverted-factor.lisp::SUM-OF-PRODUCTS-SYNTAXP
+                                                                                  ((TERM)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)))

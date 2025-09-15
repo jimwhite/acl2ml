@@ -1,0 +1,176 @@
+((/home/acl2/books/rtl/rel9/arithmetic/denominator.lisp::DENOMINATOR-POSITIVE-INTEGER-TYPE-PRESCRIPTION
+  (NIL NIL NIL (AND) NIL NIL NIL) (NIL NIL (INTEGERP) (<) NIL NIL NIL)
+  (NIL (0) (DENOMINATOR DENOMINATOR) NIL NIL NIL NIL)
+  ((X X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/denominator.lisp::DENOMINATOR-POSITIVE
+                                                                (NIL NIL NIL
+                                                                 (<) NIL NIL
+                                                                 NIL)
+                                                                (NIL (0)
+                                                                 (DENOMINATOR)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((X) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/rtl/rel9/arithmetic/denominator.lisp::DENOMINATOR-INTEGERP
+                                                                        (NIL
+                                                                         NIL
+                                                                         (INTEGERP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (DENOMINATOR)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/rtl/rel9/arithmetic/denominator.lisp::DENOMINATOR-ONE-MEANS-INTEGER
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (CASE-SPLIT)
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (RATIONALP
+                                                                                  INTEGERP)
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  X)
+                                                                                 (1)
+                                                                                 (DENOMINATOR)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/rtl/rel9/arithmetic/denominator.lisp::DENOMINATOR-OF-INTEGER-IS-ONE
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (IMPLIES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (INTEGERP)
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X)
+                                                                                         (1)
+                                                                                         (DENOMINATOR)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

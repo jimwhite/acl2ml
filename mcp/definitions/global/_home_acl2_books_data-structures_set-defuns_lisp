@@ -1,0 +1,82 @@
+((/home/acl2/books/data-structures/set-defuns.lisp::ADJOIN-EQUAL
+  (NIL NIL (X) NIL NIL NIL NIL) ((L) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/data-structures/set-defuns.lisp::MEMBERP-EQUAL
+                                  (NIL NIL (X) NIL NIL NIL NIL)
+                                  ((L) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/data-structures/set-defuns.lisp::SET-EQUAL
+                                                                  (NIL NIL (A)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((B) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/data-structures/set-defuns.lisp::SETP-EQUAL
+                                                                          ((L)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

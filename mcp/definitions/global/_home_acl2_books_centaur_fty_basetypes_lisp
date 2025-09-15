@@ -1,0 +1,186 @@
+((/home/acl2/books/centaur/fty/basetypes.lisp::DEFBASETYPE-FN
+  (NIL NIL NIL (EQUIV) NIL NIL NIL) ((PRED KEYS) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/fty/basetypes.lisp::MAYBE-NATP-WHEN-NATP
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (NATP MAYBE-NATP) NIL NIL NIL NIL)
+                                  ((X X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/fty/basetypes.lisp::MAYBE-POSP-WHEN-POSP
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (POSP
+                                                                    MAYBE-POSP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((X X) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/centaur/fty/basetypes.lisp::MAYBE-BITP-WHEN-BITP
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (BITP
+                                                                            MAYBE-BITP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X
+                                                                            X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/centaur/fty/basetypes.lisp::MAYBE-INTEGERP-WHEN-INTEGERP
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (INTEGERP
+                                                                                    MAYBE-INTEGERP)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/centaur/fty/basetypes.lisp::MAKE-BASETYPES-TABLE-RCHARS
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (TABLE)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((ACC)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)))

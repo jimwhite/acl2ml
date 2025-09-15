@@ -1,0 +1,228 @@
+((/home/acl2/books/std/util/defaggrify-defrec.lisp::FLATTEN-DEFREC-FIELDS
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL NIL (ATOM) (AND APPEND) NIL NIL NIL)
+  ((X X) NIL (LIST RECURSIVE-CALL RECURSIVE-CALL) NIL NIL NIL NIL)
+  ((X) NIL (CAR CDR) NIL NIL NIL NIL) ((X X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/util/defaggrify-defrec.lisp::LOOK-UP-DEFREC-FIELDS
+                                                                (NIL NIL NIL
+                                                                 (B*) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (FLATTEN-DEFREC-FIELDS)
+                                                                 NIL NIL
+                                                                 ((MAKER
+                                                                   (RECORD-MAKER-FUNCTION-NAME
+                                                                    REC)))
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (BODY
+                                                                  (UNLESS BODY)
+                                                                  QUOTED-LAYOUT
+                                                                  (UNLESS
+                                                                      (QUOTEP
+                                                                       QUOTED-LAYOUT))
+                                                                  UNQUOTE)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((QUOTED-LAYOUT)
+                                                                 NIL (THIRD)
+                                                                 NIL NIL (ER)
+                                                                 (GETPROP ER))
+                                                                ((MAKER NIL
+                                                                  WORLD HARD?
+                                                                  Can't find macro-body for maker ~x0 of defrec ~x1.  is ~x1 even ~
+             a defrec?
+                                                                  MAKER REC
+                                                                  BODY HARD?
+                                                                  Sanity check failed, field layout of ~x0 is not a quotep?
+                                                                  REC)
+                                                                 NIL
+                                                                 (QUOTE QUOTE
+                                                                  QUOTE QUOTE)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((MACRO-BODY
+                                                                  CURRENT-ACL2-WORLD
+                                                                  LOOK-UP-DEFREC-FIELD-LAYOUT
+                                                                  LOOK-UP-DEFREC-FIELD-LAYOUT)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/std/util/defaggrify-defrec.lisp::DA-ACCESSOR-FOR-DEFREC-FIELD
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (LET)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (((WEAK-REC-P
+                                                                           (INTERN$
+                                                                            (CONCATENATE
+                                                                             'STRING
+                                                                             WEAK-
+                                                                             (SYMBOL-NAME
+                                                                              REC)
+                                                                             -P)
+                                                                            ACL2)))
+                                                                         NIL
+                                                                         (QUASIQUOTE)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (DEFUN-INLINE)
+                                                                         NIL)
+                                                                        ((,(DA-ACCESSOR-NAME
+                                                                            REC
+                                                                            FIELD)
+                                                                          X)
+                                                                         NIL
+                                                                         (DECLARE)
+                                                                         NIL
+                                                                         (ACCESS)
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((,REC
+                                                                          X
+                                                                          ,(INTERN$
+                                                                            (SYMBOL-NAME
+                                                                             FIELD)
+                                                                            KEYWORD))
+                                                                         NIL
+                                                                         NIL
+                                                                         (XARGS)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((GUARD)
+                                                                         NIL
+                                                                         (,WEAK-REC-P)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/std/util/defaggrify-defrec.lisp::DA-ACCESSORS-FOR-DEFREC-FIELDS
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IF)
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((NIL)
+                                                                                 NIL
+                                                                                 (ATOM)
+                                                                                 (CONS)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((FIELDS)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (DA-ACCESSOR-FOR-DEFREC-FIELD
+                                                                                  RECURSIVE-CALL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((REC
+                                                                                  REC)
+                                                                                 NIL
+                                                                                 (CAR
+                                                                                  CDR)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((FIELDS
+                                                                                  FIELDS)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/std/util/defaggrify-defrec.lisp::DA-DEFREC-EMULATION-FN
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (LET)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (((FIELDS
+                                                                                           (LOOK-UP-DEFREC-FIELDS
+                                                                                            REC
+                                                                                            WORLD)))
+                                                                                         NIL
+                                                                                         (QUASIQUOTE)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (ENCAPSULATE)
+                                                                                         NIL)
+                                                                                        ((NIL
+                                                                                          LOGIC
+                                                                                          ,@(DA-ACCESSORS-FOR-DEFREC-FIELDS
+                                                                                             REC
+                                                                                             FIELDS)
+                                                                                          ,(DA-MAKE-BINDER
+                                                                                            REC
+                                                                                            FIELDS))
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

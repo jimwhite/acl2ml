@@ -1,0 +1,34 @@
+((/home/acl2/books/tools/names-after.lisp::NAMES-AFTER
+  (NIL NIL NIL NIL NIL (NAME) NIL)
+  ((PROP WRLD AVOID-LST ACC) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/names-after.lisp::FUNCTIONS-AFTER-FN
+                                  (NIL NIL (NAME) NIL NIL NIL NIL)
+                                  ((WRLD) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/names-after.lisp::MACROS-AFTER-FN
+                                                                  (NIL NIL
+                                                                   (NAME) NIL
+                                                                   NIL NIL NIL)
+                                                                  ((WRLD) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)))

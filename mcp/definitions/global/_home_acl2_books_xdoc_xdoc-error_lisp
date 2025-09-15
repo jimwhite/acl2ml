@@ -1,0 +1,139 @@
+((/home/acl2/books/xdoc/xdoc-error.lisp::INITIALIZE-XDOC-ERRORS
+  ((FLG) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/xdoc/xdoc-error.lisp::SHOW-XDOC-ERRORS
+                                  (NIL NIL NIL NIL (WORMHOLE-EVAL) NIL NIL)
+                                  ((NIL) NIL 'QUOTE NIL NIL NIL NIL)
+                                  ((XDOC-ERRORS) NIL NIL (LAMBDA) NIL NIL NIL)
+                                  ((WHS) NIL NIL (PROG2$) NIL NIL NIL)
+                                  ((WHS) NIL NIL (CW) NIL NIL NIL)
+                                  ((Value of xdoc-errors: ~x0~%) NIL
+                                   (WORMHOLE-DATA) NIL NIL NIL NIL)
+                                  ((WHS) NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/xdoc/xdoc-error.lisp::REPORT-XDOC-ERRORS
+                                                                    ((CTX) NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)) (/home/acl2/books/xdoc/xdoc-error.lisp::NOTE-XDOC-ERROR
+                                                                            ((NIL)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)) (/home/acl2/books/xdoc/xdoc-error.lisp::PRINT-XDOC-ERROR-DEFAULT
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     (STR)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    ((ARGS)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)))

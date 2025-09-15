@@ -1,0 +1,201 @@
+((/home/acl2/books/misc/beta-reduce.lisp::PSEUDO-TERMP-KEY
+  (NIL NIL (ARG) NIL NIL NIL NIL) ((TERM) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/beta-reduce.lisp::BETA-REDUCE-TERM
+                                  (NIL NIL NIL NIL (ARG) NIL NIL)
+                                  ((TERM KEYS VALS) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/beta-reduce.lisp::LAMBDA-EXPR-P
+                                                                  ((TERM) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/misc/beta-reduce.lisp::BETA-EVAL-BETA-REDUCE-TERM
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (EQUAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (BETA-EVAL
+                                                                            BETA-EVAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((A1
+                                                                            TERM)
+                                                                           NIL
+                                                                           NIL
+                                                                           (PAIRLIS$)
+                                                                           NIL
+                                                                           (BETA-REDUCE-TERM)
+                                                                           NIL)
+                                                                          ((NIL
+                                                                            TERM
+                                                                            KEYS
+                                                                            VALS
+                                                                            KEYS)
+                                                                           NIL
+                                                                           NIL
+                                                                           (BETA-EVAL-LIST)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((VALS
+                                                                            A1)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/misc/beta-reduce.lisp::BETA-EVAL-BETA-REDUCE-TERM-LIST
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((KEY)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (BETA-EVAL-LIST
+                                                                                    BETA-EVAL-LIST)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((A1
+                                                                                    TERM)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (PAIRLIS$)
+                                                                                   NIL
+                                                                                   (BETA-REDUCE-TERM)
+                                                                                   NIL)
+                                                                                  ((KEY
+                                                                                    TERM
+                                                                                    KEYS
+                                                                                    VALS
+                                                                                    KEYS)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (BETA-EVAL-LIST)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((VALS
+                                                                                    A1)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/misc/beta-reduce.lisp::BETA-EVAL-TO-BETA-REDUCE-LAMBDA-EXPR
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (AND
+                                                                                            EQUAL)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (LAMBDA-EXPR-P
+                                                                                            PSEUDO-TERMP)
+                                                                                           (BETA-EVAL
+                                                                                            BETA-EVAL)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((TERM
+                                                                                            TERM
+                                                                                            TERM
+                                                                                            A1
+                                                                                            A1)
+                                                                                           NIL
+                                                                                           (BETA-REDUCE-LAMBDA-EXPR)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((TERM)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)))

@@ -1,0 +1,124 @@
+((/home/acl2/books/misc/goodstein.lisp::PFIX ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/goodstein.lisp::ILOG-LOOP
+                                                                (NIL NIL NIL
+                                                                 NIL (NBR) NIL
+                                                                 NIL)
+                                                                ((BASE POW L)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/misc/goodstein.lisp::SCALEPS-ARE-E0-ORDINALPS
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (E0-ORDINALP)
+                                                                         (SCALEP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X N
+                                                                          X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/misc/goodstein.lisp::GOODSTEIN
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((B)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)))

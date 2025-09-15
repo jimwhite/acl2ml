@@ -1,0 +1,36 @@
+((/home/acl2/books/rtl/rel9/arithmetic/predicate.lisp::PREDICATEP
+  (NIL NIL NIL (AND) NIL NIL NIL) (NIL NIL (CONSP) (MEMBER) NIL NIL NIL)
+  ((TERM) NIL (CAR QUOTE) NIL NIL NIL NIL) ((TERM) NIL NIL NIL NIL NIL (<))
+  ((INTEGERP POWER2P COMPLEX-RATIONALP RATIONALP BVECP) NIL NIL NIL NIL NIL
+   NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/predicate.lisp::EQUAL-OF-PREDS-REWRITE
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) (AND)
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (SYNTAXP
+                                                                  CASE-SPLIT
+                                                                  CASE-SPLIT)
+                                                                 (EQUAL AND)
+                                                                 NIL NIL NIL)
+                                                                ((A B) NIL
+                                                                 (BOOLEANP
+                                                                  BOOLEANP)
+                                                                 (AND IMPLIES
+                                                                      IMPLIES)
+                                                                 NIL NIL NIL)
+                                                                ((A B A B B A)
+                                                                 NIL
+                                                                 (PREDICATEP
+                                                                  PREDICATEP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((A B) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)))

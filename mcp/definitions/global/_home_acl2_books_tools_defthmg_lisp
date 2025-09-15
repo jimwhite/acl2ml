@@ -1,0 +1,122 @@
+((/home/acl2/books/tools/defthmg.lisp::IMPLIEZ-IFY
+  (NIL NIL NIL (LET) NIL NIL NIL)
+  (((WRLD (W STATE))) NIL NIL (ER-LET*) NIL NIL NIL)
+  (((TERM1 (TRANSLATE FORM T T T CTX WRLD STATE))) NIL NIL (COND) NIL NIL NIL)
+  (NIL NIL ((FFNNAMEP 'IMPLIES TERM1) T) NIL NIL NIL NIL)
+  (NIL NIL (VALUE) NIL NIL (MV-LET) NIL)
+  ((NIL) NIL (VARS DECLARE VALUE) NIL (SUBLIS-FN) NIL NIL)
+  ((TERM2 TERM1 NIL) NIL 'IGNORE NIL (UNTRANSLATE) NIL NIL)) (/home/acl2/books/tools/defthmg.lisp::DEFTHMG-RULE-CLASSES
+                                                              (NIL NIL NIL
+                                                               (COND) NIL NIL
+                                                               NIL)
+                                                              (NIL NIL
+                                                               ((ATOM
+                                                                 RULE-CLASSES)
+                                                                T)
+                                                               NIL NIL NIL NIL)
+                                                              ((RULE-CLASSES)
+                                                               NIL NIL (CONS)
+                                                               NIL NIL NIL)
+                                                              (NIL NIL NIL
+                                                               (LET RECURSIVE-CALL)
+                                                               NIL NIL NIL)
+                                                              (((X
+                                                                 (CAR
+                                                                  RULE-CLASSES))
+                                                                THM)
+                                                               NIL (CDR) NIL
+                                                               (COND) NIL NIL)
+                                                              ((RULE-CLASSES)
+                                                               NIL
+                                                               ((KEYWORDP X)
+                                                                (AND (CONSP X)
+                                                                     (KEYWORDP
+                                                                      (CAR X))
+                                                                     (KEYWORD-VALUE-LISTP
+                                                                      (CDR X)))
+                                                                T)
+                                                               NIL NIL NIL NIL)
+                                                              ((X) NIL NIL
+                                                               (COND) NIL NIL
+                                                               (LIST))) (/home/acl2/books/tools/defthmg.lisp::DEFTHMG-FN
+                                                                         (NIL
+                                                                          NIL
+                                                                          NIL
+                                                                          (LET)
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL)
+                                                                         (((CTX
+                                                                            (CONS
+                                                                             'DEFTHMG
+                                                                             NAME)))
+                                                                          NIL
+                                                                          NIL
+                                                                          (ER-LET*)
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL)
+                                                                         (((TERM-Z
+                                                                            (IMPLIEZ-IFY
+                                                                             TERM
+                                                                             CTX
+                                                                             STATE)))
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL
+                                                                          (MV-LET)
+                                                                          NIL
+                                                                          NIL)
+                                                                         (NIL
+                                                                          NIL
+                                                                          (IMPLIES-P)
+                                                                          (COND
+                                                                           LET)
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL)
+                                                                         ((TERM-Z
+                                                                           (RULE-CLASSES
+                                                                            (IF IMPLIES-P
+                                                                                (DEFTHMG-RULE-CLASSES
+                                                                                 (COND
+                                                                                  ((NULL
+                                                                                    RULE-CLASSES)
+                                                                                   NIL)
+                                                                                  ((ATOM
+                                                                                    RULE-CLASSES)
+                                                                                   (LIST
+                                                                                    RULE-CLASSES))
+                                                                                  (T
+                                                                                   RULE-CLASSES))
+                                                                                 TERM)
+                                                                                RULE-CLASSES)))
+                                                                          NIL
+                                                                          ((NULL
+                                                                            TERM-Z)
+                                                                           T)
+                                                                          (COND)
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL)
+                                                                         (NIL
+                                                                          NIL
+                                                                          ((EQ
+                                                                            RULE-CLASSES
+                                                                            ERROR)
+                                                                           T)
+                                                                          (MV
+                                                                           MV)
+                                                                          NIL
+                                                                          NIL
+                                                                          NIL)
+                                                                         ((NIL
+                                                                           TERM
+                                                                           T
+                                                                           TERM-Z)
+                                                                          NIL
+                                                                          NIL
+                                                                          (LET)
+                                                                          (ER)
+                                                                          NIL
+                                                                          NIL)))

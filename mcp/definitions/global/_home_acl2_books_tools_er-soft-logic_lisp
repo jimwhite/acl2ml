@@ -1,0 +1,12 @@
+((/home/acl2/books/tools/er-soft-logic.lisp::ERROR-FMS-SOFT-LOGIC
+  (NIL NIL NIL NIL (CTX) NIL NIL) ((STR ALIST STATE) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/er-soft-logic.lisp::ERROR1-LOGIC
+                                  (NIL NIL NIL NIL (CTX) NIL NIL)
+                                  ((STR ALIST STATE) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

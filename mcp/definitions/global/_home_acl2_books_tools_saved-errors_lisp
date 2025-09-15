@@ -1,0 +1,20 @@
+((/home/acl2/books/tools/saved-errors.lisp::SAVED-ERROR-COND-FN
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL NIL (ATOM QUOTE) (LET) NIL NIL NIL)
+  ((CONDS (T (VALUE '(VALUE-TRIPLE 'BINDINGS-OK)))) NIL ((TEST (CAAR CONDS)))
+   (CONS) NIL NIL NIL)
+  (NIL NIL (MSG . `RECURSIVE-CALL) NIL NIL NIL NIL)
+  (NIL NIL (CADAR ,TEST CDR) NIL NIL NIL NIL)
+  ((CONDS CONDS) NIL NIL (ER-PROGN) NIL NIL NIL)
+  (NIL NIL (VALUE) (ASSIGN) NIL NIL NIL)) (/home/acl2/books/tools/saved-errors.lisp::SKIP-PROOFS-OUTSIDE-CERTIFY-FN
+                                           (NIL NIL (QUASIQUOTE) NIL NIL NIL
+                                            NIL)
+                                           (NIL NIL (MAKE-EVENT) NIL NIL NIL
+                                            NIL)
+                                           (NIL NIL NIL NIL (IF) NIL NIL)
+                                           (NIL NIL 'QUASIQUOTE (F-GET-GLOBAL)
+                                            NIL NIL NIL)
+                                           ((STATE ,FORM) NIL 'SKIP-PROOFS NIL
+                                            NIL NIL NIL)
+                                           ((CERTIFY-BOOK-INFO ,',FORM) NIL NIL
+                                            NIL NIL NIL NIL)
+                                           (NIL NIL NIL NIL NIL NIL NIL)))

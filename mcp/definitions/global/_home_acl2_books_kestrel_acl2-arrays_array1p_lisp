@@ -1,0 +1,217 @@
+((/home/acl2/books/kestrel/acl2-arrays/array1p.lisp::ARRAY1P-OF-ACONS-HEADER
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL NIL (ARRAY1P) NIL NIL NIL)
+  ((NAME2) NIL (POSP SYMBOLP INTEGERP) (BOUNDED-INTEGER-ALISTP < <=) (ACONS)
+   NIL NIL)
+  ((HEADER ALIST ALIST DIM DIM DIM MAX NAME2 MAX *MAX-ARRAY-MAXIMUM-LENGTH*
+    MAX)
+   NIL NIL NIL NIL NIL NIL)
+  ((DIMENSIONS MAXIMUM-LENGTH MAX DEFAULT NIL NAME NAME) NIL (LIST) NIL NIL NIL
+   NIL)
+  ((DIM) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/acl2-arrays/array1p.lisp::ARRAY1P-FORWARD-TO-<=-OF-ALEN1
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (ARRAY1P <=)
+                                                                   NIL NIL NIL)
+                                                                  ((ARRAY-NAME
+                                                                    ARRAY
+                                                                    *MAX-1D-ARRAY-LENGTH*)
+                                                                   NIL NIL
+                                                                   (ALEN1) NIL
+                                                                   NIL NIL)
+                                                                  ((ARRAY-NAME
+                                                                    ARRAY)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/kestrel/acl2-arrays/array1p.lisp::ARRAY1P-FORWARD-TO-<=-OF-ALEN1-2
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (ARRAY1P
+                                                                            <=)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((ARRAY-NAME
+                                                                            ARRAY)
+                                                                           (1)
+                                                                           NIL
+                                                                           (ALEN1)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((ARRAY-NAME
+                                                                            ARRAY)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/kestrel/acl2-arrays/array1p.lisp::ARRAY1P-OF-CONS-OF-HEADER-AND-NIL
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (ARRAY1P)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((ARRAY-NAME)
+                                                                                   NIL
+                                                                                   (LIST
+                                                                                    SYMBOLP
+                                                                                    TRUE-LISTP
+                                                                                    POSP
+                                                                                    NATP)
+                                                                                   (EQUAL
+                                                                                    <
+                                                                                    <=)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((ARRAY-NAME
+                                                                                    DIMS
+                                                                                    MAXIMUM-LENGTH
+                                                                                    MAXIMUM-LENGTH
+                                                                                    MAXIMUM-LENGTH
+                                                                                    *MAX-ARRAY-MAXIMUM-LENGTH*)
+                                                                                   (1)
+                                                                                   (LEN
+                                                                                    CAR
+                                                                                    CAR)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((HEADER
+                                                                                    DIMENSIONS
+                                                                                    DIMS
+                                                                                    MAXIMUM-LENGTH
+                                                                                    MAXIMUM-LENGTH
+                                                                                    DEFAULT
+                                                                                    DEFAULT
+                                                                                    NAME
+                                                                                    ARRAY-NAME
+                                                                                    DIMS
+                                                                                    DIMS
+                                                                                    DIMS)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/kestrel/acl2-arrays/array1p.lisp::ASSOC-EQUAL-WHEN-ARRAY1P-AND-OUT-OF-BOUNDS
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (EQUAL)
+                                                                                           (AND)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((NIL)
+                                                                                           NIL
+                                                                                           (INTEGERP)
+                                                                                           (<=
+                                                                                            ARRAY1P
+                                                                                            ASSOC-EQUAL)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((N
+                                                                                            N
+                                                                                            NAME2
+                                                                                            ARRAY
+                                                                                            N
+                                                                                            ARRAY)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (ALEN1)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((NAME
+                                                                                            ARRAY)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)))

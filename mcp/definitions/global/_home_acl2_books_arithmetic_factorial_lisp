@@ -1,0 +1,85 @@
+((/home/acl2/books/arithmetic/factorial.lisp::FACTORIAL
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL (1) (ZP) (*) NIL NIL NIL)
+  ((N N) NIL (RECURSIVE-CALL) NIL NIL NIL NIL) (NIL NIL (1-) NIL NIL NIL NIL)
+  ((N) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic/factorial.lisp::FACTORIAL-POSITIVE-INTEGER
+                                  (NIL NIL NIL (AND) NIL NIL NIL)
+                                  (NIL NIL (INTEGERP) (<) NIL NIL NIL)
+                                  (NIL (0) (FACTORIAL FACTORIAL) NIL NIL NIL
+                                   NIL)
+                                  ((N N) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic/factorial.lisp::FACTORIAL-NON-NEGATIVE
+                                                                  (NIL NIL NIL
+                                                                   (<=) NIL NIL
+                                                                   NIL)
+                                                                  (NIL (1)
+                                                                   (FACTORIAL)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((N) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/arithmetic/factorial.lisp::ABS-FACTORIAL
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (EQUAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (ABS
+                                                                            FACTORIAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (FACTORIAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

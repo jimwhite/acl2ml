@@ -1,0 +1,234 @@
+((/home/acl2/books/data-structures/number-list-defuns.lisp::REAL/RATIONALP-MAXLIST
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (REAL/RATIONALP) (AND) NIL NIL NIL)
+  (NIL NIL (REAL/RATIONAL-LISTP CONSP MAXLIST) NIL NIL NIL NIL)
+  ((L L L) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/data-structures/number-list-defuns.lisp::REAL/RATIONALP-MINLIST
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (REAL/RATIONALP)
+                                                                 (AND) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (REAL/RATIONAL-LISTP
+                                                                  CONSP
+                                                                  MINLIST)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((L L L) NIL
+                                                                 NIL NIL NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/data-structures/number-list-defuns.lisp::REAL/RATIONALP-SUM
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (REAL/RATIONAL-LISTP
+                                                                          REAL/RATIONALP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((L)
+                                                                         NIL
+                                                                         (SUM)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((L)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/data-structures/number-list-defuns.lisp::NATURALP-EXCESS-NATURAL
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (NATURAL-LISTP
+                                                                                  NATURALP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((L)
+                                                                                 NIL
+                                                                                 (EXCESS-NATURAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((L)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/data-structures/number-list-defuns.lisp::REAL/RATIONAL-LISTP-NUMERIC-INSERT
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (IMPLIES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (REAL/RATIONAL-LISTP)
+                                                                                         (AND)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (REAL/RATIONALP
+                                                                                          REAL/RATIONAL-LISTP)
+                                                                                         (NUMERIC-INSERT)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          L
+                                                                                          X
+                                                                                          L)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)) (/home/acl2/books/data-structures/number-list-defuns.lisp::REAL/RATIONAL-LISTP-NUMERIC-SORT
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 (IMPLIES)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 (REAL/RATIONAL-LISTP
+                                                                                                  REAL/RATIONAL-LISTP)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((L)
+                                                                                                 NIL
+                                                                                                 (NUMERIC-SORT)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((L)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)))

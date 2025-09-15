@@ -1,0 +1,306 @@
+((/home/acl2/books/misc/equal-by-g-help.lisp::G-BADGUY
+  (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL
+   ((ATOM X) (ATOM Y) (EQUAL (CAR X) (CAR Y)) (<< (CAAR X) (CAAR Y))
+    (EQUAL (CAAR X) (CAAR Y)) T)
+   NIL NIL NIL NIL)
+  (NIL NIL NIL (CONS RECURSIVE-CALL CONS CONS CONS) (IF) NIL NIL)
+  ((NIL EXTRA-IN-X EXTRA-IN-X MISMATCH EXTRA-IN-Y) NIL
+   (ATOM CAR CDR CDR CAR CAR CAR) (CONS) NIL NIL NIL)
+  ((Y EXTRA-IN-Y X X Y X X Y) NIL (CAR) NIL NIL NIL NIL)
+  ((Y) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::G-BADGUY-CASES
+                                                                (NIL NIL NIL
+                                                                 NIL NIL (OR)
+                                                                 NIL)
+                                                                (NIL NIL (NOT)
+                                                                 (EQUAL EQUAL
+                                                                        EQUAL)
+                                                                 NIL NIL NIL)
+                                                                ((MISMATCH
+                                                                  EXTRA-IN-X
+                                                                  EXTRA-IN-Y)
+                                                                 NIL
+                                                                 (CAR CAR CAR)
+                                                                 (G-BADGUY) NIL
+                                                                 NIL NIL)
+                                                                ((X Y) NIL NIL
+                                                                 (G-BADGUY
+                                                                  G-BADGUY
+                                                                  G-BADGUY)
+                                                                 NIL NIL NIL)
+                                                                ((X Y X Y X Y)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::G-AUX-OF-G-BADGUY
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (NOT)
+                                                                         NIL
+                                                                         (AND)
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (RCDP
+                                                                          RCDP)
+                                                                         (G-BADGUY
+                                                                          EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y X
+                                                                          Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         (G-AUX
+                                                                          G-AUX)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y)
+                                                                         NIL
+                                                                         (CADR
+                                                                          CADR)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (G-BADGUY
+                                                                          G-BADGUY)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y X
+                                                                          Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::G-BADGUY-UNLESS-EQUAL
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (G-BADGUY)
+                                                                                 (AND)
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 (NOT
+                                                                                  RCDP
+                                                                                  RCDP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::G-WORSEGUY
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (G-BADGUY)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (ACL2->RCD
+                                                                                          ACL2->RCD)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          Y)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::ACL2->RCD-RETURNS-RCDP
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 (RCDP)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 (ACL2->RCD)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((X)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)) (/home/acl2/books/misc/equal-by-g-help.lisp::G-WORSEGUY-FINDS-COUNTEREXAMPLE
+                                                                                                        (NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         (IMPLIES)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        (NIL
+                                                                                                         NIL
+                                                                                                         (NOT)
+                                                                                                         (G-WORSEGUY)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        ((X
+                                                                                                          Y)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         (EQUAL)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        (NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         (G
+                                                                                                          G)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        ((X
+                                                                                                          Y)
+                                                                                                         NIL
+                                                                                                         (CADR
+                                                                                                          CADR)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        (NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         (G-WORSEGUY
+                                                                                                          G-WORSEGUY)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)
+                                                                                                        ((X
+                                                                                                          Y
+                                                                                                          X
+                                                                                                          Y)
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL
+                                                                                                         NIL)))

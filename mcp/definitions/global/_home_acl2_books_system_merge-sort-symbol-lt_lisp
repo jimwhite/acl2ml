@@ -1,0 +1,132 @@
+((/home/acl2/books/system/merge-sort-symbol-lt.lisp::ACL2-COUNT-EVENS
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL (CONSP) (<) NIL NIL NIL)
+  (NIL NIL (CDR ACL2-COUNT ACL2-COUNT) NIL NIL NIL NIL)
+  ((X X) NIL (EVENS) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/merge-sort-symbol-lt.lisp::SYMBOL-LISTP-EVENS
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (SYMBOL-LISTP
+                                                                  SYMBOL-LISTP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((X) NIL
+                                                                 (EVENS) NIL
+                                                                 NIL NIL NIL)
+                                                                ((X) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/system/merge-sort-symbol-lt.lisp::SYMBOL-LISTP-MERGE-SYMBOL<
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (SYMBOL-LISTP)
+                                                                         NIL
+                                                                         (AND)
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (SYMBOL-LISTP
+                                                                          SYMBOL-LISTP
+                                                                          SYMBOL-LISTP)
+                                                                         NIL
+                                                                         (MERGE-SYMBOL<)
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((L1 L2
+                                                                          ACC
+                                                                          L1 L2
+                                                                          ACC)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/system/merge-sort-symbol-lt.lisp::SYMBOL-LISTP-MERGE-SORT-SYMBOL<
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (SYMBOL-LISTP
+                                                                                  SYMBOL-LISTP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 (MERGE-SORT-SYMBOL<)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)))

@@ -1,0 +1,57 @@
+((/home/acl2/books/tools/define-keyed-function.lisp::PARSE-KEYED-ARGUMENTS
+  (NIL NIL NIL NIL (COND) NIL NIL)
+  (NIL NIL ((ATOM ARGS) (EQUAL (CAR ARGS) '&KEY) T) NIL NIL NIL NIL)
+  (NIL NIL NIL (MV MV) (MV-LET) NIL NIL)
+  ((NIL NIL NIL) NIL (CDR NON-KEYED RECURSIVE-CALL) (MV) NIL NIL NIL)
+  ((ARGS KEYED KEYED) NIL (CDR) (CONS) NIL NIL NIL)
+  ((ARGS NON-KEYED) NIL (CAR) NIL NIL NIL NIL) ((ARGS) NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/define-keyed-function.lisp::FIX-ARGS-ORDER-AND-REMOVE-KEYS
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (NON-KEYED-ARGS)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((KEYED-ARGS
+                                                                                    BODY)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)))

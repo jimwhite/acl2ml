@@ -1,0 +1,384 @@
+((/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::EQUAL-*-/-1
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL NIL (EQUAL) (IF) NIL NIL)
+  ((Z) NIL NIL (* EQUAL EQUAL AND) NIL NIL NIL)
+  ((Y Z) (0 0) (/ FIX ACL2-NUMBERP) (EQUAL) NIL NIL NIL)
+  ((X X Z) NIL (FIX) (*) NIL NIL NIL) ((Y X Z) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::EQUAL-*-/-2
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL NIL (EQUAL) (IF) NIL NIL)
+                                  ((Z) NIL NIL (* EQUAL EQUAL AND) NIL NIL NIL)
+                                  ((Y Z) (0 0) (/ FIX ACL2-NUMBERP) (EQUAL) NIL
+                                   NIL NIL)
+                                  ((X X Z) NIL (FIX) (*) NIL NIL NIL)
+                                  ((Y Z X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-1
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (AND EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (REAL/RATIONALP
+                                                                    REAL/RATIONALP)
+                                                                   (<) (COND)
+                                                                   NIL NIL)
+                                                                  ((X Y X) NIL
+                                                                   (/ (< Y 0)
+                                                                      (< 0 Y)
+                                                                      T)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((Y) NIL NIL
+                                                                   (< < <) NIL
+                                                                   NIL NIL)
+                                                                  ((X) (1 1 0)
+                                                                   NIL (* *)
+                                                                   NIL NIL NIL)
+                                                                  ((X Y X Y)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-2
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (AND
+                                                                                    EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (REAL/RATIONALP
+                                                                                    REAL/RATIONALP)
+                                                                                   (<)
+                                                                                   (COND)
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    Y
+                                                                                    X)
+                                                                                   NIL
+                                                                                   (/
+                                                                                    (<
+                                                                                     Y
+                                                                                     0)
+                                                                                    (<
+                                                                                     0
+                                                                                     Y)
+                                                                                    T)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((Y)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (<
+                                                                                    <
+                                                                                    <)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X)
+                                                                                   (1
+                                                                                    1
+                                                                                    0)
+                                                                                   NIL
+                                                                                   (*
+                                                                                    *)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    Y
+                                                                                    X
+                                                                                    Y)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-3-1
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (EQUAL)
+                                                                                           (AND)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (REAL/RATIONALP
+                                                                                            REAL/RATIONALP
+                                                                                            REAL/RATIONALP)
+                                                                                           (<)
+                                                                                           (COND)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X
+                                                                                            Y
+                                                                                            Z
+                                                                                            X)
+                                                                                           NIL
+                                                                                           ((<
+                                                                                             Z
+                                                                                             0)
+                                                                                            (<
+                                                                                             0
+                                                                                             Z)
+                                                                                            T)
+                                                                                           (*)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((Y)
+                                                                                           NIL
+                                                                                           (/)
+                                                                                           (<
+                                                                                            <
+                                                                                            <)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((Z
+                                                                                            Y
+                                                                                            Y
+                                                                                            X)
+                                                                                           (0)
+                                                                                           NIL
+                                                                                           (*
+                                                                                            *)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X
+                                                                                            Z
+                                                                                            X
+                                                                                            Z)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-3-2
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (IMPLIES)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (EQUAL)
+                                                                                                   (AND)
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (REAL/RATIONALP
+                                                                                                    REAL/RATIONALP
+                                                                                                    REAL/RATIONALP)
+                                                                                                   (<)
+                                                                                                   (COND)
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    Y
+                                                                                                    Z
+                                                                                                    X)
+                                                                                                   NIL
+                                                                                                   ((<
+                                                                                                     Z
+                                                                                                     0)
+                                                                                                    (<
+                                                                                                     0
+                                                                                                     Z)
+                                                                                                    T)
+                                                                                                   (*)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((Y)
+                                                                                                   NIL
+                                                                                                   (/)
+                                                                                                   (<
+                                                                                                    <
+                                                                                                    <)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((Z
+                                                                                                    Y
+                                                                                                    Y
+                                                                                                    X)
+                                                                                                   (0)
+                                                                                                   NIL
+                                                                                                   (*
+                                                                                                    *)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    Z
+                                                                                                    X
+                                                                                                    Z)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-3-3
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (IMPLIES)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (EQUAL)
+                                                                                                           (AND)
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (REAL/RATIONALP
+                                                                                                            REAL/RATIONALP
+                                                                                                            REAL/RATIONALP)
+                                                                                                           (<)
+                                                                                                           (COND)
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((X
+                                                                                                            Y
+                                                                                                            Z
+                                                                                                            X)
+                                                                                                           NIL
+                                                                                                           ((<
+                                                                                                             Z
+                                                                                                             0)
+                                                                                                            (<
+                                                                                                             0
+                                                                                                             Z)
+                                                                                                            T)
+                                                                                                           (*)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((Y)
+                                                                                                           NIL
+                                                                                                           (/)
+                                                                                                           (<
+                                                                                                            <
+                                                                                                            <)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((Z
+                                                                                                            Y
+                                                                                                            Y
+                                                                                                            X)
+                                                                                                           (0)
+                                                                                                           NIL
+                                                                                                           (*
+                                                                                                            *)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((X
+                                                                                                            Z
+                                                                                                            X
+                                                                                                            Z)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)) (/home/acl2/books/arithmetic-2/pass1/prefer-times.lisp::NORMALIZE-<-/-TO-*-3-4
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (IMPLIES)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (EQUAL)
+                                                                                                                   (AND)
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   (REAL/RATIONALP
+                                                                                                                    REAL/RATIONALP
+                                                                                                                    REAL/RATIONALP)
+                                                                                                                   (<)
+                                                                                                                   (COND)
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((X
+                                                                                                                    Y
+                                                                                                                    Z
+                                                                                                                    X)
+                                                                                                                   NIL
+                                                                                                                   ((<
+                                                                                                                     Z
+                                                                                                                     0)
+                                                                                                                    (<
+                                                                                                                     0
+                                                                                                                     Z)
+                                                                                                                    T)
+                                                                                                                   (*)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((Y)
+                                                                                                                   NIL
+                                                                                                                   (/)
+                                                                                                                   (<
+                                                                                                                    <
+                                                                                                                    <)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((Z
+                                                                                                                    Y
+                                                                                                                    Y
+                                                                                                                    X)
+                                                                                                                   (0)
+                                                                                                                   NIL
+                                                                                                                   (*
+                                                                                                                    *)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((X
+                                                                                                                    Z
+                                                                                                                    X
+                                                                                                                    Z)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)))

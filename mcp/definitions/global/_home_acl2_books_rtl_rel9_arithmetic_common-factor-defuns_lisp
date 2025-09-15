@@ -1,0 +1,284 @@
+((/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::ADJOIN-EQUAL
+  (NIL NIL (X) NIL NIL NIL NIL) ((L) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::REMOVE-ONE-PRESERVES-TRUE-LISTP
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (TRUE-LISTP TRUE-LISTP) NIL NIL NIL
+                                   NIL)
+                                  ((L) NIL NIL (REMOVE-ONE) NIL NIL NIL)
+                                  ((X L) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::GET-FACTORS-OF-PRODUCT-TRUE-LISTP
+                                                                  (NIL NIL
+                                                                   (TRUE-LISTP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL
+                                                                   (GET-FACTORS-OF-PRODUCT)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((TERM) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::REMOVE-CANCELLING-FACTOR-PAIRS-HELPER-PRESERVES-TRUE-LISTP
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (TRUE-LISTP
+                                                                            TRUE-LISTP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((L)
+                                                                           NIL
+                                                                           NIL
+                                                                           (REMOVE-CANCELLING-FACTOR-PAIRS-HELPER)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((I
+                                                                            L)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::REMOVE-CANCELLING-FACTOR-PAIRS-PRESERVES-TRUE-LISTP
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (TRUE-LISTP
+                                                                                    TRUE-LISTP)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((L)
+                                                                                   NIL
+                                                                                   (REMOVE-CANCELLING-FACTOR-PAIRS)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((L)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::FIND-COMMON-FACTORS-IN-SUM-OF-PRODUCTS-AUX-TRUE-LISTP
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (TRUE-LISTP)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (FIND-COMMON-FACTORS-IN-SUM-OF-PRODUCTS-AUX)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((TERM)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::FIND-COMMON-FACTORS-IN-SUM-OF-PRODUCTS-TRUE-LISTP
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (TRUE-LISTP)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (FIND-COMMON-FACTORS-IN-SUM-OF-PRODUCTS)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((TERM)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/common-factor-defuns.lisp::FIND-COMMON-FACTORS-TO-CANCEL
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (LHS)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((RHS)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)))

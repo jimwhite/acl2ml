@@ -1,0 +1,12 @@
+((/home/acl2/books/kestrel/lists-light/cdr.lisp::EQUAL-OF-CDR-SAME
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL NIL (EQUAL EQUAL) NIL NIL NIL)
+  ((X X NIL) NIL (CDR) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/lists-light/cdr.lisp::CDR-IFF
+                                  (NIL NIL NIL (IFF) NIL NIL NIL)
+                                  (NIL NIL (CDR) NIL (IF) NIL NIL)
+                                  ((X T) NIL NIL (<) (IF) NIL NIL)
+                                  ((NIL) (1) (LEN NOT) (EQUAL) NIL NIL NIL)
+                                  ((X) (1) (LEN TRUE-LISTP) NIL NIL NIL NIL)
+                                  ((X X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

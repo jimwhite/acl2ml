@@ -1,0 +1,96 @@
+((/home/acl2/books/arithmetic-3/pass1/mini-theories.lisp::REWRITE-LINEAR-EQUALITIES-TO-IFF
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL NIL (EQUAL IFF) NIL NIL NIL)
+  (NIL NIL NIL (< < < <) NIL NIL NIL)
+  ((W X Y Z W X Y Z) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-3/pass1/mini-theories.lisp::EXPTS-ADD-AGGRESSIVE
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (AND EQUAL)
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL
+                                                                 (INTEGERP
+                                                                  INTEGERP)
+                                                                 (EXPT) (IF)
+                                                                 NIL NIL)
+                                                                ((I J X) (1)
+                                                                 NIL (+ EQUAL)
+                                                                 (IF) NIL NIL)
+                                                                ((I J) (0 0)
+                                                                 NIL
+                                                                 (+ EQUAL *)
+                                                                 NIL NIL NIL)
+                                                                ((I J) (0)
+                                                                 (FIX)
+                                                                 (EXPT EXPT)
+                                                                 NIL NIL NIL)
+                                                                ((X X I X J)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)) (/home/acl2/books/arithmetic-3/pass1/mini-theories.lisp::EXPTS-ADD-INVERSE
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (AND
+                                                                                  EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (INTEGERP
+                                                                                  INTEGERP)
+                                                                                 (*)
+                                                                                 (IF)
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((I
+                                                                                  J)
+                                                                                 (1)
+                                                                                 NIL
+                                                                                 (EXPT
+                                                                                  EXPT
+                                                                                  AND)
+                                                                                 (IF)
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  I
+                                                                                  X
+                                                                                  J)
+                                                                                 (0)
+                                                                                 NIL
+                                                                                 (EQUAL
+                                                                                  EQUAL
+                                                                                  EQUAL
+                                                                                  EXPT)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((I
+                                                                                  J
+                                                                                  X)
+                                                                                 (0
+                                                                                  0
+                                                                                  0)
+                                                                                 (FIX)
+                                                                                 (+)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  I
+                                                                                  J)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)))

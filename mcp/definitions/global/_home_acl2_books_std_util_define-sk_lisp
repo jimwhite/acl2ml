@@ -1,0 +1,169 @@
+((/home/acl2/books/std/util/define-sk.lisp::GET-DEFINE-SK-GUTS-ALIST
+  (NIL NIL (CDR) NIL NIL NIL NIL) (NIL NIL NIL (ASSOC) NIL NIL NIL)
+  (NIL NIL (QUOTE) (TABLE-ALIST) NIL NIL NIL)
+  ((GUTS-ALIST WORLD) NIL (QUOTE) NIL NIL NIL NIL)
+  ((DEFINE-SK) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/util/define-sk.lisp::EXTEND-DEFINE-SK-GUTS-ALIST
+                                  (NIL NIL (QUASIQUOTE) NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL (TABLE) NIL NIL)
+                                  ((DEFINE-SK) NIL (QUOTE) (CONS) NIL NIL NIL)
+                                  ((GUTS-ALIST) NIL (GET-DEFINE-SK-GUTS-ALIST)
+                                   (CONS) NIL NIL NIL)
+                                  ((WORLD) NIL 'QUOTE NIL NIL NIL NIL)
+                                  ((,(DEFINE-SK-GUTS->NAME GUTS) ,GUTS) NIL NIL
+                                   NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/util/define-sk.lisp::DUMB-EXPAND-IMPLIES-IN-UNTRANSLATED-TERM
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL
+                                                                   (COND) NIL)
+                                                                  (NIL NIL
+                                                                   ((ATOM X)
+                                                                    (EQ (CAR X)
+                                                                        'QUOTE)
+                                                                    (AND
+                                                                     (EQ
+                                                                      (CAR X)
+                                                                      'IMPLIES)
+                                                                     (TRUE-LISTP
+                                                                      X)
+                                                                     (EQUAL
+                                                                      (LEN X)
+                                                                      3))
+                                                                    T)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((X X) NIL
+                                                                   NIL
+                                                                   (LET CONS)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   ((P
+                                                                     (DUMB-EXPAND-IMPLIES-IN-UNTRANSLATED-TERM
+                                                                      (SECOND
+                                                                       X)))
+                                                                    RECURSIVE-CALL
+                                                                    RECURSIVE-CALL)
+                                                                   NIL NIL
+                                                                   (LIST) NIL)
+                                                                  ((P T) NIL
+                                                                   (Q QUOTE CAR
+                                                                    CDR)
+                                                                   NIL NIL
+                                                                   (LIST) NIL)
+                                                                  ((IF Q
+                                                                       T
+                                                                       NIL
+                                                                       X
+                                                                       X)
+                                                                   NIL
+                                                                   (RECURSIVE-CALL
+                                                                    QUOTE)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((IF) NIL
+                                                                   (THIRD) NIL
+                                                                   NIL NIL NIL)) (/home/acl2/books/std/util/define-sk.lisp::ADD-MACRO-ALIASES-FROM-DEFINE-SK-GUTS
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (B*)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((((DEFINE-SK-GUTS
+                                                                                      GUTS)
+                                                                                     GUTS))
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (AND)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((GUTS.MACRO)
+                                                                                   NIL
+                                                                                   (QUASIQUOTE)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   ((ADD-MACRO-ALIAS
+                                                                                     ,GUTS.NAME
+                                                                                     ,GUTS.NAME-FN))
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (TABLE)
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((DEFINE-MACRO-FNS)
+                                                                                   NIL
+                                                                                   'QUOTE
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((,GUTS.NAME-FN
+                                                                                    ,GUTS.NAME)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/std/util/define-sk.lisp::DEFINE-SK-FN
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (NAME)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((ARGS
+                                                                                            STATE)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)))

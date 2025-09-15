@@ -1,0 +1,90 @@
+((/home/acl2/books/tools/with-quoted-forms.lisp::ALISTP-PAIRLIS$
+  (NIL NIL (ALISTP) NIL NIL NIL NIL) (NIL NIL NIL (PAIRLIS$) NIL NIL NIL)
+  ((A B) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/with-quoted-forms.lisp::WITH-QUOTED-FORMS-FN
+                                  (NIL NIL (FORM) NIL NIL NIL NIL)
+                                  ((STATE) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/with-quoted-forms.lisp::VAR-FQ-BINDINGS-LST
+                                                                  (NIL NIL NIL
+                                                                   NIL (IF) NIL
+                                                                   NIL)
+                                                                  ((NIL) NIL
+                                                                   (ATOM)
+                                                                   (CONS) NIL
+                                                                   NIL NIL)
+                                                                  ((VARS) NIL
+                                                                   `RECURSIVE-CALL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL `CDR
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((VARS) NIL
+                                                                   (,',(CAR
+                                                                        VARS))
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((,(FQ
+                                                                      ,(CAR
+                                                                        VARS)))
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/tools/with-quoted-forms.lisp::BIND-ACCORDING-TO-ALIST-LST
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IF)
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((NIL)
+                                                                           NIL
+                                                                           (ATOM)
+                                                                           (CONS)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((VARS)
+                                                                           NIL
+                                                                           (QUASIQUOTE)
+                                                                           (RECURSIVE-CALL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((ALIST)
+                                                                           NIL
+                                                                           (,(CAR
+                                                                              VARS)
+                                                                            CDR)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((VARS)
+                                                                           NIL
+                                                                           (CDR)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (ASSOC)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((,ALIST)
+                                                                           NIL
+                                                                           (QUOTE)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

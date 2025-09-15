@@ -1,0 +1,150 @@
+((/home/acl2/books/misc/dump-events.lisp::DUMP-EVENTS-FN1
+  (NIL NIL NIL (COND) NIL NIL NIL)
+  (NIL NIL ((EQUAL EARLIER-WRLD LATER-WRLD) T) NIL NIL NIL NIL)
+  ((ACC) NIL NIL (LET) NIL NIL NIL)
+  (((TUPLE (CAR LATER-WRLD))) NIL NIL NIL NIL NIL NIL)
+  ((TUPLE) NIL
+   (('COMMAND-LANDMARK 'GLOBAL-VALUE & 'LOGIC 'LOCAL . &)
+    ('COMMAND-LANDMARK 'GLOBAL-VALUE & 'LOCAL . &)
+    ('COMMAND-LANDMARK 'GLOBAL-VALUE . &)
+    ('EVENT-LANDMARK 'GLOBAL-VALUE N (& . &) . EV)
+    ('EVENT-LANDMARK 'GLOBAL-VALUE N . EV) &)
+   NIL NIL NIL NIL)
+  (NIL NIL NIL (COND COND) NIL
+   (RECURSIVE-CALL RECURSIVE-CALL RECURSIVE-CALL RECURSIVE-CALL) NIL)
+  ((EARLIER-WRLD ACC T EARLIER-WRLD ACC T EARLIER-WRLD ACC NIL EARLIER-WRLD ACC
+    IN-LOCAL-FLG)
+   NIL (CDR CDR CDR (INTEGERP N) T (INTEGERP N) T CDR) NIL NIL NIL NIL)) (/home/acl2/books/misc/dump-events.lisp::FMT-LST
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (COND)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           ((ENDP
+                                                                             LST)
+                                                                            T)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((STATE)
+                                                                           NIL
+                                                                           NIL
+                                                                           (PPROGN)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (RECURSIVE-CALL)
+                                                                           NIL
+                                                                           (FMS))
+                                                                          ((~q0
+                                                                            CHAN
+                                                                            STATE
+                                                                            NIL
+                                                                            CHAN
+                                                                            STATE)
+                                                                           NIL
+                                                                           (LIST
+                                                                            CDR)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((LST)
+                                                                           NIL
+                                                                           NIL
+                                                                           (CONS)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((0)
+                                                                           NIL
+                                                                           (CAR)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/misc/dump-events.lisp::DUMP-EVENTS-FN
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (LET)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (((WRLD
+                                                                                     (W
+                                                                                      STATE)))
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (ER-LET*)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   ((EARLIER-WRLD
+                                                                                     (ER-DECODE-CD
+                                                                                      EARLIER-CD
+                                                                                      WRLD
+                                                                                      'DUMP-EVENTS
+                                                                                      STATE)))
+                                                                                   (COND)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (LATER-WRLD
+                                                                                    (<=
+                                                                                     (LENGTH
+                                                                                      LATER-WRLD)
+                                                                                     (LENGTH
+                                                                                      EARLIER-WRLD))
+                                                                                    T)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (MV-LET)
+                                                                                   (ER-DECODE-CD)
+                                                                                   (ER))
+                                                                                  ((LATER-CD
+                                                                                    WRLD
+                                                                                    STATE
+                                                                                    SOFT
+                                                                                    The command descriptor ~p0 does not refer to a later (longer) ~
+                 world than does the command descriptor ~p1.
+                                                                                    LATER-CD
+                                                                                    EARLIER-CD)
+                                                                                   NIL
+                                                                                   (QUOTE
+                                                                                    QUOTE
+                                                                                    CHAN)
+                                                                                   NIL
+                                                                                   (OPEN-OUTPUT-CHANNEL)
+                                                                                   (PPROGN)
+                                                                                   NIL)
+                                                                                  ((DUMP-EVENTS
+                                                                                    DUMP-EVENTS
+                                                                                    STATE
+                                                                                    FILENAME
+                                                                                    CHARACTER
+                                                                                    STATE)
+                                                                                   NIL
+                                                                                   (VALUE)
+                                                                                   (CLOSE-OUTPUT-CHANNEL)
+                                                                                   (FMT-LST)
+                                                                                   NIL
+                                                                                   (FMS))))

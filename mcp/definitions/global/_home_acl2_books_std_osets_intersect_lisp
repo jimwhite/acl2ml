@@ -1,0 +1,12 @@
+((/home/acl2/books/std/osets/intersect.lisp::FAST-INTERSECTP
+  (NIL NIL (X) NIL NIL NIL NIL) ((Y) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/osets/intersect.lisp::FAST-INTERSECT
+                                  (NIL NIL NIL (X) NIL NIL NIL)
+                                  ((Y ACC) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

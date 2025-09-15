@@ -1,0 +1,12 @@
+((/home/acl2/books/tools/trivial-ancestors-check.lisp::CHECK-ASSUMED-TRUE-OR-FALSE
+  (NIL NIL NIL (LIT) NIL NIL NIL) ((LIT-ATM ANCESTORS) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/trivial-ancestors-check.lisp::TRIVIAL-ANCESTORS-CHECK
+                                  (NIL NIL NIL (LIT) NIL NIL NIL)
+                                  ((ANCESTORS TOKENS) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

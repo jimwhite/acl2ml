@@ -1,0 +1,91 @@
+((/home/acl2/books/system/remove-guard-holders1.lisp::BADGE-USERFN-STRUCTURE-ALISTP-FORWARD-TO-WEAK-BADGE-USERFN-STRUCTURE-ALISTP
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (BADGE-USERFN-STRUCTURE-ALISTP WEAK-BADGE-USERFN-STRUCTURE-ALISTP)
+   NIL NIL NIL NIL)
+  ((X X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/remove-guard-holders1.lisp::LEN-MV-NTH-1-REMOVE-GUARD-HOLDERS1-LST
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL (LEN LEN) NIL NIL NIL NIL)
+                                  ((LST) NIL NIL (MV-NTH) NIL NIL NIL)
+                                  (NIL (1) NIL (REMOVE-GUARD-HOLDERS1-LST) NIL
+                                   NIL NIL)
+                                  ((LST LAMP) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/remove-guard-holders1.lisp::PSEUDO-TERMP-REMOVE-GUARD-HOLDERS1
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (PSEUDO-TERMP
+                                                                    PSEUDO-TERMP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((TERM) NIL
+                                                                   NIL (MV-NTH)
+                                                                   NIL NIL NIL)
+                                                                  (NIL (1) NIL
+                                                                   NIL
+                                                                   (REMOVE-GUARD-HOLDERS1)
+                                                                   NIL NIL)
+                                                                  ((CHANGEDP0
+                                                                    TERM LAMP)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/system/remove-guard-holders1.lisp::PSEUDO-TERM-LISTP-REMOVE-GUARD-HOLDERS1-LST
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (PSEUDO-TERM-LISTP
+                                                                            PSEUDO-TERM-LISTP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((LST)
+                                                                           NIL
+                                                                           NIL
+                                                                           (MV-NTH)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           (1)
+                                                                           NIL
+                                                                           (REMOVE-GUARD-HOLDERS1-LST)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((LST
+                                                                            LAMP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

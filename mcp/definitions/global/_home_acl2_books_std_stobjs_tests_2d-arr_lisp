@@ -1,0 +1,86 @@
+((/home/acl2/books/std/stobjs/tests/2d-arr.lisp::F-STRINGP
+  ((X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/stobjs/tests/2d-arr.lisp::NONEMPTY-STR-FIX
+                                  ((X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/stobjs/tests/2d-arr.lisp::F-STRINGP-WHEN-STRINGP
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (F-STRINGP)
+                                                                   NIL (AND)
+                                                                   NIL NIL)
+                                                                  ((X) NIL
+                                                                   (STRINGP)
+                                                                   (< EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  ((X f) (0)
+                                                                   (LENGTH)
+                                                                   (CHAR) NIL
+                                                                   NIL NIL)
+                                                                  ((X X) (0)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/std/stobjs/tests/2d-arr.lisp::NONEMPTY-STR-FIX-WHEN-F-STRINGP
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (F-STRINGP)
+                                                                           (EQUAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X
+                                                                            X)
+                                                                           NIL
+                                                                           (NONEMPTY-STR-FIX)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

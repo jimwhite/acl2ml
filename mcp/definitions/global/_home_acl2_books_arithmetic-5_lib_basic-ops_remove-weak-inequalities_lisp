@@ -1,0 +1,94 @@
+((/home/acl2/books/arithmetic-5/lib/basic-ops/remove-weak-inequalities.lisp::REMOVE-WEAK-INEQUALITIES-FN
+  (NIL NIL NIL NIL (X) NIL NIL) ((Y MFC STATE) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/remove-weak-inequalities.lisp::REMOVE-WEAK-INEQUALITIES
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL NIL (<=) (AND) NIL NIL)
+                                  ((X Y) NIL (SYNTAXP SYNTAXP) (<=) NIL NIL
+                                   NIL)
+                                  ((X Y) NIL NIL NIL (REWRITING-GOAL-LITERAL)
+                                   (REMOVE-WEAK-INEQUALITIES-FN) NIL)
+                                  ((X MFC STATE X Y MFC STATE) NIL NIL NIL NIL
+                                   NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/remove-weak-inequalities.lisp::REMOVE-STRICT-INEQUALITIES-FN
+                                                                  (NIL NIL NIL
+                                                                   NIL (X) NIL
+                                                                   NIL)
+                                                                  ((Y MFC
+                                                                    STATE)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/remove-weak-inequalities.lisp::REMOVE-STRICT-INEQUALITIES
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (<)
+                                                                           (AND)
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X
+                                                                            Y)
+                                                                           NIL
+                                                                           (SYNTAXP
+                                                                            SYNTAXP)
+                                                                           (<)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X
+                                                                            Y)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (REWRITING-GOAL-LITERAL)
+                                                                           (REMOVE-STRICT-INEQUALITIES-FN)
+                                                                           NIL)
+                                                                          ((X
+                                                                            MFC
+                                                                            STATE
+                                                                            X Y
+                                                                            MFC
+                                                                            STATE)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

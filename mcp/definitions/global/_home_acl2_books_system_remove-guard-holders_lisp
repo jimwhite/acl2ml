@@ -1,0 +1,304 @@
+((/home/acl2/books/system/remove-guard-holders.lisp::BADGE-USERFN-STRUCTURE-ALISTP-IMPLIES-WEAK-BADGE-USERFN-STRUCTURE-ALISTP
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (BADGE-USERFN-STRUCTURE-ALISTP WEAK-BADGE-USERFN-STRUCTURE-ALISTP)
+   NIL NIL NIL NIL)
+  ((X X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::ILKS-PLIST-WORLDP-FORWARD-TO-PLIST-WORLDP
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (ILKS-PLIST-WORLDP PLIST-WORLDP) NIL
+                                   NIL NIL NIL)
+                                  ((W W) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::ILKS-PLIST-WORLDP-FORWARD-TO-ALISTP-FOR-BADGE-USERFN-STRUCTURE
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (ILKS-PLIST-WORLDP)
+                                                                   (AND) NIL
+                                                                   NIL NIL)
+                                                                  ((WRLD) NIL
+                                                                   (ALISTP
+                                                                    ALISTP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL
+                                                                   (CDR) NIL
+                                                                   NIL
+                                                                   (FGETPROP)
+                                                                   NIL)
+                                                                  ((NIL WRLD)
+                                                                   NIL 'QUOTE
+                                                                   (ASSOC-EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  ((BADGE-TABLE
+                                                                    TABLE-ALIST
+                                                                    BADGE-USERFN-STRUCTURE)
+                                                                   NIL NIL NIL
+                                                                   NIL
+                                                                   (FGETPROP)
+                                                                   NIL)
+                                                                  ((NIL WRLD)
+                                                                   NIL 'QUOTE
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::WEAK-BADGE-USERFN-STRUCTURE-ALISTP-FORWARD-TO-ALISTP
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (WEAK-BADGE-USERFN-STRUCTURE-ALISTP
+                                                                            ALISTP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((ALIST
+                                                                            ALIST)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::ARGLISTP-FORWARD-TO-SYMBOL-LISTP
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (ARGLISTP
+                                                                                    SYMBOL-LISTP)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::WEAK-SPLO-EXTRACTS-TUPLE-LISTP-FORWARD-TO-TRUE-LISTP
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (WEAK-SPLO-EXTRACTS-TUPLE-LISTP
+                                                                                            TRUE-LISTP)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((X
+                                                                                            X)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::WEAK-SPLO-EXTRACTS-TUPLE-LISTP-APPEND
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (IMPLIES)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (TRUE-LISTP)
+                                                                                                   (EQUAL)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X)
+                                                                                                   NIL
+                                                                                                   (WEAK-SPLO-EXTRACTS-TUPLE-LISTP)
+                                                                                                   (AND)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (WEAK-SPLO-EXTRACTS-TUPLE-LISTP
+                                                                                                    WEAK-SPLO-EXTRACTS-TUPLE-LISTP)
+                                                                                                   (APPEND)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    Y
+                                                                                                    X
+                                                                                                    Y)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/system/remove-guard-holders.lisp::WEAK-SPLO-EXTRACTS-TUPLE-LISTP-OF-SYNTACTICALLY-PLAUSIBLE-LAMBDA-OBJECTP
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (IMPLIES)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (WEAK-SPLO-EXTRACTS-TUPLE-LISTP)
+                                                                                                           (SYNTACTICALLY-PLAUSIBLE-LAMBDA-OBJECTP)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((NIL
+                                                                                                            X)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (SYNTACTICALLY-PLAUSIBLE-LAMBDA-OBJECTP)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((NIL
+                                                                                                            X)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)))

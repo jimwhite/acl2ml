@@ -1,0 +1,139 @@
+((/home/acl2/books/system/apply/apply-prim-support.lisp::TAILS-AC=TAILS
+  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+  (NIL NIL NIL (TAILS-AC REVAPPEND) NIL NIL NIL)
+  ((LST AC AC) NIL (TAILS) NIL NIL NIL NIL) ((LST) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/apply/apply-prim-support.lisp::LOOP$-AS-AC=LOOP$-AS
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL NIL (LOOP$-AS-AC REVAPPEND) NIL NIL
+                                   NIL)
+                                  ((TUPLE AC AC) NIL (LOOP$-AS) NIL NIL NIL
+                                   NIL)
+                                  ((TUPLE) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/apply/apply-prim-support.lisp::FROM-TO-BY-MEASURE
+                                                                  (NIL NIL NIL
+                                                                   NIL (IF) NIL
+                                                                   NIL)
+                                                                  (NIL (0) NIL
+                                                                   (+) (AND)
+                                                                   NIL NIL)
+                                                                  (NIL (1)
+                                                                   (INTEGERP
+                                                                    INTEGERP)
+                                                                   (<= -) NIL
+                                                                   NIL NIL)
+                                                                  ((I J I J J
+                                                                    I)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/system/apply/apply-prim-support.lisp::NATP-FROM-TO-BY-MEASURE
+                                                                          (NIL
+                                                                           NIL
+                                                                           (NATP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (FROM-TO-BY-MEASURE)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((I
+                                                                            J)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/system/apply/apply-prim-support.lisp::NATP-FROM-TO-BY-MEASURE
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (NATP)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (FROM-TO-BY-MEASURE)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((I
+                                                                                    J)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)))

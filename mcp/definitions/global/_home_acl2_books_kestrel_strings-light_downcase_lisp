@@ -1,0 +1,28 @@
+((/home/acl2/books/kestrel/strings-light/downcase.lisp::CHARACTER-LISTP-OF-CHARS-DOWNCASE-GEN
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (CHARACTER-LISTP) (AND) NIL NIL NIL)
+  (NIL NIL (CHARACTER-LISTP CHARACTER-LISTP) (CHARS-DOWNCASE-GEN) NIL NIL NIL)
+  ((CHARS ACC CHARS ACC) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/strings-light/downcase.lisp::STRINGP-OF-STRING-DOWNCASE-GEN
+                                                                (NIL NIL
+                                                                 (STRINGP) NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL
+                                                                 (STRING-DOWNCASE-GEN)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((STR) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)))

@@ -1,0 +1,241 @@
+((/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::CHARACTER-LISTP-OF-MAKE-CHARACTER-LIST
+  (NIL NIL (CHARACTER-LISTP) NIL NIL NIL NIL)
+  (NIL NIL (MAKE-CHARACTER-LIST) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::LEN-OF-MAKE-CHARACTER-LIST
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (LEN LEN) NIL
+                                                                 NIL NIL NIL)
+                                                                ((X) NIL
+                                                                 (MAKE-CHARACTER-LIST)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((X) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::MAKE-CHARACTER-LIST-IFF
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IFF)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (MAKE-CHARACTER-LIST
+                                                                          CONSP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::CONSP-OF-MAKE-CHARACTER-LIST
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (CONSP
+                                                                                  CONSP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 (MAKE-CHARACTER-LIST)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::CAR-OF-MAKE-CHARACTER-LIST
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (CAR)
+                                                                                         NIL
+                                                                                         (IF)
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((NIL)
+                                                                                         NIL
+                                                                                         (MAKE-CHARACTER-LIST
+                                                                                          NOT)
+                                                                                         (LET)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          (CAR
+                                                                                           (FIRST
+                                                                                            X)))
+                                                                                         NIL
+                                                                                         (CONSP)
+                                                                                         NIL
+                                                                                         (IF)
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          CAR
+                                                                                          *NULL-CHAR*)
+                                                                                         NIL
+                                                                                         (CHARACTERP)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((CAR)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)) (/home/acl2/books/kestrel/typed-lists-light/make-character-list.lisp::NTH-OF-MAKE-CHARACTER-LIST
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 (EQUAL)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 (NTH)
+                                                                                                 (IF)
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((N
+                                                                                                  NIL)
+                                                                                                 NIL
+                                                                                                 (MAKE-CHARACTER-LIST)
+                                                                                                 (<=
+                                                                                                  LET)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((X
+                                                                                                  (CHAR
+                                                                                                   (NTH
+                                                                                                    N
+                                                                                                    X)))
+                                                                                                 NIL
+                                                                                                 (LEN
+                                                                                                  NFIX)
+                                                                                                 NIL
+                                                                                                 (IF)
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((X
+                                                                                                  N
+                                                                                                  CHAR
+                                                                                                  *NULL-CHAR*)
+                                                                                                 NIL
+                                                                                                 (CHARACTERP)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                ((CHAR)
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)
+                                                                                                (NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL
+                                                                                                 NIL)))

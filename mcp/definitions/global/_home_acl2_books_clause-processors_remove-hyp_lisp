@@ -1,0 +1,190 @@
+((/home/acl2/books/clause-processors/remove-hyp.lisp::REMOVE-FIRST-HYP-CP
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL NIL (CONSP LIST LIST) NIL NIL NIL NIL)
+  ((CLAUSE CLAUSE) NIL (CDR) NIL NIL NIL NIL)
+  ((CLAUSE) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/clause-processors/remove-hyp.lisp::REMOVE-FIRST-HYP-CP-CORRECT
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (REMOVE-HYP-EV)
+                                                                 (AND) NIL NIL)
+                                                                ((A) NIL
+                                                                 (PSEUDO-TERM-LISTP
+                                                                  ALISTP
+                                                                  DISJOIN)
+                                                                 (REMOVE-HYP-EV)
+                                                                 NIL NIL NIL)
+                                                                ((X A A X) NIL
+                                                                 (CONJOIN-CLAUSES)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (REMOVE-FIRST-HYP-CP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((X) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/clause-processors/remove-hyp.lisp::REMOVE-HYP-CP
+                                                                        (NIL
+                                                                         NIL
+                                                                         (LIST)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (REMOVE-EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((HYP
+                                                                          CLAUSE)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/clause-processors/remove-hyp.lisp::DISJOIN-OF-REMOVE-EQUAL
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (NOT
+                                                                                  NOT)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (REMOVE-HYP-EV
+                                                                                  REMOVE-HYP-EV)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((A
+                                                                                  A)
+                                                                                 NIL
+                                                                                 (DISJOIN
+                                                                                  DISJOIN)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (REMOVE)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((HYP
+                                                                                  X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/clause-processors/remove-hyp.lisp::REMOVE-HYP-CP-CORRECT
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (IMPLIES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (REMOVE-HYP-EV)
+                                                                                         (AND)
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((A)
+                                                                                         NIL
+                                                                                         (PSEUDO-TERM-LISTP
+                                                                                          ALISTP
+                                                                                          DISJOIN)
+                                                                                         (REMOVE-HYP-EV)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          A
+                                                                                          A
+                                                                                          X)
+                                                                                         NIL
+                                                                                         (CONJOIN-CLAUSES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (REMOVE-HYP-CP)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((X
+                                                                                          HYP)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

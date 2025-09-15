@@ -1,0 +1,131 @@
+((/home/acl2/books/std/strings/stringless.lisp::TRANSITIVITY-OF-STRING<
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL NIL (AND STRING<) NIL NIL NIL)
+  ((X Z) NIL NIL (STRING< STRING<) NIL NIL NIL)
+  ((X Y Y Z) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/strings/stringless.lisp::TRANSITIVITY-OF-STRING<-NEGATED
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL (NOT)
+                                                                 (AND) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (NOT NOT)
+                                                                 (STRING<) NIL
+                                                                 NIL NIL)
+                                                                ((X Z) NIL NIL
+                                                                 (STRING<
+                                                                  STRING<)
+                                                                 NIL NIL NIL)
+                                                                ((X Y Y Z) NIL
+                                                                 NIL NIL NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/std/strings/stringless.lisp::STRING<-OF-STR-FIX-1
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (STRING<
+                                                                          STRING<)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((Y X
+                                                                          Y)
+                                                                         NIL
+                                                                         (STR-FIX)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/std/strings/stringless.lisp::STRING<-OF-STR-FIX-2
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (STRING<
+                                                                                  STRING<)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 (STR-FIX)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((Y)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)))

@@ -1,0 +1,187 @@
+((/home/acl2/books/rtl/rel9/arithmetic/complex-rationalp.lisp::COMPLEX-RATIONALP-+-WHEN-SECOND-TERM-IS-RATIONAL
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL (RATIONALP) (EQUAL) NIL NIL NIL)
+  ((Y) NIL (COMPLEX-RATIONALP COMPLEX-RATIONALP) NIL NIL NIL NIL)
+  ((X) NIL NIL (+) NIL NIL NIL) ((X Y) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/complex-rationalp.lisp::COMPLEX-RATIONALP-+-WHEN-SECOND-TERM-IS-NOT-COMPLEX
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL (NOT)
+                                                                 (EQUAL) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (COMPLEX-RATIONALP
+                                                                  COMPLEX-RATIONALP
+                                                                  COMPLEX-RATIONALP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((Y X) NIL NIL
+                                                                 (+) NIL NIL
+                                                                 NIL)
+                                                                ((X Y) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/rtl/rel9/arithmetic/complex-rationalp.lisp::COMPLEX-RATIONALP-+-WHEN-FIRST-TERM-IS-RATIONAL
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (RATIONALP)
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X)
+                                                                         NIL
+                                                                         (COMPLEX-RATIONALP
+                                                                          COMPLEX-RATIONALP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         (+)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/rtl/rel9/arithmetic/complex-rationalp.lisp::COMPLEX-RATIONALP-+-WHEN-FIRST-TERM-IS-NOT-COMPLEX
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (NOT)
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (COMPLEX-RATIONALP
+                                                                                  COMPLEX-RATIONALP
+                                                                                  COMPLEX-RATIONALP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (+)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((X
+                                                                                  Y)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/rtl/rel9/arithmetic/complex-rationalp.lisp::COMPLEX-RATIONALP-*-DROP-FIRST-TERM-IF-RATIONAL
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (IMPLIES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (AND
+                                                                                          EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (CASE-SPLIT
+                                                                                          RATIONALP
+                                                                                          COMPLEX-RATIONALP
+                                                                                          COMPLEX-RATIONALP)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((Y
+                                                                                          X)
+                                                                                         NIL
+                                                                                         (NOT)
+                                                                                         (*)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((Y
+                                                                                          X)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((Y)
+                                                                                         (0)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

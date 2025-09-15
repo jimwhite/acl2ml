@@ -1,0 +1,163 @@
+((/home/acl2/books/centaur/misc/evaluator-metatheorems.lisp::IS-N-CDRS-OF-X
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL NIL (ZP) (EQ CASE-MATCH) NIL NIL NIL)
+  ((N TERM X TERM) NIL (('CDR INNER)) NIL NIL NIL NIL)
+  (NIL NIL NIL NIL (RECURSIVE-CALL) NIL NIL)
+  ((INNER X) NIL (1-) NIL NIL NIL NIL) ((N) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/misc/evaluator-metatheorems.lisp::LIST-OF-EV-APPS-P
+                                  (NIL NIL NIL NIL (IF) NIL NIL)
+                                  (NIL NIL (ATOM) (EQ LET) NIL NIL NIL)
+                                  ((LST LST NIL (FIRST (CAR LST))) NIL NIL
+                                   (CASE-MATCH) NIL NIL NIL)
+                                  ((FIRST) NIL ((!EVFN ('CAR N-CDRS-OF-X) 'A))
+                                   NIL NIL NIL NIL)
+                                  (NIL NIL NIL (AND) NIL NIL NIL)
+                                  (NIL NIL NIL NIL (IS-N-CDRS-OF-X)
+                                   (RECURSIVE-CALL) NIL)
+                                  ((N-CDRS-OF-X X EVFN X) NIL (1+ CDR 1+) NIL
+                                   NIL NIL NIL)) (/home/acl2/books/centaur/misc/evaluator-metatheorems.lisp::EV-COLLECT-APPLY-LEMMAS1
+                                                  (NIL NIL NIL NIL (IF) NIL
+                                                   NIL)
+                                                  ((NIL) NIL (ATOM) (B*) NIL
+                                                   NIL NIL)
+                                                  ((LEMMAS) NIL NIL NIL (IF)
+                                                   NIL NIL)
+                                                  ((REST) NIL
+                                                   (HYPS EQUIV LHS RHS RUNE
+                                                    AGGREGATE REST)
+                                                   (EQ) NIL (CASE-MATCH) NIL)
+                                                  ((EQUIV LHS) NIL
+                                                   (QUOTE (!EVFN QUOTE (X A))
+                                                    (!EVLSTFN QUOTE (X-LST A))
+                                                    &)
+                                                   (LIST)
+                                                   (ACCESS ACCESS ACCESS ACCESS
+                                                    ACCESS RECURSIVE-CALL)
+                                                   NIL NIL)
+                                                  ((REWRITE-RULE RULE HYPS
+                                                    REWRITE-RULE RULE EQUIV
+                                                    REWRITE-RULE RULE LHS
+                                                    REWRITE-RULE RULE RHS
+                                                    REWRITE-RULE RULE RUNE HYPS
+                                                    RHS EVFN EVLSTFN EQUAL
+                                                    REST)
+                                                   NIL (CDR) NIL NIL
+                                                   (CASE-MATCH) NIL)
+                                                  ((LEMMAS AGGREGATE AGGREGATE)
+                                                   NIL
+                                                   (('((CONSP X)
+                                                       (SYNP 'NIL
+                                                        '(SYNTAXP
+                                                          (NOT
+                                                           (EQUAL A ''NIL)))
+                                                        '(IF (NOT
+                                                              (EQUAL A ''NIL))
+                                                             'T
+                                                             'NIL))
+                                                       (NOT
+                                                        (EQUAL (CAR X)
+                                                               'QUOTE)))
+                                                     (!EVFN
+                                                      ('CONS '(CAR X)
+                                                       ('KWOTE-LST
+                                                        (!EVLSTFN QUOTE
+                                                         ((CDR X) A))))
+                                                      ''NIL))
+                                                    ('((SYMBOLP X))
+                                                     '(IF X
+                                                          (CDR
+                                                           (ASSOC-EQUAL X A))
+                                                          'NIL))
+                                                    ('((CONSP X)
+                                                       (EQUAL (CAR X) 'QUOTE))
+                                                     '(CAR (CDR X)))
+                                                    ('((CONSP X)
+                                                       (CONSP (CAR X)))
+                                                     (!EVFN
+                                                      '(CAR
+                                                        (CDR (CDR (CAR X))))
+                                                      ('PAIRLIS$
+                                                       '(CAR (CDR (CAR X)))
+                                                       (!EVLSTFN QUOTE
+                                                        ((CDR X) A)))))
+                                                    ((('CONSP 'X)
+                                                      ('EQUAL ('CAR 'X)
+                                                       ''RETURN-LAST))
+                                                     (!EVFN QUOTE
+                                                      ((CAR
+                                                        (CDR (CDR (CDR X))))
+                                                       A)))
+                                                    ((('CONSP 'X)
+                                                      ('EQUAL ('CAR 'X)
+                                                       ''MV-LIST))
+                                                     (!EVFN QUOTE
+                                                      ((CAR (CDR (CDR X))) A)))
+                                                    ((('CONSP 'X)
+                                                      ('EQUAL ('CAR 'X)
+                                                       ''CONS-WITH-HINT))
+                                                     ('CONS
+                                                      (!EVFN QUOTE
+                                                       ((CAR (CDR X)) A))
+                                                      (!EVFN QUOTE
+                                                       ((CAR (CDR (CDR X)))
+                                                        A))))
+                                                    ((('CONSP 'X)
+                                                      ('EQUAL ('CAR 'X)
+                                                       ''THE-CHECK))
+                                                     (!EVFN QUOTE
+                                                      ((CAR
+                                                        (CDR (CDR (CDR X))))
+                                                       A)))
+                                                    ((('CONSP 'X)
+                                                      ('EQUAL ('CAR 'X)
+                                                       ('QUOTE FN)))
+                                                     (FN . LIST-OF-EV-APPS))
+                                                    &
+                                                    ('((NOT (CONSP X-LST)))
+                                                     ''NIL)
+                                                    ('((CONSP X-LST))
+                                                     ('CONS
+                                                      (!EVFN QUOTE
+                                                       ((CAR X-LST) A))
+                                                      (!EVLSTFN QUOTE
+                                                       ((CDR X-LST) A))))
+                                                    &)
+                                                   NIL NIL NIL NIL)) (/home/acl2/books/centaur/misc/evaluator-metatheorems.lisp::EV-COLLECT-APPLY-LEMMAS
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       (EV-COLLECT-APPLY-LEMMAS1)
+                                                                       NIL NIL)
+                                                                      ((EVFN
+                                                                        EVLSTFN)
+                                                                       NIL NIL
+                                                                       (APPEND)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL
+                                                                       (FGETPROP
+                                                                        FGETPROP)
+                                                                       NIL)
+                                                                      ((EVFN
+                                                                        NIL
+                                                                        WORLD
+                                                                        EVLSTFN
+                                                                        NIL
+                                                                        WORLD)
+                                                                       NIL
+                                                                       'QUOTE
+                                                                       NIL NIL
+                                                                       NIL NIL)
+                                                                      ((LEMMAS
+                                                                        LEMMAS)
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)))

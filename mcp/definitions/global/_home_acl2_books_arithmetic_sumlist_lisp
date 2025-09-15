@@ -1,0 +1,79 @@
+((/home/acl2/books/arithmetic/sumlist.lisp::SUMLIST
+  (NIL NIL NIL NIL (IF) NIL NIL) (NIL (0) (CONSP) (+) NIL NIL NIL)
+  ((X) NIL (CAR RECURSIVE-CALL) NIL NIL NIL NIL)
+  ((X) NIL (CDR) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic/sumlist.lisp::RATIONALP-SUMLIST
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (RATIONAL-LISTP
+                                                                  RATIONALP)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((X) NIL
+                                                                 (SUMLIST) NIL
+                                                                 NIL NIL NIL)
+                                                                ((X) NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/arithmetic/sumlist.lisp::SUMLIST-APPEND
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (SUMLIST)
+                                                                         (+)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (SUMLIST
+                                                                          SUMLIST)
+                                                                         (APPEND)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y X
+                                                                          Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)))

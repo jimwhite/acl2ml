@@ -1,0 +1,255 @@
+((/home/acl2/books/std/osets/under-set-equiv.lisp::ALL-LIST
+  ((X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::PICK-A-POINT-SUBSETP-EQUAL-STRATEGY
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL NIL (AND EQUAL) NIL NIL NIL)
+                                  (NIL NIL (SYNTAXP SYNTAXP)
+                                   (SUBSETP-EQUAL SUBSETP-EQUAL-TRIGGER) NIL
+                                   NIL NIL)
+                                  ((X Y X Y) NIL NIL (REWRITING-GOAL-LIT)
+                                   (REWRITING-CONC-LIT) NIL NIL)
+                                  ((MFC STATE MFC STATE) NIL (QUASIQUOTE) NIL
+                                   NIL NIL NIL)
+                                  (NIL NIL NIL (SUBSETP-EQUAL) NIL NIL NIL)
+                                  ((,X ,Y) NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::INSERT-UNDER-SET-EQUIV
+                                                                      (NIL NIL
+                                                                       NIL
+                                                                       (SET-EQUIV)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL
+                                                                       (INSERT
+                                                                        CONS)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      ((A X A)
+                                                                       NIL
+                                                                       (SFIX)
+                                                                       NIL NIL
+                                                                       NIL NIL)
+                                                                      ((X) NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::DELETE-UNDER-SET-EQUIV
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               (SET-EQUIV)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               (DELETE
+                                                                                REMOVE-EQUAL)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((A
+                                                                                X
+                                                                                A)
+                                                                               NIL
+                                                                               (SFIX)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((X)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::INTERSECT-UNDER-SET-EQUIV
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (SET-EQUIV)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (INTERSECT
+                                                                                        INTERSECTION-EQUAL)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((X
+                                                                                        Y)
+                                                                                       NIL
+                                                                                       (SFIX
+                                                                                        SFIX)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((X
+                                                                                        Y)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::DIFFERENCE-UNDER-SET-EQUIV
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (SET-EQUIV)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (DIFFERENCE
+                                                                                                SET-DIFFERENCE-EQUAL)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              ((X
+                                                                                                Y)
+                                                                                               NIL
+                                                                                               (SFIX
+                                                                                                SFIX)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              ((X
+                                                                                                Y)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)) (/home/acl2/books/std/osets/under-set-equiv.lisp::MERGESORT-UNDER-SET-EQUIV
+                                                                                                      (NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       (SET-EQUIV)
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      ((X)
+                                                                                                       NIL
+                                                                                                       (MERGESORT)
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      ((X)
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      (NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      (NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      (NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)
+                                                                                                      (NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL
+                                                                                                       NIL)))

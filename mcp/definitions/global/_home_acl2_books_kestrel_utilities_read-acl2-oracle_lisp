@@ -1,0 +1,38 @@
+((/home/acl2/books/kestrel/utilities/read-acl2-oracle.lisp::STATE-P1-OF-MV-NTH-2-OF-READ-ACL2-ORACLE
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (STATE-P1 STATE-P1) NIL NIL NIL NIL)
+  ((STATE) NIL NIL (MV-NTH) NIL NIL NIL)
+  (NIL (2) (READ-ACL2-ORACLE) NIL NIL NIL NIL)
+  ((STATE) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/utilities/read-acl2-oracle.lisp::OPEN-INPUT-CHANNELS-OF-MV-NTH-2-OF-READ-ACL2-ORACLE
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL
+                                   (OPEN-INPUT-CHANNELS OPEN-INPUT-CHANNELS)
+                                   NIL NIL NIL NIL)
+                                  ((STATE) NIL NIL (MV-NTH) NIL NIL NIL)
+                                  (NIL (2) (READ-ACL2-ORACLE) NIL NIL NIL NIL)
+                                  ((STATE) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/utilities/read-acl2-oracle.lisp::W-OF-MV-NTH-2-OF-READ-ACL2-ORACLE
+                                                                  (NIL NIL NIL
+                                                                   (EQUAL) NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL
+                                                                   (W W) NIL
+                                                                   NIL NIL NIL)
+                                                                  ((STATE) NIL
+                                                                   NIL (MV-NTH)
+                                                                   NIL NIL NIL)
+                                                                  (NIL (2)
+                                                                   (READ-ACL2-ORACLE)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((STATE) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)))

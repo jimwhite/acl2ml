@@ -1,0 +1,5 @@
+((/home/acl2/books/arithmetic-5/lib/basic-ops/we-are-here.lisp::ARITH-5-ACTIVE-FLAG
+  (NIL NIL NIL NIL (IF) NIL NIL) ((BAR) NIL (NOT) (<) NIL NIL NIL)
+  ((FOO BAR) (17) NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)))

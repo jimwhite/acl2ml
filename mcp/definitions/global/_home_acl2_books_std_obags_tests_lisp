@@ -1,0 +1,12 @@
+((/home/acl2/books/std/obags/tests.lisp::BFIX-TEST1
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) ((NIL) NIL (BFIX) NIL NIL NIL NIL)
+  (NIL (44) NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/obags/tests.lisp::BFIX-TEST2
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  ((NIL) NIL (BFIX) NIL NIL NIL NIL)
+                                  (NIL NIL (QUOTE) NIL NIL NIL NIL)
+                                  (NIL NIL (2) NIL NIL NIL NIL)
+                                  (NIL (1) NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

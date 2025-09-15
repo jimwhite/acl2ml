@@ -1,0 +1,183 @@
+((/home/acl2/books/kestrel/utilities/keyword-value-listp.lisp::KEYWORD-VALUE-LISTP-OF-APPEND
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (KEYWORD-VALUE-LISTP) (AND) NIL NIL NIL)
+  (NIL NIL (KEYWORD-VALUE-LISTP KEYWORD-VALUE-LISTP) (APPEND) NIL NIL NIL)
+  ((X Y X Y) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/utilities/keyword-value-listp.lisp::KEYWORD-VALUE-LISTP-OF-CONS-OF-CONS
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (KEYWORD-VALUE-LISTP)
+                                                                 (AND) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (KEYWORDP
+                                                                  KEYWORD-VALUE-LISTP)
+                                                                 (CONS) NIL NIL
+                                                                 NIL)
+                                                                ((K K
+                                                                  KEYWORD-VALUE-LIST)
+                                                                 NIL NIL (CONS)
+                                                                 NIL NIL NIL)
+                                                                ((V
+                                                                  KEYWORD-VALUE-LIST)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/kestrel/utilities/keyword-value-listp.lisp::KEYWORD-VALUE-LISTP-OF-ASSOC-KEYWORD
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (KEYWORD-VALUE-LISTP
+                                                                          KEYWORD-VALUE-LISTP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((KEYWORD-VALUE-LIST)
+                                                                         NIL
+                                                                         NIL
+                                                                         (ASSOC-KEYWORD)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((KEY
+                                                                          KEYWORD-VALUE-LIST)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/kestrel/utilities/keyword-value-listp.lisp::KEYWORD-VALUE-LISTP-OF-CDDR
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (IMPLIES)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (KEYWORD-VALUE-LISTP
+                                                                                  KEYWORD-VALUE-LISTP)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((KEYWORD-VALUE-LIST)
+                                                                                 NIL
+                                                                                 (CDDR)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((KEYWORD-VALUE-LIST)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/kestrel/utilities/keyword-value-listp.lisp::KEYWORDP-OF-CAR-WHEN-KEYWORD-VALUE-LISTP
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (IMPLIES)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (KEYWORD-VALUE-LISTP)
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((KEYWORD-VALUE-LIST)
+                                                                                         NIL
+                                                                                         (KEYWORDP
+                                                                                          CONSP)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((KEYWORD-VALUE-LIST)
+                                                                                         NIL
+                                                                                         (CAR)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((KEYWORD-VALUE-LIST)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

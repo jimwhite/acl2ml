@@ -1,0 +1,99 @@
+((/home/acl2/books/system/termp.lisp::PLIST-WORLDP-WITH-FORMALS-FORWARD-TO-PLIST-WORLDP
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (PLIST-WORLDP-WITH-FORMALS PLIST-WORLDP) NIL NIL NIL NIL)
+  ((WRLD WRLD) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/termp.lisp::LEGAL-VARIABLE-OR-CONSTANT-NAMEP-IMPLIES-SYMBOLP
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (NOT NOT) NIL NIL NIL NIL)
+                                  (NIL NIL
+                                   (SYMBOLP LEGAL-VARIABLE-OR-CONSTANT-NAMEP)
+                                   NIL NIL NIL NIL)
+                                  ((X X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/termp.lisp::ARITIES-OKP-IMPLIES-ARITY
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (AND EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (CDR)
+                                                                   (ARITIES-OKP
+                                                                    ASSOC
+                                                                    ARITY)
+                                                                   NIL NIL NIL)
+                                                                  ((USER-TABLE
+                                                                    W FN
+                                                                    USER-TABLE
+                                                                    FN W)
+                                                                   NIL NIL
+                                                                   (ASSOC) NIL
+                                                                   NIL NIL)
+                                                                  ((FN
+                                                                    USER-TABLE)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/system/termp.lisp::ARITIES-OKP-IMPLIES-LOGICP
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (AND
+                                                                            LOGICP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((FN
+                                                                            W)
+                                                                           NIL
+                                                                           NIL
+                                                                           (ARITIES-OKP
+                                                                            ASSOC)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((USER-TABLE
+                                                                            W
+                                                                            FN
+                                                                            USER-TABLE)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

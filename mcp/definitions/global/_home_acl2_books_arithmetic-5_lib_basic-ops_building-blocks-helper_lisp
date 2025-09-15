@@ -1,0 +1,182 @@
+((/home/acl2/books/arithmetic-5/lib/basic-ops/building-blocks-helper.lisp::ONE
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL NIL (<=) (AND) NIL NIL)
+  (NIL (0) (INTEGERP INTEGERP) (<= LOGAND) NIL NIL NIL)
+  ((X Y Y X Y) (0) NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/building-blocks-helper.lisp::TWO
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (<=) (AND) NIL
+                                                                 NIL)
+                                                                ((Y) NIL
+                                                                 (INTEGERP
+                                                                  INTEGERP)
+                                                                 (<= LOGAND)
+                                                                 NIL NIL NIL)
+                                                                ((X Y Y X Y)
+                                                                 (0) NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/building-blocks-helper.lisp::REWRITE-FLOOR-X*Y-Z-LEFT
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (IMPLIES)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         (AND)
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (REAL/RATIONALP
+                                                                          REAL/RATIONALP
+                                                                          REAL/RATIONALP
+                                                                          NOT)
+                                                                         (FLOOR
+                                                                          FLOOR)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X Y Z
+                                                                          Z Y)
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL
+                                                                          * /)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((Z X Y
+                                                                          Z X)
+                                                                         (0)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/building-blocks-helper.lisp::POWER-OF-2-MEASURE
+                                                                                ((X)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/arithmetic-5/lib/basic-ops/building-blocks-helper.lisp::POWER-OF-2-HELPER
+                                                                                        ((X)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

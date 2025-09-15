@@ -1,0 +1,321 @@
+((/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-MINUS
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL NIL (AND EQUAL) NIL NIL NIL)
+  (NIL NIL (SYNTAXP CASE-SPLIT INTEGERP INTEGERP) NIL NIL NIL NIL)
+  ((X) NIL (NEGATIVE-SYNTAXP ACL2-NUMBERP) (*) NIL NIL NIL)
+  ((X X X) (-1) NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-SUM-TAKE-OUT-KNOWN-INTEGER
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (INTEGERP) (AND) NIL NIL NIL)
+                                  ((N) NIL NIL (EQUAL EQUAL) NIL NIL NIL)
+                                  (NIL NIL
+                                   (INTEGERP INTEGERP INTEGERP INTEGERP) NIL
+                                   NIL NIL NIL)
+                                  (NIL NIL (FIX FIX) (+ +) NIL NIL NIL)
+                                  ((N X X X N X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-SUM-TAKE-OUT-KNOWN-INTEGER-3
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (INTEGERP)
+                                                                   (AND) NIL
+                                                                   NIL NIL)
+                                                                  ((N) NIL NIL
+                                                                   (EQUAL
+                                                                    EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (INTEGERP
+                                                                    INTEGERP
+                                                                    INTEGERP
+                                                                    INTEGERP)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL
+                                                                   (FIX FIX)
+                                                                   NIL (+ +)
+                                                                   NIL NIL)
+                                                                  ((X N Y X Y
+                                                                    N)
+                                                                   NIL NIL
+                                                                   (+ +) NIL
+                                                                   NIL NIL)
+                                                                  ((X Y X Y)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-PROD
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (INTEGERP)
+                                                                                   (AND)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (INTEGERP
+                                                                                    INTEGERP)
+                                                                                   (*)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    Y
+                                                                                    X
+                                                                                    Y)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-PROD-OF-3-LAST-TWO
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (IMPLIES)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (INTEGERP)
+                                                                                           (AND)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           (INTEGERP
+                                                                                            INTEGERP)
+                                                                                           NIL
+                                                                                           (*)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((A
+                                                                                            A
+                                                                                            B
+                                                                                            C)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (*)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((B
+                                                                                            C)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-PROD-OF-3-FIRST-AND-LAST
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (IMPLIES)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (INTEGERP)
+                                                                                                   (AND)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   (INTEGERP
+                                                                                                    INTEGERP)
+                                                                                                   NIL
+                                                                                                   (*)
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((B
+                                                                                                    A
+                                                                                                    B
+                                                                                                    C)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (*)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((A
+                                                                                                    C)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-PROD-OF-3-FIRST-TWO
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (IMPLIES)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (INTEGERP)
+                                                                                                           (AND)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           (INTEGERP
+                                                                                                            INTEGERP)
+                                                                                                           NIL
+                                                                                                           (*)
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((C
+                                                                                                            A
+                                                                                                            B
+                                                                                                            C)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (*)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((A
+                                                                                                            B)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)) (/home/acl2/books/rtl/rel9/arithmetic/integerp.lisp::INTEGERP-+-REDUCE-LEADING-CONSTANT
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (IMPLIES)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   (SYNTAXP)
+                                                                                                                   (EQUAL)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   (INTEGERP
+                                                                                                                    INTEGERP)
+                                                                                                                   (AND)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   (QUOTEP)
+                                                                                                                   (OR
+                                                                                                                    +
+                                                                                                                    +)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((K
+                                                                                                                    K
+                                                                                                                    X
+                                                                                                                    X)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (>=
+                                                                                                                    <
+                                                                                                                    +)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((K)
+                                                                                                                   (1
+                                                                                                                    0)
+                                                                                                                   (CADR
+                                                                                                                    CADR
+                                                                                                                    -)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((K
+                                                                                                                    K)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (FLOOR)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)))

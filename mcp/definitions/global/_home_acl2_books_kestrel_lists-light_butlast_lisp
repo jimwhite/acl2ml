@@ -1,0 +1,185 @@
+((/home/acl2/books/kestrel/lists-light/butlast.lisp::CONSP-OF-BUTLAST
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL (CONSP) (<) NIL NIL NIL)
+  (NIL NIL (NFIX LEN) (BUTLAST) NIL NIL NIL)
+  ((LST N N LST) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/lists-light/butlast.lisp::CAR-OF-BUTLAST
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL (CAR)
+                                                                 NIL (IF) NIL
+                                                                 NIL)
+                                                                ((NIL) NIL
+                                                                 (CAR)
+                                                                 (BUTLAST <)
+                                                                 NIL NIL NIL)
+                                                                ((LST N LST)
+                                                                 NIL (NFIX LEN)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((N LST) NIL
+                                                                 NIL NIL NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/kestrel/lists-light/butlast.lisp::BUTLAST-OF-CONS
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (EQUAL)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (BUTLAST)
+                                                                         (IF)
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((N
+                                                                          NIL)
+                                                                         NIL
+                                                                         NIL
+                                                                         (CONS
+                                                                          <=
+                                                                          CONS)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((A LST
+                                                                          A)
+                                                                         NIL
+                                                                         (NFIX
+                                                                          LEN)
+                                                                         (BUTLAST)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((N LST
+                                                                          LST
+                                                                          N)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/kestrel/lists-light/butlast.lisp::CDR-OF-BUTLAST
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (CDR)
+                                                                                 (BUTLAST)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((N)
+                                                                                 NIL
+                                                                                 (CDR)
+                                                                                 (BUTLAST)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((LST
+                                                                                  N
+                                                                                  LST)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/kestrel/lists-light/butlast.lisp::BUTLAST-OF-NIL
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((NIL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (BUTLAST)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((NIL
+                                                                                          N)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

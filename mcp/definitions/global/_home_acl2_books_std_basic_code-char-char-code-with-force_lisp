@@ -1,0 +1,32 @@
+((/home/acl2/books/std/basic/code-char-char-code-with-force.lisp::CODE-CHAR-CHAR-CODE-IS-IDENTITY-FORCED
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL (FORCE) (EQUAL) NIL NIL NIL)
+  ((C) NIL (CHARACTERP CODE-CHAR) NIL NIL NIL NIL)
+  ((C) NIL (CHAR-CODE) NIL NIL NIL NIL) ((C) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/basic/code-char-char-code-with-force.lisp::CHAR-CODE-CODE-CHAR-IS-IDENTITY-FORCED
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) (AND)
+                                                                 NIL NIL)
+                                                                ((N) NIL
+                                                                 (FORCE FORCE
+                                                                  FORCE
+                                                                  CHAR-CODE)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (INTEGERP
+                                                                  CODE-CHAR)
+                                                                 (<= <) NIL NIL
+                                                                 NIL)
+                                                                ((N N N N)
+                                                                 (0 256) NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)))

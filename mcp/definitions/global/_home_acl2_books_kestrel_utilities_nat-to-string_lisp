@@ -1,0 +1,183 @@
+((/home/acl2/books/kestrel/utilities/nat-to-string.lisp::CHARACTER-LISTP-OF-NAT-TO-CHARS
+  (NIL NIL (CHARACTER-LISTP) NIL NIL NIL NIL)
+  (NIL NIL (NAT-TO-CHARS) NIL NIL NIL NIL) ((N) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/utilities/nat-to-string.lisp::EQUAL-OF-NAT-TO-CHARS-AND-NAT-TO-CHARS
+                                                                (NIL NIL NIL
+                                                                 (EQUAL) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 (EQUAL EQUAL)
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL
+                                                                 (NAT-TO-CHARS
+                                                                  NAT-TO-CHARS
+                                                                  NFIX NFIX)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((N1 N2 N1 N2)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/kestrel/utilities/nat-to-string.lisp::ALL-DIGIT-CHARSP-OF-NAT-TO-CHARS-AND-10
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         (ALL-DIGIT-CHARSP)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         (10)
+                                                                         (NAT-TO-CHARS)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((N)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)) (/home/acl2/books/kestrel/utilities/nat-to-string.lisp::EQUAL-OF-NAT-TO-STRING-AND-NAT-TO-STRING
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 (EQUAL
+                                                                                  EQUAL)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 (NAT-TO-STRING
+                                                                                  NAT-TO-STRING
+                                                                                  NFIX
+                                                                                  NFIX)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                ((N1
+                                                                                  N2
+                                                                                  N1
+                                                                                  N2)
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)
+                                                                                (NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL
+                                                                                 NIL)) (/home/acl2/books/kestrel/utilities/nat-to-string.lisp::NOT-EQUAL-OF-NAT-TO-STRING-AND-EMPTY-STRING
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         (NOT)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         (EQUAL)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (()
+                                                                                         NIL
+                                                                                         (NAT-TO-STRING)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        ((N)
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)
+                                                                                        (NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL
+                                                                                         NIL)))

@@ -1,0 +1,383 @@
+((/home/acl2/books/std/alists/put-assoc-equal.lisp::PUT-ASSOC-EQUAL-IDENTITY
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL NIL (EQUAL) (AND) NIL NIL)
+  ((X) NIL (ALISTP) (ASSOC-EQUAL EQUAL) (PUT-ASSOC-EQUAL) NIL NIL)
+  ((K X X V K V X) NIL (CDR) NIL NIL NIL NIL)
+  (NIL NIL NIL (ASSOC-EQUAL) NIL NIL NIL) ((K X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::HONS-ASSOC-EQUAL-OF-PUT-ASSOC-EQUAL
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL NIL (HONS-ASSOC-EQUAL) (IF) NIL NIL)
+                                  ((K) NIL NIL (EQUAL CONS HONS-ASSOC-EQUAL)
+                                   (PUT-ASSOC-EQUAL) NIL NIL)
+                                  ((K1 V X K K1 K V K X) NIL NIL NIL NIL NIL
+                                   NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::FAL-EXTRACT-OF-PUT-ASSOC-EQUAL
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (AND EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (NO-DUPLICATESP-EQUAL)
+                                                                   (HONS-ASSOC-EQUAL
+                                                                    FAL-EXTRACT)
+                                                                   (IF) NIL
+                                                                   NIL)
+                                                                  ((KEYS K X
+                                                                    KEYS)
+                                                                   NIL NIL
+                                                                   (MEMBER-EQUAL
+                                                                    FAL-EXTRACT)
+                                                                   (PUT-ASSOC-EQUAL
+                                                                    PUT-ASSOC-EQUAL)
+                                                                   NIL NIL)
+                                                                  ((K V X K
+                                                                    KEYS K V
+                                                                    KEYS X)
+                                                                   NIL NIL
+                                                                   (FAL-EXTRACT)
+                                                                   NIL NIL NIL)
+                                                                  ((KEYS X) NIL
+                                                                   NIL NIL NIL
+                                                                   NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::NO-DUPLICATE-KEYS-OF-PUT-ASSOC-EQUAL
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (NO-DUPLICATESP-EQUAL)
+                                                                           (AND)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (NO-DUPLICATESP-EQUAL
+                                                                            ALISTP
+                                                                            ALIST-KEYS)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (ALIST-KEYS)
+                                                                           NIL
+                                                                           (PUT-ASSOC-EQUAL)
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X K
+                                                                            V
+                                                                            X)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::PUT-ASSOC-EQUAL-ALTERNATE
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (HONS-ASSOC-EQUAL
+                                                                                    EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((K1
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (PUT-ASSOC-EQUAL
+                                                                                    PUT-ASSOC-EQUAL)
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((K1
+                                                                                    V1
+                                                                                    K1
+                                                                                    V1)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (PUT-ASSOC-EQUAL
+                                                                                    PUT-ASSOC-EQUAL)
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((K2
+                                                                                    V2
+                                                                                    K2
+                                                                                    V2
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (PUT-ASSOC-EQUAL)
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((K1
+                                                                                    V3
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::PUT-ASSOC-EQUAL-REDUNDANT
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (EQUAL)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (PUT-ASSOC-EQUAL
+                                                                                            PUT-ASSOC-EQUAL)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((K1
+                                                                                            V1
+                                                                                            K1
+                                                                                            V1
+                                                                                            X)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           (PUT-ASSOC-EQUAL)
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          ((K1
+                                                                                            V2
+                                                                                            X)
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)
+                                                                                          (NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL
+                                                                                           NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::ALIST-KEYS-OF-PUT-ASSOC-EQUAL
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (IMPLIES)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   (OR
+                                                                                                    EQUAL)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((K)
+                                                                                                   NIL
+                                                                                                   (ALISTP
+                                                                                                    ALIST-KEYS)
+                                                                                                   NIL
+                                                                                                   (IF)
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X)
+                                                                                                   NIL
+                                                                                                   (ALIST-KEYS)
+                                                                                                   (HONS-ASSOC-EQUAL
+                                                                                                    APPEND)
+                                                                                                   (PUT-ASSOC-EQUAL)
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((K
+                                                                                                    V
+                                                                                                    X
+                                                                                                    K
+                                                                                                    X
+                                                                                                    X)
+                                                                                                   NIL
+                                                                                                   (ALIST-KEYS
+                                                                                                    LIST)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  ((X
+                                                                                                    K)
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)
+                                                                                                  (NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL
+                                                                                                   NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::REMOVE-ASSOC-EQUAL-OF-PUT-ASSOC-EQUAL
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (EQUAL)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (REMOVE-ASSOC-EQUAL
+                                                                                                            REMOVE-ASSOC-EQUAL)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((NAME
+                                                                                                            NAME
+                                                                                                            X)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           (PUT-ASSOC-EQUAL)
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          ((NAME
+                                                                                                            VAL
+                                                                                                            X)
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)
+                                                                                                          (NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL
+                                                                                                           NIL)) (/home/acl2/books/std/alists/put-assoc-equal.lisp::ALISTP-OF-PUT-ASSOC-EQUAL
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (IMPLIES)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   (ALISTP
+                                                                                                                    ALISTP)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((X)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   (PUT-ASSOC-EQUAL)
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  ((K
+                                                                                                                    V
+                                                                                                                    X)
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)
+                                                                                                                  (NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL
+                                                                                                                   NIL)))

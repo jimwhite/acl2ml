@@ -1,0 +1,15 @@
+((/home/acl2/books/std/strings/isort.lisp::ISTR-LIST-P-REMOVAL
+  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+  (NIL NIL (ISTR-LIST-P STRING-LISTP) NIL NIL NIL NIL)
+  ((X) NIL (LIST-FIX) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/strings/isort.lisp::STRING-LISTP-OF-ISTR-SORT
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL (FORCE STRING-LISTP) NIL NIL NIL
+                                   NIL)
+                                  (NIL NIL (STRING-LISTP ISTR-SORT) NIL NIL NIL
+                                   NIL)
+                                  ((X X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

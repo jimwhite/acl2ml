@@ -1,0 +1,156 @@
+((/home/acl2/books/kestrel/fty/fty-omap.lisp::FLEXOMAP-COUNT
+  (NIL NIL NIL (B*) NIL NIL NIL)
+  (NIL NIL (QUASIQUOTE) NIL NIL NIL (((FLEXOMAP OMAP))))
+  (((DEFINE ,OMAP.COUNT ((,OMAP.XVAR ,OMAP.PRED)) RETURNS
+     (COUNT NATP RULE-CLASSES TYPE-PRESCRIPTION HINTS
+            ('(EXPAND (,OMAP.COUNT ,OMAP.XVAR) IN-THEORY
+               (DISABLE ,OMAP.COUNT))))
+     MEASURE
+     (LET ((,OMAP.XVAR (,OMAP.FIX ,OMAP.XVAR)))
+       ,OMAP.MEASURE)
+     ,@(AND (GETARG MEASURE-DEBUG NIL OMAP.KWD-ALIST) `(MEASURE-DEBUG T))
+     VERIFY-GUARDS NIL NO-FUNCTION T PROGN T
+     (IF (OR (EMPTYP ,OMAP.XVAR) (NOT (,OMAP.PRED ,OMAP.XVAR)))
+         1
+         (MV-LET (KEY VAL) (HEAD ,OMAP.XVAR) (DECLARE (IGNORABLE KEY VAL))
+          (+ 1 ,@(AND KEYCOUNT `((,KEYCOUNT KEY)))
+             ,@(AND VALCOUNT `((,VALCOUNT VAL)))
+             (,OMAP.COUNT (TAIL ,OMAP.XVAR)))))))
+   NIL ((UNLESS OMAP.COUNT) KEYCOUNT KEYCOUNT VALCOUNT VALCOUNT) NIL NIL NIL
+   NIL)
+  ((NIL) NIL NIL
+   (FLEXTYPES-FIND-COUNT-FOR-PRED OR FLEXTYPES-FIND-COUNT-FOR-PRED OR) NIL NIL
+   NIL)
+  ((OMAP.KEY-TYPE TYPES KEYCOUNT OMAP.VAL-TYPE TYPES VALCOUNT) NIL 'QUOTE NIL
+   NIL NIL NIL)
+  ((ACL2-COUNT ACL2-COUNT) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/fty/fty-omap.lisp::FLEXOMAP-COUNT-POST-EVENTS
+                                  (NIL NIL NIL (B*) NIL NIL NIL)
+                                  (NIL NIL (QUASIQUOTE) NIL NIL NIL NIL)
+                                  (NIL NIL
+                                   ((UNLESS OMAP.COUNT) KEYCOUNT KEYCOUNT
+                                    VALCOUNT VALCOUNT OMAP-COUNT-OF-UPDATE
+                                    OMAP-COUNT-OF-HEAD OMAP-COUNT-OF-HEAD-FIX
+                                    OMAP-COUNT-OF-TAIL OMAP-COUNT-OF-TAIL-FIX
+                                    OMAP-COUNT-OF-LOOKUP OMAP-COUNT-WHEN-EMPTYP
+                                    OMAP-COUNT-WHEN-NOT-EMPTYP)
+                                   NIL NIL NIL NIL)
+                                  ((NIL
+                                    ,@(AND KEYCOUNT VALCOUNT
+                                           `((DEFTHM ,OMAP-COUNT-OF-HEAD
+                                              (IMPLIES
+                                               (AND (NOT (EMPTYP ,OMAP.XVAR))
+                                                    (,OMAP.PRED ,OMAP.XVAR))
+                                               (<
+                                                (+
+                                                 (,KEYCOUNT
+                                                  (MV-NTH 0 (HEAD ,OMAP.XVAR)))
+                                                 (,VALCOUNT
+                                                  (MV-NTH 1
+                                                   (HEAD ,OMAP.XVAR))))
+                                                (,OMAP.COUNT ,OMAP.XVAR)))
+                                              RULE-CLASSES LINEAR)))
+                                    ,@(AND KEYCOUNT VALCOUNT
+                                           `((DEFTHM ,OMAP-COUNT-OF-HEAD-FIX
+                                              (IMPLIES
+                                               (CONSP (,OMAP.FIX ,OMAP.XVAR))
+                                               (<
+                                                (+
+                                                 (,KEYCOUNT
+                                                  (MV-NTH 0
+                                                   (HEAD
+                                                    (,OMAP.FIX ,OMAP.XVAR))))
+                                                 (,VALCOUNT
+                                                  (MV-NTH 1
+                                                   (HEAD
+                                                    (,OMAP.FIX ,OMAP.XVAR)))))
+                                                (,OMAP.COUNT ,OMAP.XVAR)))
+                                              HINTS
+                                              ((Goal IN-THEORY
+                                                (ENABLE ,OMAP.FIX
+                                                 MAPP-NON-NIL-IMPLIES-NOT-EMPTYP)))
+                                              RULE-CLASSES LINEAR))))
+                                   NIL NIL
+                                   (FLEXTYPES-FIND-COUNT-FOR-PRED OR
+                                    FLEXTYPES-FIND-COUNT-FOR-PRED OR
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL)
+                                   NIL (DEFTHM DEFTHM DEFTHM) NIL)
+                                  ((OMAP.KEY-TYPE TYPES KEYCOUNT OMAP.VAL-TYPE
+                                    TYPES VALCOUNT OMAP.COUNT OMAP.COUNT
+                                    OMAP.COUNT OMAP.COUNT OMAP.COUNT OMAP.COUNT
+                                    OMAP.COUNT OMAP.COUNT
+                                    ,OMAP-COUNT-WHEN-EMPTYP HINTS
+                                    (Goal IN-THEORY (ENABLE ,OMAP.COUNT))
+                                    ,OMAP-COUNT-WHEN-NOT-EMPTYP HINTS
+                                    (Goal IN-THEORY (ENABLE ,OMAP.COUNT))
+                                    ,OMAP-COUNT-OF-TAIL RULE-CLASSES LINEAR
+                                    HINTS (Goal IN-THEORY (ENABLE ,OMAP.COUNT))
+                                    ,OMAP-COUNT-OF-TAIL-FIX RULE-CLASSES LINEAR
+                                    HINTS
+                                    (Goal IN-THEORY
+                                     (ENABLE ,OMAP.COUNT ,OMAP.FIX
+                                      MAPP-NON-NIL-IMPLIES-NOT-EMPTYP))
+                                    ,OMAP-COUNT-OF-LOOKUP HINTS
+                                    ,OMAP-COUNT-OF-UPDATE HINTS
+                                    (Goal IN-THEORY
+                                     (ENABLE HEAD-KEY EMPTYP
+                                      HEAD-KEY-OF-UPDATE-OF-NIL
+                                      HEAD-VALUE-OF-UPDATE-WHEN-HEAD-KEY-EQUAL
+                                      ASSOC-WHEN-EMPTYP ASSOC-WHEN-ASSOC-TAIL
+                                      MFIX-WHEN-MAPP TAIL-OF-UPDATE-EMPTYP
+                                      UPDATE-NOT-EMPTYP UPDATE-WHEN-EMPTYP
+                                      (INDUCTION USE-WEAK-UPDATE-INDUCTION)
+                                      (INDUCTION WEAK-UPDATE-INDUCTION)
+                                      WEAK-UPDATE-INDUCTION-HELPER-1
+                                      WEAK-UPDATE-INDUCTION-HELPER-2
+                                      WEAK-UPDATE-INDUCTION-HELPER-3))
+                                    RULE-CLASSES LINEAR)
+                                   NIL
+                                   (QUOTE QUOTE
+                                    (Goal IN-THEORY
+                                     (ENABLE LOOKUP ASSOC ASSOC-WHEN-EMPTYP
+                                      ,VALCOUNT)))
+                                   (CAT CAT CAT CAT CAT CAT CAT CAT IMPLIES
+                                    IMPLIES IMPLIES IMPLIES IMPLIES IMPLIES)
+                                   NIL NIL NIL)
+                                  ((ACL2-COUNT ACL2-COUNT -OF-UPDATE -OF-HEAD
+                                    -OF-HEAD-FIX -OF-TAIL -OF-TAIL-FIX
+                                    -OF-LOOKUP -WHEN-EMPTYP -WHEN-NOT-EMPTYP
+                                    ,(IF (OR KEYCOUNT VALCOUNT)
+                                         `(EQUAL
+                                           (,OMAP.COUNT
+                                            (UPDATE KEY VAL ,OMAP.XVAR))
+                                           (+ 1
+                                              ,@(AND KEYCOUNT
+                                                     `((,KEYCOUNT KEY)))
+                                              ,@(AND VALCOUNT
+                                                     `((,VALCOUNT VAL)))
+                                              (,OMAP.COUNT ,OMAP.XVAR)))
+                                         `(>
+                                           (,OMAP.COUNT
+                                            (UPDATE KEY VAL ,OMAP.XVAR))
+                                           (,OMAP.COUNT ,OMAP.XVAR))))
+                                   NIL
+                                   (SYMBOL-NAME SYMBOL-NAME SYMBOL-NAME
+                                                SYMBOL-NAME SYMBOL-NAME
+                                                SYMBOL-NAME SYMBOL-NAME
+                                                SYMBOL-NAME EMPTYP CONSP)
+                                   (EQUAL AND EQUAL AND < < AND < Goal'') NIL
+                                   (AND) NIL)
+                                  ((OMAP.COUNT OMAP.COUNT OMAP.COUNT OMAP.COUNT
+                                    OMAP.COUNT OMAP.COUNT OMAP.COUNT OMAP.COUNT
+                                    ,OMAP.XVAR INDUCT)
+                                   (1)
+                                   (,OMAP.COUNT NOT ,OMAP.PRED ,OMAP.COUNT NOT
+                                    ,OMAP.PRED ,OMAP.COUNT ,OMAP.COUNT
+                                    ,OMAP.FIX ,OMAP.COUNT ,OMAP.COUNT NOT
+                                    ,OMAP.PRED ,VALCOUNT ,OMAP.COUNT ,OMAP.PRED
+                                    ,OMAP.KEY-TYPE ,OMAP.VAL-TYPE NOT)
+                                   (ASSOC) NIL (+) NIL)))

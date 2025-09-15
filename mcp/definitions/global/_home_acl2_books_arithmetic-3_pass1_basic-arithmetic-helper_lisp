@@ -1,0 +1,5 @@
+((/home/acl2/books/arithmetic-3/pass1/basic-arithmetic-helper.lisp::FUNCTIONAL-SELF-INVERSION-OF-/
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL (/ FIX) NIL NIL NIL NIL)
+  ((X) NIL (/) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)))

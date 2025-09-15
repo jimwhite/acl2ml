@@ -1,0 +1,85 @@
+((/home/acl2/books/centaur/fty/fty-transsum.lisp::FLEXTRANSSUM-MEMBERLIST->TAGS
+  (NIL NIL NIL NIL (IF) NIL NIL) ((NIL) NIL (ATOM) (APPEND) NIL NIL NIL)
+  ((X) NIL (FLEXTRANSSUM-MEMBER->TAGS RECURSIVE-CALL) NIL NIL NIL NIL)
+  (NIL NIL (CAR CDR) NIL NIL NIL NIL) ((X X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/fty/fty-transsum.lisp::FLEXTRANSSUM-MEMBERS-COLLECT-FIX-PRED-PAIRS
+                                                                (NIL NIL NIL
+                                                                 (B*) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (((WHEN
+                                                                       (ATOM
+                                                                        MEMBERS))
+                                                                   NIL))
+                                                                 (CONS) NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 ((FLEXTRANSSUM-MEMBER
+                                                                   X1)
+                                                                  RECURSIVE-CALL)
+                                                                 (CONS) NIL NIL
+                                                                 NIL)
+                                                                ((X1.FIX
+                                                                  X1.PRED)
+                                                                 NIL (CAR CDR)
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                ((MEMBERS
+                                                                  MEMBERS)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)) (/home/acl2/books/centaur/fty/fty-transsum.lisp::FLEXTRANSSUM-COLLECT-FIX/PRED-PAIRS
+                                                                        (NIL
+                                                                         NIL
+                                                                         (FLEXTRANSSUM-MEMBERS-COLLECT-FIX-PRED-PAIRS)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         (FLEXTRANSSUM->MEMBERS)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        ((X)
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)
+                                                                        (NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL
+                                                                         NIL)))

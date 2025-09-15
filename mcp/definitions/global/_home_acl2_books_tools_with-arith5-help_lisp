@@ -1,0 +1,19 @@
+((/home/acl2/books/tools/with-arith5-help.lisp::CHECK-FOR-ARITH5-RULESETS
+  (NIL NIL NIL (LET) NIL NIL NIL)
+  (((RULESET-ALIST (TABLE-ALIST 'RULESET-TABLE WORLD))) NIL NIL (AND) NIL NIL
+   NIL)
+  (NIL NIL (CONSP CONSP) NIL NIL NIL NIL)
+  (NIL NIL NIL (ASSOC ASSOC) NIL NIL NIL)
+  ((RULESET-ALIST RULESET-ALIST) NIL 'QUOTE NIL NIL NIL NIL)
+  ((ARITH5-ENABLE-RULESET ARITH5-DISABLE-RULESET) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/tools/with-arith5-help.lisp::ALLOW-ARITH5-HELP-FN
+                                  (NIL NIL NIL NIL (IF) NIL NIL)
+                                  ((*ALLOW-ARITH5-HELP-FORM*) NIL
+                                   (CHECK-FOR-ARITH5-RULESETS QUOTE) NIL NIL
+                                   NIL NIL)
+                                  ((WORLD) NIL (VALUE-TRIPLE) NIL NIL NIL NIL)
+                                  ((REDUNDANT-ALLOW-ARITH5-HELP) NIL NIL NIL
+                                   NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

@@ -1,0 +1,149 @@
+((/home/acl2/books/kestrel/lists-light/cons.lisp::EQUAL-OF-CONS
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL (SYNTAXP) (EQUAL) NIL NIL NIL)
+  (NIL NIL (NOT) (EQUAL) (AND) NIL NIL)
+  ((Z) NIL (CONSP) (AND CONS EQUAL EQUAL) NIL NIL NIL)
+  ((X Y Z X Y) NIL (QUOTEP QUOTEP CAR CDR) NIL NIL NIL NIL)
+  ((X Y Z Z) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/lists-light/cons.lisp::EQUAL-OF-CONS-AND-CONS
+                                                                      (NIL NIL
+                                                                       NIL
+                                                                       (EQUAL)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL
+                                                                       (EQUAL
+                                                                        AND)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL
+                                                                       (CONS
+                                                                        CONS
+                                                                        EQUAL
+                                                                        EQUAL)
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      ((A X B Y
+                                                                        A B X
+                                                                        Y)
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)
+                                                                      (NIL NIL
+                                                                       NIL NIL
+                                                                       NIL NIL
+                                                                       NIL)) (/home/acl2/books/kestrel/lists-light/cons.lisp::TRUE-LISTP-OF-CONS
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               (EQUAL)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               (TRUE-LISTP
+                                                                                TRUE-LISTP)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((X)
+                                                                               NIL
+                                                                               NIL
+                                                                               (CONS)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((A
+                                                                                X)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)) (/home/acl2/books/kestrel/lists-light/cons.lisp::EQUAL-OF-CONS-AND-CONS-SAME-ARG2
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (EQUAL)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (EQUAL
+                                                                                        EQUAL)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((X
+                                                                                        Z)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (CONS
+                                                                                        CONS)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((X
+                                                                                        Y
+                                                                                        Z
+                                                                                        Y)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)))

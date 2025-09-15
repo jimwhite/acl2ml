@@ -1,0 +1,198 @@
+((/home/acl2/books/misc/priorities.lisp::ALL-PRIORITIZED-ITEMS
+  (NIL NIL NIL (COND) NIL NIL NIL) (NIL NIL ((ENDP ALIST) T) NIL NIL NIL NIL)
+  ((NIL) NIL NIL (UNION-EQUAL) NIL NIL NIL)
+  (NIL NIL (CDAR RECURSIVE-CALL) NIL NIL NIL NIL)
+  ((ALIST) NIL (CDR) NIL NIL NIL NIL) ((ALIST) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/priorities.lisp::NEXT-PRIORITY1
+                                  (NIL NIL NIL NIL (COND) NIL NIL)
+                                  (NIL NIL ((ENDP ALIST) (< N (CAAR ALIST)) T)
+                                   NIL NIL NIL NIL)
+                                  ((CANDIDATE) NIL NIL NIL (IF RECURSIVE-CALL)
+                                   NIL NIL)
+                                  ((CANDIDATE N CANDIDATE) NIL (CDR) NIL
+                                   (IF RECURSIVE-CALL) NIL NIL)
+                                  ((N ALIST) NIL (CAAR CDR) (<)
+                                   (RECURSIVE-CALL RECURSIVE-CALL) NIL NIL)
+                                  ((CANDIDATE N N CANDIDATE ALIST ALIST) NIL
+                                   (CAAR CAAR CDR CDR) NIL NIL NIL NIL)
+                                  ((ALIST ALIST ALIST ALIST) NIL NIL NIL NIL
+                                   NIL NIL)) (/home/acl2/books/misc/priorities.lisp::NEXT-PRIORITY
+                                              (NIL NIL NIL NIL (NEXT-PRIORITY1)
+                                               NIL NIL)
+                                              ((N NIL) NIL NIL (TABLE-ALIST)
+                                               NIL NIL NIL)
+                                              ((WORLD) NIL (QUOTE) NIL NIL NIL
+                                               NIL)
+                                              ((PRIORITIES) NIL NIL NIL NIL NIL
+                                               NIL)
+                                              (NIL NIL NIL NIL NIL NIL NIL)
+                                              (NIL NIL NIL NIL NIL NIL NIL)
+                                              (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/misc/priorities.lisp::RULES-UP-TO-PRIORITY1
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               (COND)
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               ((ENDP
+                                                                                 ALIST)
+                                                                                (<=
+                                                                                 (CAAR
+                                                                                  ALIST)
+                                                                                 N)
+                                                                                T)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((NIL)
+                                                                               NIL
+                                                                               NIL
+                                                                               (UNION-EQUAL
+                                                                                RECURSIVE-CALL)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((N)
+                                                                               NIL
+                                                                               (CDAR
+                                                                                CDR)
+                                                                               (RECURSIVE-CALL)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((ALIST
+                                                                                N
+                                                                                ALIST)
+                                                                               NIL
+                                                                               (CDR)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              ((ALIST)
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)
+                                                                              (NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL
+                                                                               NIL)) (/home/acl2/books/misc/priorities.lisp::RULES-UP-TO-PRIORITY
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (RULES-UP-TO-PRIORITY1)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((N)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       (TABLE-ALIST)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((WORLD)
+                                                                                       NIL
+                                                                                       (QUOTE)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      ((PRIORITIES)
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)
+                                                                                      (NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL
+                                                                                       NIL)) (/home/acl2/books/misc/priorities.lisp::PRIORITY-PHASED-SIMPLIFICATION
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (IF)
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              ((STABLE-UNDER-SIMPLIFICATIONP
+                                                                                                NIL)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (LET)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (((NEXT
+                                                                                                 (NEXT-PRIORITY
+                                                                                                  CURRENT-PRIORITY
+                                                                                                  WORLD)))
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (IF)
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              ((NEXT
+                                                                                                NIL)
+                                                                                               NIL
+                                                                                               (QUASIQUOTE)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               (COMPUTED-HINT-REPLACEMENT)
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              (((PRIORITY-PHASED-SIMPLIFICATION
+                                                                                                 WORLD
+                                                                                                 STABLE-UNDER-SIMPLIFICATIONP
+                                                                                                 ,NEXT)
+                                                                                                IN-THEORY)
+                                                                                               NIL
+                                                                                               (ENABLE)
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)
+                                                                                              ((,@(RULES-UP-TO-PRIORITY
+                                                                                                   NEXT
+                                                                                                   WORLD))
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL
+                                                                                               NIL)))

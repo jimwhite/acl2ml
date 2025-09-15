@@ -1,0 +1,238 @@
+((/home/acl2/books/std/strings/strsplit.lisp::SPLIT-LIST-1-COUNT
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL) (NIL NIL (CONSP) (<) NIL NIL NIL)
+  ((X) NIL (ACL2-COUNT ACL2-COUNT) NIL NIL NIL NIL)
+  ((X) NIL NIL (MV-NTH) NIL NIL NIL) (NIL (1) NIL (SPLIT-LIST-1) NIL NIL NIL)
+  ((X DEL) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/strings/strsplit.lisp::CHARACTER-LISTP-OF-SPLIT-LIST-1-0
+                                                                    (NIL NIL
+                                                                     NIL
+                                                                     (IMPLIES)
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     (CHARACTER-LISTP
+                                                                      CHARACTER-LISTP)
+                                                                     NIL NIL
+                                                                     NIL NIL)
+                                                                    ((X) NIL
+                                                                     NIL
+                                                                     (MV-NTH)
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL (0)
+                                                                     NIL
+                                                                     (SPLIT-LIST-1)
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    ((X DEL)
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)
+                                                                    (NIL NIL
+                                                                     NIL NIL
+                                                                     NIL NIL
+                                                                     NIL)) (/home/acl2/books/std/strings/strsplit.lisp::CHARACTER-LISTP-OF-SPLIT-LIST-1-1
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             (IMPLIES)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             (CHARACTER-LISTP
+                                                                              CHARACTER-LISTP)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            ((X)
+                                                                             NIL
+                                                                             NIL
+                                                                             (MV-NTH)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             (1)
+                                                                             NIL
+                                                                             (SPLIT-LIST-1)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            ((X
+                                                                              DEL)
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)
+                                                                            (NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL
+                                                                             NIL)) (/home/acl2/books/std/strings/strsplit.lisp::CHARACTER-LIST-LISTP-OF-SPLIT-LIST*
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     (IMPLIES)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     (CHARACTER-LISTP
+                                                                                      CHARACTER-LIST-LISTP)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    ((X)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     (SPLIT-LIST*)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    ((X
+                                                                                      DEL)
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)
+                                                                                    (NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL
+                                                                                     NIL)) (/home/acl2/books/std/strings/strsplit.lisp::STRING-LISTP-OF-COERCE-LIST-TO-STRINGS
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             (STRING-LISTP)
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             (COERCE-LIST-TO-STRINGS)
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            ((X)
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)
+                                                                                            (NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL
+                                                                                             NIL)) (/home/acl2/books/std/strings/strsplit.lisp::STRING-LISTP-OF-STRSPLIT
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     (STRING-LISTP)
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     (STRSPLIT)
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    ((X
+                                                                                                      DEL)
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)
+                                                                                                    (NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL
+                                                                                                     NIL)))

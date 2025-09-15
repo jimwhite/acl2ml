@@ -1,0 +1,92 @@
+((/home/acl2/books/clause-processors/use-by-hint.lisp::USE-BY-HINT
+  ((X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/clause-processors/use-by-hint.lisp::USE-BY-COMPUTED-HINT
+                                  ((CLAUSE) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/clause-processors/use-by-hint.lisp::USE-THESE-HINTS
+                                                                  ((X) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/clause-processors/use-by-hint.lisp::USE-THESE-HINTS-HINT
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (CASE-MATCH)
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((CLAUSE)
+                                                                           NIL
+                                                                           ((('NOT
+                                                                              ('USE-THESE-HINTS
+                                                                               ('QUOTE
+                                                                                THE-HINTS
+                                                                                . &)
+                                                                               . &)
+                                                                              . &)
+                                                                             . &)
+                                                                            &)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((NIL)
+                                                                           NIL
+                                                                           (QUASIQUOTE)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (COMPUTED-HINT-REPLACEMENT)
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((,THE-HINTS
+                                                                            CLAUSE-PROCESSOR
+                                                                            REMOVE-FIRST-HYP-CP)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)))

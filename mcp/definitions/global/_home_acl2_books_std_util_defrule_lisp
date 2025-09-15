@@ -1,0 +1,64 @@
+((/home/acl2/books/std/util/defrule.lisp::FIND-GOAL-ENTRY-IN-USER-HINTS
+  (NIL NIL NIL NIL (COND) NIL NIL)
+  (NIL NIL
+   ((ATOM USER-HINTS)
+    (AND (CONSP (CAR USER-HINTS)) (STRINGP (CAAR USER-HINTS))
+         (STRING-EQUAL goal (CAAR USER-HINTS)))
+    T)
+   NIL NIL NIL NIL)
+  ((NIL) NIL (CAR RECURSIVE-CALL) NIL NIL NIL NIL)
+  ((USER-HINTS) NIL (CDR) NIL NIL NIL NIL)
+  ((USER-HINTS) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/util/defrule.lisp::ALIST-TO-PLIST
+                                  (NIL NIL NIL NIL (IF) NIL NIL)
+                                  ((NIL) NIL (ATOM) NIL (LIST*) NIL NIL)
+                                  ((AL) NIL (CAAR CDAR RECURSIVE-CALL) NIL NIL
+                                   NIL NIL)
+                                  ((AL AL) NIL (CDR) NIL NIL NIL NIL)
+                                  ((AL) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/std/util/defrule.lisp::MERGE-KEYWORD-HINTS-ALIST-INTO-ORDINARY-HINTS
+                                                                  (NIL NIL NIL
+                                                                   (B*) NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   (CONS) NIL
+                                                                   NIL
+                                                                   (((WHEN
+                                                                         (ATOM
+                                                                          HINTS-AL))
+                                                                     USER-HINTS)))
+                                                                  ((NEW-ENTRY
+                                                                    USER-HINTS)
+                                                                   NIL
+                                                                   (USER-GOAL-ENTRY
+                                                                    USER-HINTS
+                                                                    USER-GOAL
+                                                                    NEW-GOAL
+                                                                    NEW-ENTRY)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL
+                                                                   (FIND-GOAL-ENTRY-IN-USER-HINTS
+                                                                    CDR)
+                                                                   (REMOVE-EQUAL
+                                                                    APPEND
+                                                                    CONS)
+                                                                   NIL NIL NIL)
+                                                                  ((USER-HINTS
+                                                                    USER-GOAL-ENTRY
+                                                                    USER-HINTS
+                                                                    USER-GOAL-ENTRY
+                                                                    USER-GOAL
+                                                                    Goal
+                                                                    NEW-GOAL)
+                                                                   NIL
+                                                                   (ALIST-TO-PLIST)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((HINTS-AL)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)))

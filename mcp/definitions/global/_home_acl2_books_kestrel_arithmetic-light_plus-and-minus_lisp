@@ -1,0 +1,139 @@
+((/home/acl2/books/kestrel/arithmetic-light/plus-and-minus.lisp::+-OF-+-OF---SAME
+  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL (FIX) NIL (+) NIL NIL)
+  ((X Y Y) NIL (-) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/arithmetic-light/plus-and-minus.lisp::EQUAL-OF-0-AND-+-OF--
+                                  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+                                  (NIL NIL NIL (AND EQUAL) NIL NIL NIL)
+                                  (NIL NIL (ACL2-NUMBERP ACL2-NUMBERP)
+                                   (EQUAL EQUAL) NIL NIL NIL)
+                                  ((X Y X Y) (0) NIL (+) NIL NIL NIL)
+                                  ((X) NIL (-) NIL NIL NIL NIL)
+                                  ((Y) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/arithmetic-light/plus-and-minus.lisp::EQUAL-OF-0-AND-+-OF---ALT
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   (AND EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (ACL2-NUMBERP
+                                                                    ACL2-NUMBERP)
+                                                                   (EQUAL
+                                                                    EQUAL)
+                                                                   NIL NIL NIL)
+                                                                  ((X Y X Y)
+                                                                   (0) NIL (+)
+                                                                   NIL NIL NIL)
+                                                                  ((X) NIL (-)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  ((Y) NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/kestrel/arithmetic-light/plus-and-minus.lisp::<-OF-+-OF---AND-0-ARG2
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (EQUAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (<
+                                                                            <)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X
+                                                                            Y)
+                                                                           (0)
+                                                                           NIL
+                                                                           (+)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (-)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((Y)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/kestrel/arithmetic-light/plus-and-minus.lisp::<-OF-+-OF---AND-0-ARG1
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (<
+                                                                                    <)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((Y
+                                                                                    X)
+                                                                                   (0)
+                                                                                   NIL
+                                                                                   (+)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((Y)
+                                                                                   NIL
+                                                                                   (-)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)))

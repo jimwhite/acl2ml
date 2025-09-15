@@ -1,0 +1,77 @@
+((/home/acl2/books/centaur/fty/fty-list.lisp::FLEXLIST-COUNT
+  (NIL NIL NIL (B*) NIL NIL NIL)
+  (NIL NIL (QUASIQUOTE) (((FLEXLIST X))) NIL NIL NIL)
+  (((DEFINE ,X.COUNT ((,X.XVAR ,X.PRED)) RETURNS
+     (COUNT NATP RULE-CLASSES TYPE-PRESCRIPTION HINTS
+            ('(EXPAND (,X.COUNT ,X.XVAR) IN-THEORY (DISABLE ,X.COUNT))))
+     MEASURE
+     (LET ((,X.XVAR (,X.FIX ,X.XVAR)))
+       ,X.MEASURE)
+     ,@(AND (GETARG MEASURE-DEBUG NIL X.KWD-ALIST) `(MEASURE-DEBUG T))
+     VERIFY-GUARDS NIL PROGN T
+     ,(IF X.NON-EMPTYP
+          `(IF (CONSP (CDR ,X.XVAR))
+               (+ 1 ,@(AND ELTCOUNT `((,ELTCOUNT (CAR ,X.XVAR))))
+                  (,X.COUNT (CDR ,X.XVAR)))
+               (+ 1 ,@(AND ELTCOUNT `((,ELTCOUNT (CAR ,X.XVAR))))))
+          `(IF (ATOM ,X.XVAR)
+               1
+               (+ 1 ,@(AND ELTCOUNT `((,ELTCOUNT (CAR ,X.XVAR))))
+                  (,X.COUNT (CDR ,X.XVAR)))))))
+   NIL ((UNLESS X.COUNT) ELTCOUNT) NIL NIL NIL NIL)
+  ((NIL) NIL NIL (FLEXTYPES-FIND-COUNT-FOR-PRED) NIL NIL NIL)
+  ((X.ELT-TYPE TYPES) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/centaur/fty/fty-list.lisp::FLEXLIST-COUNT-POST-EVENTS
+                                  (NIL NIL NIL (B*) NIL NIL NIL)
+                                  (NIL NIL (QUASIQUOTE) NIL NIL NIL
+                                   (((FLEXLIST X))))
+                                  (NIL NIL
+                                   ((UNLESS X.COUNT) ELTCOUNT FOO-COUNT-OF-CONS
+                                    FOO-COUNT-OF-CDR FOO-COUNT-OF-CAR)
+                                   ((DEFTHM ,FOO-COUNT-OF-CONS
+                                     ,(LET ((BODY
+                                             `(> (,X.COUNT (CONS A B))
+                                                 ,(IF ELTCOUNT
+                                                      `(+ (,ELTCOUNT A)
+                                                          (,X.COUNT B))
+                                                      `(,X.COUNT B)))))
+                                        (IF X.NON-EMPTYP
+                                            `(IMPLIES (CONSP B) ,BODY)
+                                            BODY))
+                                     HINTS
+                                     ((goal EXPAND
+                                       ((FREE (A B) (,X.COUNT (CONS A B))))))
+                                     RULE-CLASSES LINEAR))
+                                   NIL NIL NIL)
+                                  ((NIL
+                                    ,@(AND ELTCOUNT
+                                           `((DEFTHM ,FOO-COUNT-OF-CAR
+                                              (IMPLIES
+                                               ,(IF X.NON-EMPTYP
+                                                    T
+                                                    `(CONSP ,X.XVAR))
+                                               (< (,ELTCOUNT (CAR ,X.XVAR))
+                                                  (,X.COUNT ,X.XVAR)))
+                                              ,@(AND X.NON-EMPTYP
+                                                     `(HINTS
+                                                       ((goal EXPAND
+                                                         ((,X.COUNT
+                                                           ,X.XVAR))))))
+                                              RULE-CLASSES LINEAR))))
+                                   NIL NIL
+                                   (FLEXTYPES-FIND-COUNT-FOR-PRED
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL
+                                    INTERN-IN-PACKAGE-OF-SYMBOL)
+                                   NIL (DEFTHM) NIL)
+                                  ((X.ELT-TYPE TYPES X.COUNT X.COUNT X.COUNT
+                                    ,FOO-COUNT-OF-CDR RULE-CLASSES LINEAR)
+                                   NIL NIL (CAT CAT CAT IMPLIES) NIL NIL NIL)
+                                  ((-OF-CONS -OF-CDR -OF-CAR
+                                    ,(IF X.NON-EMPTYP
+                                         `(CONSP (CDR ,X.XVAR))
+                                         `(CONSP ,X.XVAR)))
+                                   NIL (SYMBOL-NAME SYMBOL-NAME SYMBOL-NAME)
+                                   (<) NIL NIL NIL)
+                                  ((X.COUNT X.COUNT ELTCOUNT) NIL
+                                   (,X.COUNT ,X.COUNT) NIL NIL NIL NIL)))

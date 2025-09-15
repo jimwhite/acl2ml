@@ -1,0 +1,137 @@
+((/home/acl2/books/kestrel/arithmetic-light/imagpart.lisp::IMAGPART-WHEN-RATIONALP
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (REAL/RATIONALP) (EQUAL) NIL NIL NIL)
+  ((X) (0) (IMAGPART) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/arithmetic-light/imagpart.lisp::IMAGPART-OF--
+                                  (NIL NIL NIL (EQUAL) NIL NIL NIL)
+                                  (NIL NIL (IMAGPART -) NIL NIL NIL NIL)
+                                  (NIL NIL (- IMAGPART) NIL NIL NIL NIL)
+                                  ((X X) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/kestrel/arithmetic-light/imagpart.lisp::IMAGPART-OF-*-OF-I
+                                                                  (NIL NIL NIL
+                                                                   (IMPLIES)
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL
+                                                                   (REAL/RATIONALP)
+                                                                   (EQUAL) NIL
+                                                                   NIL NIL)
+                                                                  ((X X) NIL
+                                                                   (IMAGPART)
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   (*) NIL NIL
+                                                                   NIL)
+                                                                  ((#C(0 1) X)
+                                                                   NIL NIL NIL
+                                                                   NIL NIL NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)
+                                                                  (NIL NIL NIL
+                                                                   NIL NIL NIL
+                                                                   NIL)) (/home/acl2/books/kestrel/arithmetic-light/imagpart.lisp::IMAGPART-OF-*-WHEN-RATIONALP-ARG1
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           (IMPLIES)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           (REAL/RATIONALP)
+                                                                           (EQUAL)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (IMAGPART)
+                                                                           (*)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X)
+                                                                           NIL
+                                                                           (IMAGPART)
+                                                                           (*)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          ((X Y
+                                                                            Y)
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)
+                                                                          (NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL
+                                                                           NIL)) (/home/acl2/books/kestrel/arithmetic-light/imagpart.lisp::IMAGPART-OF-*-WHEN-RATIONALP-ARG2
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   (IMPLIES)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   (REAL/RATIONALP)
+                                                                                   (EQUAL)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((Y)
+                                                                                   NIL
+                                                                                   (IMAGPART)
+                                                                                   (*)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((Y)
+                                                                                   NIL
+                                                                                   (IMAGPART)
+                                                                                   (*)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  ((X
+                                                                                    Y
+                                                                                    X)
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)
+                                                                                  (NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL
+                                                                                   NIL)))

@@ -1,0 +1,18 @@
+((/home/acl2/books/xdoc/fmt-to-str.lisp::FMT-TO-STR
+  (NIL NIL NIL (B*) NIL NIL NIL)
+  (((CONFIG
+     (MAKE-PRINTCONFIG HARD-RIGHT-MARGIN 68 PRINT-LOWERCASE T HOME-PACKAGE
+      BASE-PKG)))
+   NIL NIL NIL (PRETTY) NIL NIL)
+  ((X CONFIG CONFIG) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/xdoc/fmt-to-str.lisp::FMT-AND-ENCODE-TO-ACC
+                                  (NIL NIL NIL (B*) NIL NIL NIL)
+                                  ((ACC) NIL ((STR (FMT-TO-STR X BASE-PKG)))
+                                   NIL NIL NIL NIL)
+                                  (NIL NIL (ACC) NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL (SIMPLE-HTML-ENCODE-STR)
+                                   NIL)
+                                  ((STR ACC) (0) (LENGTH) NIL NIL NIL NIL)
+                                  ((STR) NIL NIL NIL NIL NIL NIL)
+                                  (NIL NIL NIL NIL NIL NIL NIL)))

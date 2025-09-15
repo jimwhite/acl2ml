@@ -1,0 +1,34 @@
+((/home/acl2/books/system/subst-var.lisp::PSEUDO-TERM-LISTP-SUBST-VAR-LST
+  (NIL NIL NIL (IMPLIES) NIL NIL NIL)
+  (NIL NIL (PSEUDO-TERM-LISTP) NIL (AND) NIL NIL)
+  (NIL NIL (PSEUDO-TERMP VARIABLEP PSEUDO-TERM-LISTP) NIL (SUBST-VAR-LST) NIL
+   NIL)
+  ((NEW OLD L NEW OLD L) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
+  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)) (/home/acl2/books/system/subst-var.lisp::PSEUDO-TERMP-SUBST-VAR
+                                                                (NIL NIL NIL
+                                                                 (IMPLIES) NIL
+                                                                 NIL NIL)
+                                                                (NIL NIL
+                                                                 (PSEUDO-TERMP)
+                                                                 NIL (AND) NIL
+                                                                 NIL)
+                                                                (NIL NIL
+                                                                 (PSEUDO-TERMP
+                                                                  VARIABLEP
+                                                                  PSEUDO-TERMP)
+                                                                 NIL
+                                                                 (SUBST-VAR)
+                                                                 NIL NIL)
+                                                                ((NEW OLD FORM
+                                                                  NEW OLD FORM)
+                                                                 NIL NIL NIL
+                                                                 NIL NIL NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)
+                                                                (NIL NIL NIL
+                                                                 NIL NIL NIL
+                                                                 NIL)))

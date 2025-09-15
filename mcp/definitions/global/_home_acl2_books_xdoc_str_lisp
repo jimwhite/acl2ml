@@ -1,0 +1,18 @@
+((/home/acl2/books/xdoc/str.lisp::SIMPLE-HTML-ENCODE-CHARS
+  (NIL NIL NIL (B*) NIL NIL NIL)
+  (NIL NIL (((WHEN (ATOM X)) ACC)) (RECURSIVE-CALL) NIL NIL NIL)
+  ((ACC) NIL (ACC CDR) NIL NIL NIL NIL) ((X) NIL NIL NIL NIL NIL NIL)
+  (NIL NIL (CAR < > & " T) NIL NIL NIL NIL)
+  ((X) NIL NIL (CONS) NIL NIL (LIST* LIST*))
+  ((; t l & ACC ; t g & ACC ; p m a & ACC ; t o u q & ACC ACC) NIL (CAR) NIL
+   NIL NIL NIL)) (/home/acl2/books/xdoc/str.lisp::SIMPLE-HTML-ENCODE-STR
+                  (NIL NIL NIL (B*) NIL NIL NIL)
+                  (NIL NIL NIL (((WHEN (INT= N XL)) ACC)) NIL (RECURSIVE-CALL)
+                   NIL)
+                  ((X XL ACC) NIL (CHAR1 ACC) (+) NIL NIL NIL)
+                  ((N) (1) NIL (CHAR) NIL NIL NIL)
+                  ((X N CHAR1) NIL (< > & " T) NIL NIL NIL NIL)
+                  (NIL NIL NIL (CONS) NIL NIL (LIST* LIST*))
+                  ((; t l & ACC ; t g & ACC ; p m a & ACC ; t o u q & ACC CHAR1
+                    ACC)
+                   NIL NIL NIL NIL NIL NIL)))
