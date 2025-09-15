@@ -3,6 +3,9 @@
 ;;;;
 ;;;; This tests the conversion from storage.el:export-library()
 
+:q
+(load "~/quicklisp/setup.lisp")
+
 ;; Load the library export system
 (load "/workspaces/acl2ml/mcp/library-export.lisp")
 

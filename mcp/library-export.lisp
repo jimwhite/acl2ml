@@ -194,35 +194,52 @@
       (format t "Generated global definitions for ~A ACL2 books~%" processed-count)
       processed-count)))
 
-;;; Integration stub for extraction system
-;; This will be implemented when we have the full extraction system
-;; For now, provide a placeholder that connects to our existing systems
+;;; Real ACL2 file extraction
+;; ORIGINAL: extraction.el:extract-recursive-beg-to-end2() - full ACL2 parsing
+;; CONVERTED: extract-acl2-definitions-from-file() - proper S-expression parsing
 (defun extract-acl2-definitions-from-file (file-path)
-  "Extract ACL2 definitions from file (integration point)
+  "Extract ACL2 definitions from file (real extraction matching original format)
    ORIGINAL: extraction.el:extract-recursive-beg-to-end2()
-   CONVERTED: Will integrate with feature-extraction-full.lisp
+   CONVERTED: Parse ACL2 file and extract definitions in original format
 
-   TODO: This needs to connect to the full extraction pipeline"
+   ORIGINAL FORMAT: (name defun arity body-expression)
+   This matches the exact format in /workspaces/acl2ml/definitions/example"
   (handler-case
-      ;; For now, use simplified extraction similar to our simple-index.lisp
       (with-open-file (stream file-path :direction :input)
-        (let ((definitions nil)
-              (content (read-from-string (format nil "(~A)"
-                                               (read-line stream nil "")))))
+        (let ((definitions nil))
 
-          ;; Basic definition scanning (simplified)
-          (dolist (form content)
-            (when (and (listp form)
-                      (> (length form) 1)
-                      (member (first form) '(defun defthm defmacro defconst)))
-              (let ((def-name (second form))
-                    (def-type (first form))
-                    (complexity (length (format nil "~S" form))))
-                (push (list def-name def-type file-path complexity) definitions))))
+          ;; Read all S-expressions from the file
+          (loop for form = (read stream nil nil)
+                while form
+                do (when (and (listp form)
+                             (> (length form) 1)
+                             (member (first form) '(defun defthm defmacro defconst) :test #'string-equal))
+                     (let* ((def-type (first form))
+                            (def-name (second form)))
 
+                       ;; Extract based on definition type to match original format
+                       (cond
+                         ;; DEFUN: (name defun arity body)
+                         ((string-equal def-type "defun")
+                          (let* ((params (third form))
+                                 (body (fourth form))
+                                 (arity (length params)))
+                            (push (list def-name def-type arity body) definitions)))
+
+                         ;; DEFTHM: (name defthm body) - no arity for theorems
+                         ((string-equal def-type "defthm")
+                          (let ((body (fourth form))) ; Skip past (defthm name formula body)
+                            (push (list def-name def-type body) definitions)))
+
+                         ;; Other definition types
+                         (t
+                          (let ((body (cddr form))) ; Everything after (deftype name ...)
+                            (push (list def-name def-type body) definitions)))))))
+
+          (format t "Extracted ~A definitions from ~A~%" (length definitions) file-path)
           (reverse definitions)))
     (error (e)
-      (format t "Warning: Could not extract from ~A: ~A~%" file-path e)
+      (format t "Error extracting from ~A: ~A~%" file-path e)
       nil)))
 
 ;; High-level MCP interface function
