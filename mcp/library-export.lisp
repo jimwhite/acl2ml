@@ -38,17 +38,21 @@
 
 ;;; Library name processing
 ;; ORIGINAL: storage.el:add-libraryname-to-definitions() lines 52-59
-;; CONVERTED: Same name, same functionality
+;; CONVERTED: Same name, same functionality - but with FILE PATH format
 (defun add-libraryname-to-definitions (library-name definitions-list)
   "Add library name prefix to definitions (mirrors original exactly)
    ORIGINAL: storage.el:add-libraryname-to-definitions()
-   CONVERTED: Pure Common Lisp version, same logic
+   CONVERTED: Creates FILE::SYMBOL format like original definitions files
    INPUT: library-name (string), definitions-list (list of definition structures)
-   OUTPUT: Modified definitions with library::symbol namespacing"
+   OUTPUT: Modified definitions with file-path::symbol namespacing (original format)"
   (loop for definition in definitions-list
         collect (let* ((original-name (first definition))
+                      ;; Create file::symbol format like original (e.g. "/add-ons/hash-stobjs.lisp::hons-remove-assoc")
+                      (file-path (if (stringp library-name)
+                                   library-name
+                                   (format nil "~A" library-name)))
                       (namespaced-name (intern (format nil "~A::~A"
-                                                      library-name
+                                                      file-path
                                                       (symbol-name original-name)))))
                  (cons namespaced-name (rest definition)))))
 
@@ -130,15 +134,18 @@
 
    This is the main function that replicates the original workflow:
    1. Extract definitions from ACL2 source
-   2. Process and namespace them
+   2. Process and namespace them with FILE PATH (not just name)
    3. Save to definitions directory"
   (let* ((actual-library-name (or library-name
                                   (pathname-name acl2-source-file)))
-         ;; Use our extraction system (from feature-extraction-full.lisp)
+         ;; Use the actual file path for namespacing (like original)
+         (file-path acl2-source-file)
+         ;; Use our extraction system
          (definitions (extract-acl2-definitions-from-file acl2-source-file)))
 
     (when definitions
-      (export-library actual-library-name definitions)
+      ;; Pass the full file path for proper namespacing
+      (export-library file-path definitions)
       (format t "Generated definitions file for ~A from ~A~%"
               actual-library-name acl2-source-file)
       definitions)))
