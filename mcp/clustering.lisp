@@ -24,7 +24,7 @@
            #:em-clustering
            #:farthest-first-clustering
            #:cluster-definitions
-           #:cluster-theorems
+           #:clusters
            #:find-similar-items
            #:explain-similarities
            #:format-clustering-results
@@ -274,8 +274,8 @@
     result))
 
 ;; ORIGINAL: weka-connection.el:clusters() - theorem clustering
-;; CONVERTED: cluster-theorems() - alias for backward compatibility
-(defun cluster-theorems (theorems algorithm &key (granularity-level 3))
+;; CONVERTED: Same name, same functionality
+(defun clusters (theorems algorithm &key (granularity-level 3))
   "Cluster ACL2 theorems (alias for cluster-definitions)
    ORIGINAL: weka-connection.el:clusters()
    CONVERTED: Same as cluster-definitions (theorems are definitions)"
