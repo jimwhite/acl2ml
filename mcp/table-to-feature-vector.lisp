@@ -2,86 +2,8 @@
 ;;; Source table-to-feature-vector.el
 ;;; =============================================================================
 
-;; Create ACL2 and common book packages to handle ACL2 books (matches original Emacs setup)
-(unless (find-package "ACL2")
-  (defpackage "ACL2" (:use :common-lisp)))
-
-(unless (find-package "STD")
-  (defpackage "STD" (:use :common-lisp)))
-
-(unless (find-package "XDOC")
-  (defpackage "XDOC" (:use :common-lisp)))
-
-(unless (find-package "RTL")
-  (defpackage "RTL" (:use :common-lisp)))
-
-(unless (find-package "U")
-  (defpackage "U" (:use :common-lisp)))
-
-;; Additional common packages found in ACL2 books
-(unless (find-package "STR")
-  (defpackage "STR" (:use :common-lisp)))
-
-(unless (find-package "SET")
-  (defpackage "SET" (:use :common-lisp)))
-
-(unless (find-package "FTY")
-  (defpackage "FTY" (:use :common-lisp)))
-
-(unless (find-package "PRIMES")
-  (defpackage "PRIMES" (:use :common-lisp)))
-
-(unless (find-package "FLAG")
-  (defpackage "FLAG" (:use :common-lisp)))
-
-(unless (find-package "COMPUTED-HINTS")
-  (defpackage "COMPUTED-HINTS" (:use :common-lisp)))
-
-(unless (find-package "STOBJS")
-  (defpackage "STOBJS" (:use :common-lisp)))
-
-(unless (find-package "OMAP")
-  (defpackage "OMAP" (:use :common-lisp)))
-
-(unless (find-package "INSTANCE")
-  (defpackage "INSTANCE" (:use :common-lisp)))
-
-(unless (find-package "DM")
-  (defpackage "DM" (:use :common-lisp)))
-
-;; All remaining packages found in errors
-(unless (find-package "ACL2-AGP")
-  (defpackage "ACL2-AGP" (:use :common-lisp)))
-
-(unless (find-package "ACL2-ASG")
-  (defpackage "ACL2-ASG" (:use :common-lisp)))
-
-(unless (find-package "ACL2-OUTPUT-CHANNEL")
-  (defpackage "ACL2-OUTPUT-CHANNEL" (:use :common-lisp)))
-
-(unless (find-package "ACL2-USER")
-  (defpackage "ACL2-USER" (:use :common-lisp)))
-
-(unless (find-package "ACL2S")
-  (defpackage "ACL2S" (:use :common-lisp)))
-
-(unless (find-package "BITOPS")
-  (defpackage "BITOPS" (:use :common-lisp)))
-
-(unless (find-package "OBAG")
-  (defpackage "OBAG" (:use :common-lisp)))
-
-(unless (find-package "PIGEONHOLE")
-  (defpackage "PIGEONHOLE" (:use :common-lisp)))
-
-(unless (find-package "OSLIB")
-  (defpackage "OSLIB" (:use :common-lisp)))
-
-(unless (find-package "CRYPTO")
-  (defpackage "CRYPTO" (:use :common-lisp)))
-
-(unless (find-package "ACL2-CRG")
-  (defpackage "ACL2-CRG" (:use :common-lisp)))
+;; Package setup removed - no longer needed when using ACL2 for parsing
+;; ACL2 handles all package management internally
 
 (in-package :acl2ml-complete-original)
 

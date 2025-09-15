@@ -1,5 +1,0 @@
-((/home/acl2/books/kestrel/arithmetic-light/less-than.lisp::NOT-<-SAME
-  (NIL NIL (NOT) NIL NIL NIL NIL) (NIL NIL NIL (<) NIL NIL NIL)
-  ((X X) NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
-  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
-  (NIL NIL NIL NIL NIL NIL NIL)))

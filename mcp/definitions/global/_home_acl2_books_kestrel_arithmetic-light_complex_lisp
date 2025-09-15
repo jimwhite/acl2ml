@@ -1,5 +1,0 @@
-((/home/acl2/books/kestrel/arithmetic-light/complex.lisp::COMPLEX-OPENER
-  (NIL NIL NIL (EQUAL) NIL NIL NIL) (NIL NIL NIL (COMPLEX +) NIL NIL NIL)
-  ((X Y) NIL (REALFIX) (*) NIL NIL NIL)
-  ((X #C(0 1)) NIL (REALFIX) NIL NIL NIL NIL) ((Y) NIL NIL NIL NIL NIL NIL)
-  (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)))
