@@ -38,7 +38,7 @@ This version has been updated for ACL2 8.6 and reimplemented in Common Lisp as a
 3. Configure paths (update as needed):
 ```lisp
 (setf acl2ml-mcp:*acl2-binary-path* "/home/acl2/saved_acl2")
-(setf acl2ml-mcp:*acl2-books-dir* "/home/acl2/acl2-8.6/books/")
+(setf acl2ml-mcp:*acl2-books-dir* "/home/acl2/books/")
 ```
 
 ## Usage
