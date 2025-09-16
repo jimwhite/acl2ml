@@ -48,7 +48,7 @@ class MCPTestClient:
                 if "Starting STDIO transport loop" in line:
                     print("✅ Server is ready for MCP communication!")
                     return True
-            time.sleep(0.1)
+            time.sleep(0.01)
 
         print("⚠️  Server startup timeout")
         return False
