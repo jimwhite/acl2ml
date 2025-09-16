@@ -1,0 +1,42 @@
+"COMMON-LISP") has neither a function nor macro definition in ACL2.
+Moreover, this symbol is in the main Lisp package; hence, you cannot  
+define it in ACL2.  See :DOC near-misses.  Note:  this error occurred
+in the context
+(FUNCALL (COMPILE NIL (LAMBDA NIL (DEFUN THETA_SUM (N) (IF # 0 #))))).
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+/home/jovyan/acl2ml/
+
+
+"COMMON-LISP") has neither a function nor macro definition in ACL2.
+Moreover, this symbol is in the main Lisp package; hence, you cannot      
+define it in ACL2.  See :DOC near-misses.  Note:  this error occurred
+in the context
+(FUNCALL (COMPILE NIL (LAMBDA NIL (DEFUN HELPER_FACT (N A) (IF # A #))))).
+(See :DOC set-iprint to be able to see elided values in this message.)
+
+
+curl -X POST http://localhost:8082/mcp \
+     -H 'content-type: application/json' \
+     -d '{"jsonrpc": "2.0", "id": "1", "method": "ping"}'
+
+
+curl -X POST http://localhost:8080/mcp \
+     -H 'content-type: application/json' \
+     -d '{"jsonrpc": "2.0", "id": "1", "method": "tools/list"}'
+
+
+curl -X POST http://localhost:8080/mcp \
+     -H 'content-type: application/json' \
+     -d '{
+         "jsonrpc": "2.0",
+         "id": "2",
+         "method": "tools/call",
+         "params": {
+             "name": "add",
+             "arguments": {
+                 "a": 3,
+                 "b": 5
+              }
+         }
+     }'

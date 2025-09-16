@@ -4,33 +4,40 @@ Test simple spec-compliant server with working plumbing
 """
 
 import json
-import subprocess
+import requests
 import time
-import select
+import subprocess
 
 def test_simple_spec():
-    print("🧪 Testing Simple Spec-Compliant Server")
+    print("🧪 Testing Simple Spec-Compliant HTTP Server")
     print("=" * 40)
 
-    process = subprocess.Popen([
-        "/home/acl2/saved_acl2"
-    ],
-    stdin=subprocess.PIPE,
-    stdout=subprocess.PIPE,
-    stderr=subprocess.PIPE,
-    text=True,
-    bufsize=0)
+    server_url = "http://localhost:8081"
+
+    print("🔍 Checking if HTTP server is running on port 8081...")
+
+    # Wait for server to be available
+    max_retries = 30
+    for i in range(max_retries):
+        try:
+            response = requests.post(f"{server_url}/",
+                                   json={"jsonrpc": "2.0", "method": "tools/list", "id": 0},
+                                   timeout=2)
+            if response.status_code == 200:
+                print("✅ HTTP server is responsive!")
+                break
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+            if i < max_retries - 1:
+                print(f"   Waiting for server... ({i+1}/{max_retries})")
+                time.sleep(1)
+            else:
+                print("❌ HTTP server not available on port 8081")
+                print("   Please start the server first with: timeout 30 /home/acl2/saved_acl2 < /workspaces/acl2ml/mcp/simple-spec-server-http.lsp &")
+                return False
 
     try:
-        # Load simple spec server
-        with open("/workspaces/acl2ml/mcp/simple-spec-server.lsp", "r") as f:
-            server_script = f.read()
-
-        process.stdin.write(server_script)
-        process.stdin.flush()
-        time.sleep(3)
-
         # Initialize
+        print("🔧 Initializing MCP...")
         init_request = {
             "jsonrpc": "2.0",
             "method": "initialize",
@@ -42,9 +49,10 @@ def test_simple_spec():
             }
         }
 
-        process.stdin.write(json.dumps(init_request) + "\n")
-        process.stdin.flush()
-        time.sleep(1)
+        response = requests.post(f"{server_url}/", json=init_request, timeout=10)
+        if response.status_code != 200:
+            print(f"❌ Initialization failed: {response.status_code}")
+            return False
 
         # Read ACL2 content from example.lisp (CLIENT SIDE)
         with open("/workspaces/acl2ml/manual/example.lisp", "r") as f:
@@ -66,49 +74,39 @@ def test_simple_spec():
             }
         }
 
-        process.stdin.write(json.dumps(cluster_request) + "\n")
-        process.stdin.flush()
+        print("📥 Sending request to HTTP server...")
+        response = requests.post(f"{server_url}/", json=cluster_request, timeout=30)
 
-        # Look for response
-        print("⏳ Waiting for response...")
+        if response.status_code != 200:
+            print(f"❌ HTTP request failed: {response.status_code}")
+            print(f"Response: {response.text}")
+            return False
 
-        for i in range(200):  # 20 seconds
-            ready, _, _ = select.select([process.stdout], [], [], 0.1)
-            if ready:
-                line = process.stdout.readline()
-                if line and '"id":2' in line and line.strip().startswith('{"'):
-                    try:
-                        response = json.loads(line.strip())
-                        print("✅ Got clustering response!")
+        try:
+            result = response.json()
+            print("✅ Got clustering response!")
 
-                        if "result" in response:
-                            content = response["result"].get("content", [])
-                            if content:
-                                result_text = content[0].get("text", "")
-                                print("\n🎯 Clustering Results:")
-                                print("=" * 40)
-                                print(result_text)
-                                print("=" * 40)
+            if "result" in result:
+                content = result["result"].get("content", [])
+                if content:
+                    result_text = content[0].get("text", "")
+                    print("\n🎯 Clustering Results:")
+                    print("=" * 40)
+                    print(result_text)
+                    print("=" * 40)
 
-                                if "Clustering complete!" in result_text:
-                                    print("\n🎉 SUCCESS: Simple spec-compliant clustering working!")
-                                    return True
-                        return False
-                    except json.JSONDecodeError:
-                        continue
-
-        print("⏱️  No response received")
-        return False
+                    if "Clustering complete!" in result_text:
+                        print("\n🎉 SUCCESS: Simple spec-compliant HTTP clustering working!")
+                        return True
+            return False
+        except json.JSONDecodeError as e:
+            print(f"❌ Invalid JSON response: {e}")
+            print(f"Raw response: {response.text}")
+            return False
 
     except Exception as e:
         print(f"❌ Error: {e}")
         return False
-    finally:
-        process.terminate()
-        try:
-            process.wait(timeout=3)
-        except subprocess.TimeoutExpired:
-            process.kill()
 
 if __name__ == "__main__":
     success = test_simple_spec()

@@ -5,34 +5,40 @@ Client reads ACL2 content and sends to server for clustering
 """
 
 import json
-import subprocess
+import requests
 import time
-import select
+import subprocess
 
 def test_spec_compliant_clustering():
-    print("🎯 Testing Spec-Compliant ACL2(ml) MCP Server")
+    print("🎯 Testing Spec-Compliant ACL2(ml) HTTP MCP Server")
     print("=" * 50)
 
-    # Start server
-    process = subprocess.Popen([
-        "/home/acl2/saved_acl2"
-    ],
-    stdin=subprocess.PIPE,
-    stdout=subprocess.PIPE,
-    stderr=subprocess.PIPE,
-    text=True,
-    bufsize=0)
+    server_url = "http://localhost:8082/mcp"
+
+    print("🔍 Checking if HTTP server is running on port 8082...")
+
+    # Wait for server to be available
+    max_retries = 30
+    for i in range(max_retries):
+        try:
+            response = requests.post(server_url,
+                                   json={"jsonrpc": "2.0", "method": "tools/list", "id": 0},
+                                   timeout=2)
+            print(f"Status Code: {response.status_code}")
+            print(f"Response: {response.json()}")
+            if response.status_code == 200:
+                print("✅ HTTP server is responsive!")
+                break
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout):
+            if i < max_retries - 1:
+                print(f"   Waiting for server... ({i+1}/{max_retries})")
+                time.sleep(1)
+            else:
+                print("❌ HTTP server not available on port 8082")
+                print("   Please start the server first with: timeout 30 /home/acl2/saved_acl2 < /workspaces/acl2ml/mcp/spec-compliant-server.lsp &")
+                return False
 
     try:
-        # Load spec-compliant server
-        with open("/workspaces/acl2ml/mcp/spec-compliant-server.lsp", "r") as f:
-            server_script = f.read()
-
-        print("📤 Loading spec-compliant server...")
-        process.stdin.write(server_script)
-        process.stdin.flush()
-        time.sleep(5)
-
         # Initialize MCP
         print("🔧 Initializing MCP...")
         init_request = {
@@ -46,9 +52,10 @@ def test_spec_compliant_clustering():
             }
         }
 
-        process.stdin.write(json.dumps(init_request) + "\n")
-        process.stdin.flush()
-        time.sleep(2)
+        response = requests.post(server_url, json=init_request, timeout=10)
+        if response.status_code != 200:
+            print(f"❌ Initialization failed: {response.status_code}")
+            return False
 
         # Read ACL2 content from example.lisp (CLIENT SIDE - per spec)
         print("📖 Client reading example.lisp...")
@@ -58,7 +65,7 @@ def test_spec_compliant_clustering():
         print(f"   Read {len(acl2_content)} characters from example.lisp")
 
         # Call acl2_cluster_analysis per spec
-        print("🧮 Calling acl2_cluster_analysis with client content...")
+        print("🧮 Calling acl2-cluster-analysis with client content...")
         cluster_request = {
             "jsonrpc": "2.0",
             "method": "tools/call",
@@ -74,63 +81,49 @@ def test_spec_compliant_clustering():
             }
         }
 
-        process.stdin.write(json.dumps(cluster_request) + "\n")
-        process.stdin.flush()
+        print("📥 Sending request to HTTP server...")
+        response = requests.post(server_url, json=cluster_request, timeout=30)
 
-        # Read response
-        print("📥 Waiting for clustering response...")
+        if response.status_code != 200:
+            print(f"❌ HTTP request failed: {response.status_code}")
+            print(f"Response: {response.text}")
+            return False
 
-        for i in range(300):  # 30 seconds
-            ready, _, _ = select.select([process.stdout], [], [], 0.1)
-            if ready:
-                line = process.stdout.readline()
-                if line and '"id":2' in line and line.strip().startswith('{"'):
-                    try:
-                        response = json.loads(line.strip())
-                        print("✅ Clustering response received!")
+        try:
+            result = response.json()
+            print("✅ Clustering response received!")
 
-                        if "result" in response:
-                            content = response["result"].get("content", [])
-                            if content:
-                                result_text = content[0].get("text", "")
-                                print("\n🎯 ACL2(ml) Clustering Results (per spec):")
-                                print("=" * 60)
-                                print(result_text)
-                                print("=" * 60)
+            if "result" in result:
+                content = result["result"].get("content", [])
+                if content:
+                    result_text = content[0].get("text", "")
+                    print("\n🎯 ACL2(ml) Clustering Results (per spec):")
+                    print("=" * 60)
+                    print(result_text)
+                    print("=" * 60)
 
-                                # Check for successful clustering per spec format
-                                if ":clusters" in result_text and ":total-items" in result_text:
-                                    print("\n🎉 SUCCESS: Spec-compliant clustering working!")
-                                    print("✅ Client sent ACL2 content to server")
-                                    print("✅ Server processed content and returned structured results")
-                                    print("✅ Architecture matches COMPLETE_IMPLEMENTATION_SPEC.md")
-                                    return True
-                                else:
-                                    print("\n⚠️  Response format may not match spec")
-                            else:
-                                print("\n⚠️  Empty clustering result")
-                        else:
-                            print(f"\n❌ Clustering error: {response.get('error', 'unknown')}")
-                        return False
-                    except json.JSONDecodeError:
-                        continue
-
-            # Progress indicator
-            if i % 50 == 0 and i > 0:
-                print(f"   Still waiting... ({i//10}s)")
-
-        print("⏱️  Timeout waiting for response")
-        return False
+                    # Check for successful clustering per spec format
+                    if ":clusters" in result_text and ":total-items" in result_text:
+                        print("\n🎉 SUCCESS: Spec-compliant HTTP clustering working!")
+                        print("✅ Client sent ACL2 content to HTTP server")
+                        print("✅ Server processed content and returned structured results")
+                        print("✅ Architecture matches COMPLETE_IMPLEMENTATION_SPEC.md")
+                        return True
+                    else:
+                        print("\n⚠️  Response format may not match spec")
+                else:
+                    print("\n⚠️  Empty clustering result")
+            else:
+                print(f"\n❌ Clustering error: {result.get('error', 'unknown')}")
+            return False
+        except json.JSONDecodeError as e:
+            print(f"❌ Invalid JSON response: {e}")
+            print(f"Raw response: {response.text}")
+            return False
 
     except Exception as e:
         print(f"❌ Test error: {e}")
         return False
-    finally:
-        process.terminate()
-        try:
-            process.wait(timeout=3)
-        except subprocess.TimeoutExpired:
-            process.kill()
 
 if __name__ == "__main__":
     success = test_spec_compliant_clustering()

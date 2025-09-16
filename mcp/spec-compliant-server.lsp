@@ -3,12 +3,19 @@
 (load "~/quicklisp/setup.lisp")
 (ql:quickload :40ants-mcp :silent t)
 
+; Define package with proper imports
+(defpackage #:acl2ml-mcp
+  (:use #:cl)
+  (:import-from #:40ants-mcp/content/text
+                #:text-content)
+  (:export #:acl2-cluster-analysis))
+
+(in-package :acl2ml-mcp)
+
 ; Load our modules
 (load "/workspaces/acl2ml/mcp/extraction.lisp")
 (load "/workspaces/acl2ml/mcp/table-to-feature-vector.lisp")
 (load "/workspaces/acl2ml/mcp/weka-clustering.lisp")
-
-(in-package :acl2ml-mcp)
 
 ; Implementation of acl2_cluster_analysis per spec
 (defun acl2-cluster-analysis (acl2-content content-type algorithm granularity)
@@ -74,11 +81,18 @@
   (:result (:type "array" :items (:type "object")))
   (handler-case
       (let ((result (acl2-cluster-analysis acl2-content content-type algorithm granularity)))
-        (list (make-instance '40ants-mcp/content/text:text-content
+        (list (make-instance 'text-content
                              :text (format nil "~A" result))))
     (error (e)
-      (list (make-instance '40ants-mcp/content/text:text-content
+      (list (make-instance 'text-content
                            :text (format nil "Error processing clustering: ~A" e))))))
 
-; Start server
-(40ants-mcp/server/definition:start-server acl2ml-spec :transport :stdio)
+; Start HTTP server on port 8082
+(format t "🚀 Starting Spec-Compliant ACL2(ml) HTTP MCP Server on port 8082...~%")
+(40ants-mcp/server/definition:start-server acl2ml-spec
+                                           :transport :http
+                                           :port 8082)
+(format t "✅ Spec-Compliant HTTP MCP Server running on port 8082!~%")
+
+; Keep the server running
+(loop (sleep 1))

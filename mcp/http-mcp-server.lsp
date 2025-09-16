@@ -9,6 +9,9 @@
 
 (in-package :acl2ml-mcp)
 
+; Import the correct text-content class
+(use-package :40ants-mcp/content/text)
+
 (format t "=== HTTP ACL2(ml) MCP Server ===~%")
 
 ; Working pipeline function
@@ -66,7 +69,7 @@
 (40ants-mcp/tools:define-tool (acl2ml-http-tools demo) ()
   (:summary "Demonstrate ACL2(ml) feature extraction pipeline")
   (:result (:type "array" :items (:type "object")))
-  (list (make-instance '40ants-mcp/content/text:text-content
+  (list (make-instance 'text-content
                        :text (run-feature-extraction))))
 
 (format t "✓ HTTP MCP API defined~%")

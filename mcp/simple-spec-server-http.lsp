@@ -1,5 +1,5 @@
 :q
-; Simple MCP server that accepts ACL2 content as parameter (spec-compliant)
+; Simple HTTP MCP server that accepts ACL2 content as parameter (spec-compliant)
 (load "~/quicklisp/setup.lisp")
 (ql:quickload :40ants-mcp :silent t)
 
@@ -56,16 +56,25 @@
              (length feature-vectors)
              (length clusters)))))
 
-; Define API
-(openrpc-server:define-api (acl2ml-simple :title "ACL2(ml) Simple Clustering"))
+; Define API for HTTP transport
+(openrpc-server:define-api (acl2ml-simple-http :title "ACL2(ml) Simple HTTP Clustering"))
 
 ; Define simple clustering tool that accepts content
-(40ants-mcp/tools:define-tool (acl2ml-simple cluster) (content)
+(40ants-mcp/tools:define-tool (acl2ml-simple-http cluster) (content)
   (:summary "Cluster ACL2 definitions from provided content")
   (:param content string "ACL2 code to process and cluster")
   (:result (:type "array" :items (:type "object")))
   (list (make-instance 'text-content
                        :text (process-acl2-content content))))
 
-; Start server
-(40ants-mcp/server/definition:start-server acl2ml-simple :transport :stdio)
+(format t "🚀 Starting ACL2(ml) Simple HTTP MCP Server on port 8081...~%")
+
+; Start HTTP server on port 8081 (different from the main HTTP server)
+(40ants-mcp/server/definition:start-server acl2ml-simple-http
+                                           :transport :http
+                                           :port 8081)
+
+(format t "✅ HTTP MCP Server running on port 8081!~%")
+
+; Keep the server running
+(loop (sleep 1))
