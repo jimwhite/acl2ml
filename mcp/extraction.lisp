@@ -14,13 +14,13 @@
 ;;;;
 ;;;; NEXT PHASE: Load table-to-feature-vector.lisp for Phase 2 Steps 3-4
 
-
-(defpackage #:acl2ml-complete-original
+(defpackage #:acl2ml-mcp
   (:use #:cl)
-  (:export #:extract-acl2-definitions-original-pipeline
-           #:export-library-original-format))
+  (:export #:run-all-tests
+           #:complete-extraction-pipeline
+           #:clear-processing-state))
 
-(in-package :acl2ml-complete-original)
+(in-package :acl2ml-mcp)
 
 ;;; =============================================================================
 ;;; EXACT CONVERSION OF extraction.el

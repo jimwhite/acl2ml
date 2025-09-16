@@ -3,7 +3,7 @@
 ; Load our extraction functions
 (load "/workspaces/acl2ml/mcp/extraction.lisp")
 (load "/workspaces/acl2ml/mcp/table-to-feature-vector.lisp")
-(use-package :acl2ml-complete-original)
+(use-package :acl2ml-mcp)
 
 
 (defun find-certified-books (directory &optional max-books)

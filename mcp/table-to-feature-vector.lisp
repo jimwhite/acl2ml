@@ -15,7 +15,7 @@
 ;;;; PREREQUISITE: Load extraction.lisp first for Phase 1 & Phase 2 Steps 1-2
 ;;;; PRODUCES: Final feature vectors ready for clustering (Phase 4)
 
-(in-package :acl2ml-complete-original)
+(in-package :acl2ml-mcp)
 
 ;; ========================================================================
 ;; GLOBAL ARITY DICTIONARIES - Core Feature Mapping State
