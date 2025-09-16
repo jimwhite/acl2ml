@@ -65,7 +65,7 @@ def test_stdio_mcp():
                 line = process.stdout.readline()
                 if line:
                     output_lines.append(line.strip())
-                    print(f"Output: {line.strip()}")
+                    # print(f"Output: {line.strip()}")
 
                     # Look for JSON response
                     if line.strip().startswith('{"'):
