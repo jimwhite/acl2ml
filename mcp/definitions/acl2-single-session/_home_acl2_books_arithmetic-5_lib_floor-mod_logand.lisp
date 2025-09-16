@@ -1,6 +1,0 @@
-("/home/acl2/books/arithmetic-5/lib/floor-mod/logand.lisp::L-C-M-FN"
- (NIL NIL NIL (LET) NIL NIL NIL)
- (((N (POWER-OF-2-MINUS-1 C))) NIL NIL NIL (IF) NIL NIL)
- ((N NIL) NIL (LIST) NIL NIL NIL NIL) (NIL NIL NIL (CONS) NIL NIL NIL)
- (NIL NIL 'KWOTE NIL NIL NIL NIL) ((N N) NIL NIL NIL NIL NIL NIL)
- (NIL NIL NIL NIL NIL NIL NIL))

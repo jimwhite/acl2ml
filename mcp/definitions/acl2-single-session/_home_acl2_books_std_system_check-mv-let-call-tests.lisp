@@ -1,5 +1,0 @@
-("/home/acl2/books/std/system/check-mv-let-call-tests.lisp::F"
- (NIL NIL NIL (MV) NIL NIL NIL) ((X X) NIL NIL NIL NIL NIL NIL)
- (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
- (NIL NIL NIL NIL NIL NIL NIL) (NIL NIL NIL NIL NIL NIL NIL)
- (NIL NIL NIL NIL NIL NIL NIL))
