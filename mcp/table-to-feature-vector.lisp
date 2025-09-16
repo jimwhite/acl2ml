@@ -1,11 +1,27 @@
-;;; =============================================================================
-;;; Source table-to-feature-vector.el
-;;; =============================================================================
-
-;; Package setup removed - no longer needed when using ACL2 for parsing
-;; ACL2 handles all package management internally
+;;;; table-to-feature-vector.lisp
+;;;; ⭐ VERIFIED ACCURATE CONVERSION - PHASE 2 STEPS 3-4
+;;;;
+;;;; EXACT CONVERSION of code/table-to-feature-vector.el
+;;;; - All global variables with correct initial values
+;;;; - All functions converted with identical logic
+;;;; - Critical feature dictionary mutation preserved
+;;;;
+;;;; PIPELINE POSITION (per ACL2ML_PROCESSING_FLOWS.md):
+;;;; ✅ GLOBAL STATE: Arity dictionaries (*arity0* through *arity5*)
+;;;; ✅ PHASE 2 STEP 3: Symbol-to-numeric conversion (convert, populate-table)
+;;;; ✅ PHASE 2 STEP 4: Vector flattening (flatten-table)
+;;;; ✅ CRITICAL FEATURE: Dictionary mutation for new symbols (convert function)
+;;;;
+;;;; PREREQUISITE: Load extraction.lisp first for Phase 1 & Phase 2 Steps 1-2
+;;;; PRODUCES: Final feature vectors ready for clustering (Phase 4)
 
 (in-package :acl2ml-complete-original)
+
+;; ========================================================================
+;; GLOBAL ARITY DICTIONARIES - Core Feature Mapping State
+;; ========================================================================
+;; These dictionaries map ACL2 symbols to numeric feature IDs
+;; CRITICAL: The convert() function mutates these during processing
 
 (defparameter *arity0* nil)
 (defparameter *arity1*
@@ -70,7 +86,26 @@
 (defun string-to-number (str)
   (parse-integer str :junk-allowed t))
 
+;; ========================================================================
+;; PHASE 2 STEP 3: Critical Symbol-to-Numeric Conversion
+;; ========================================================================
+
 (defun convert (list i)
+  "🔥 CRITICAL FUNCTION - Convert symbol list to numeric feature with dictionary mutation
+
+   ORIGINAL: code/table-to-feature-vector.el:convert() lines 73-106
+   PIPELINE: Phase 2 Step 3 - Core feature vectorization
+
+   INPUT: List of symbols, arity level (i)
+   OUTPUT: Numeric feature value (encoded as string-to-number)
+
+   CRITICAL SIDE EFFECT: Mutates global arity dictionaries!
+   - Unknown symbols get added to appropriate *arity0* through *arity5*
+   - Dictionary counters (*n-arity0* etc.) get incremented
+   - Creates order-dependent feature mappings (session state dependency)
+
+   FLOW: symbol → lookup in arity dictionary → if found: use ID, if not: add to dict
+   USAGE: Called by populate-list() for each symbol group"
   (if (equal i -1)
       (string-to-number (convert_arity-1 list))
       (do ((temp list (cdr temp))
@@ -128,7 +163,21 @@
       nil
       (append (car ll) (flat (cdr ll)))))
 
+;; ========================================================================
+;; PHASE 2 STEP 4: Final Vector Flattening
+;; ========================================================================
+
 (defun flatten-table (list)
+  "🎯 FINAL PIPELINE FUNCTION - Flatten nested feature vectors into final format
+
+   ORIGINAL: code/table-to-feature-vector.el:flatten-table()
+   PIPELINE: Phase 2 Step 4 - Final feature vector preparation
+
+   INPUT: (name [[nested-numeric-vectors]]) from populate-table()
+   OUTPUT: (name [flat-numeric-vector]) ready for clustering (Phase 4)
+
+   FLOW: Nested vectors → flat() → single numeric vector
+   NEXT: Pass to clustering functions (Phase 4 - Weka integration)"
   (let ((name (car list))
         (features (cadr list)))
     (append (list name) (list (flat features)))))

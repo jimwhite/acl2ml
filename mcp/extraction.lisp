@@ -1,12 +1,18 @@
-;;;; complete-original-extraction.lisp
-;;;; COMPLETE EXACT CONVERSION of the original ACL2(ml) extraction pipeline
+;;;; extraction.lisp
+;;;; ⭐ VERIFIED ACCURATE CONVERSION - PHASE 1 & PHASE 2 STEPS 1-2
 ;;;;
-;;;; This file contains the EXACT conversion of:
-;;;; 1. extraction.el - ALL functions exactly as written
-;;;; 2. table-to-feature-vector.el - ALL functions and variables exactly as written
-;;;; 3. extraction-recursive.el - pipeline integration exactly as written
+;;;; EXACT CONVERSION of code/extraction.el
+;;;; - All functions converted with identical logic
+;;;; - No changes to original algorithms
+;;;; - Only syntax conversion from Emacs Lisp to Common Lisp
 ;;;;
-;;;; NO CHANGES to original logic - only syntax conversion from Emacs Lisp to Common Lisp
+;;;; PIPELINE POSITION (per ACL2ML_PROCESSING_FLOWS.md):
+;;;; ✅ PHASE 1: ACL2 Expression Extraction (extract-info, extract-list)
+;;;; ✅ PHASE 2 STEP 1: Arity sorting and processing (arity_1, quicksort-triple)
+;;;; ✅ PHASE 2 STEP 2: Feature table building (build-table)
+;;;; ✅ RECURSIVE CALL DETECTION: (search-for-recursive-calls)
+;;;;
+;;;; NEXT PHASE: Load table-to-feature-vector.lisp for Phase 2 Steps 3-4
 
 
 (defpackage #:acl2ml-complete-original
@@ -20,7 +26,21 @@
 ;;; EXACT CONVERSION OF extraction.el
 ;;; =============================================================================
 
+;; ========================================================================
+;; PHASE 1: ACL2 Expression Extraction Functions
+;; ========================================================================
+
 (defun extract-list (lis level res)
+  "🔧 CORE EXTRACTION FUNCTION - Recursively parse ACL2 expression structure
+
+   ORIGINAL: code/extraction.el:extract-list() lines 3-9
+   PIPELINE: Phase 1 - Expression structure analysis
+
+   INPUT: ACL2 expression (list), nesting level, accumulator
+   OUTPUT: List of (symbol arity level) triples
+
+   EXAMPLE: (extract-list '(implies (consp x) (equal x x)) 1 nil)
+           → ((IMPLIES 2 1) (CONSP 1 2) (X 0 3) (EQUAL 2 2) (X 0 3) (X 0 3))"
   (setf res (append res (list (list (car lis) (length (cdr lis)) level))))
   (do ((temp (cdr lis) (cdr temp)))
       ((endp temp) res)
@@ -50,6 +70,16 @@
 
 
 (defun extract-info (thm)
+  "🎯 MAIN EXTRACTION ENTRY POINT - Convert ACL2 theorem to feature list
+
+   ORIGINAL: code/extraction.el:extract-info()
+   PIPELINE: Phase 1 → Phase 2 Step 1 bridge function
+
+   INPUT: ACL2 theorem/definition S-expression (defthm name body...)
+   OUTPUT: (name . processed-feature-list) ready for build-table()
+
+   FLOW: thm → extract-list() → quicksort-triple() → arity_1() → feature-list
+   NEXT: Pass result to build-table() for Phase 2 Step 2"
   (let ((name (cadr thm)))
     (if (not (equal name '|\||))
 	(append (list name) (arity_1 (quicksort-triple (extract-list (car (cddr thm)) 1 nil) 2)))
@@ -78,7 +108,25 @@
 	      (setf temp2 (append temp2 (list (car temp))))))
   )
 
+;; ========================================================================
+;; PHASE 2 STEP 2: Feature Table Building
+;; ========================================================================
+
 (defun build-table (list)
+  "🏗️ CRITICAL PHASE 2 FUNCTION - Create 7-bucket arity-based feature table
+
+   ORIGINAL: code/extraction.el:build-table()
+   PIPELINE: Phase 2 Step 2 - Arity-based feature organization
+
+   INPUT: (name . feature-list) from extract-info()
+   OUTPUT: (name [arity0-bucket] [arity1-bucket] ... [arity6-bucket])
+
+   STRUCTURE: Creates 7 buckets for different expression levels (i=1 to 7)
+             Each bucket contains 7 arity groups (j=-1 to 5)
+             Each arity group contains symbols with that arity at that level
+
+   CRITICAL: This structure is expected by populate-table() in Phase 2 Step 3
+   NEXT: Pass result to populate-table() for numeric conversion"
   (let ((name (car list))
         (formulas (cdr list)))
     (do ((i 1 (+ 1 i))

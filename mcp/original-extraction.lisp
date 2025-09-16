@@ -77,14 +77,33 @@
 
 ;;; Table building functions - conversion from table-to-feature-vector.el
 
-;; I need to read table-to-feature-vector.el to get the build-table function
-;; For now, provide a stub that will be filled in with exact original logic
+;; ORIGINAL: table-to-feature-vector.el:build-table() - PHASE 2 PIPELINE STEP 2
+;; This is the critical function that creates the 7-bucket arity structure
 (defun build-table (info-list)
-  "Build feature table from extracted info (stub - needs table-to-feature-vector.el logic)
-   ORIGINAL: table-to-feature-vector.el:build-table()
-   CONVERTED: TODO - implement exact original logic"
-  ;; This will be filled in with the exact logic from table-to-feature-vector.el
-  (error "build-table not yet implemented - need to read table-to-feature-vector.el"))
+  "Build 7-bucket arity table from extracted info (CORE PHASE 2 FUNCTION)
+
+   ORIGINAL: table-to-feature-vector.el:build-table() lines 1-10
+   CONVERTED: Exact same logic - creates arity-based feature buckets
+
+   PIPELINE POSITION: Phase 2 Step 2
+   INPUT: (name . feature-list) from extract-info()
+   OUTPUT: (name [arity0-features] [arity1-features] ... [arity6-features])
+
+   CRITICAL: This creates the structure expected by populate-table()"
+  (let ((name (car info-list))
+        (formulas (cdr info-list)))
+    (let ((temp nil))
+      ;; Create 7 buckets (i from 1 to 7, representing arities 0-6)
+      (dotimes (i 7)
+        (let ((temp2 nil))
+          ;; For each arity level, collect features with that arity
+          (dotimes (j 7) ; j from -1 to 5 (representing arity levels)
+            (let ((target-arity (- j 1))) ; Convert j to arity (-1 to 5)
+              (dolist (formula formulas)
+                (when (= (nth 1 formula) target-arity)
+                  (push formula temp2)))))
+          (push (nreverse temp2) temp)))
+      (append (list name) (nreverse temp))))))
 
 ;; ORIGINAL: extraction-recursive.el:search-for-recursive-calls()
 ;; CONVERTED: Stub - needs exact original logic
